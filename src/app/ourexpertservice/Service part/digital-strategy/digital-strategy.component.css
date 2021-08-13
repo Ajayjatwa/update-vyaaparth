@@ -1,0 +1,12 @@
+.img-top{
+  height: 300px;
+  width: 545px;
+}
+
+.card:hover{
+  border: 2px;
+}
+.myimage{
+  height: 400px;
+  width: 100%;
+}
