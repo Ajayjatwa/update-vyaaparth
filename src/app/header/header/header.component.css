@@ -4,3 +4,9 @@ a{
 a.active {
   color: #3fb698;
 }
+header .menu-area .container .row .col-12 .menu nav ul li img{
+  position: relative;
+  left: -488px;
+  height: 66px;
+  width: 101px;
+}
