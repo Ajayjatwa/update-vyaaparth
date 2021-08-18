@@ -10,18 +10,19 @@ header .menu-area .container .row .col-12 .menu nav ul li img{
   height: 66px;
   width: 101px;
 }
-label #btm,
+/* label #btm,
 label #cancel{
+  color: #000;
   float: right;
   font-size: 30px;
   cursor: pointer;
   line-height: 80px;
   margin-bottom: -4.5rem;
   position: relative;
-  right: 10px;
+  right: -667px;
   display: none;
-}
-@media (max-width: 1118px) {
+} */
+/* @media (max-width: 1118px) {
   lable #btm{
     display: block;
   }
@@ -35,4 +36,36 @@ label #cancel{
     display: block;
   }
 
+} */
+@media screen and (max-width: 900px) {
+  header .menu-area .container .row .col-12 .menu nav ul li img{
+    position: relative;
+    left: -100px;
+}
+}
+
+@media screen and (max-width: 768px) {
+  header .menu-area .container .row .col-12 .menu nav ul li img{
+    position: relative;
+    left: -58px;
+}
+
+}
+@media screen and (max-width: 600px) {
+  header .menu-area .container .row .col-12 .menu nav ul li img{
+    position: relative;
+    left: -58px;
+}
+lable #btm{
+  display: inline;
+}
+#check:checked ~ {
+  left: 0;
+}
+#check:checked ~ label #btm{
+  display: none;
+}
+#check:checked ~ label #cancel{
+  display: block;
+}
 }
