@@ -14,4 +14,17 @@ export class HeaderComponent implements OnInit {
 
   show = false;
 
+  // myFunction(){
+  //    var x = document.getElementById("myTopnav");
+  //   if (x.className === "topnav") {
+  //     x.className += " responsive";
+  //   } else {
+  //     x.className = "topnav";
+  //   }
+  // }
+  shownav :boolean =true;
+  myFunction(){
+    this.shownav = !this.shownav;
+  }
+// }
 }

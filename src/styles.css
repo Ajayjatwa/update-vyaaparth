@@ -7,5 +7,37 @@
 /* } */
 
 
+@media only screen and (max-width: 576px){
+.container, .container-sm {
+    max-width: 100% !important;
+}
+}
+
+@media only screen and (max-width: 720px){
+
+.container, .container-sm {
+    max-width: 100% !important;
+}
+header .menu-area .container .row .col-12 .menu nav ul li img {
+  position: relative;
+  height: 60px;
+  left: -89px !important;
+}
+header .menu-area .container .row .col-12 .menu nav ul .col-3 {
+  max-width: 14% !important;
+  flex: 0 0 25%;
+}
+header .menu-area .container .row .col-12 .menu nav ul li a {
+  font-size: 12px !important;
+}
+.top-agency-area {
+  padding: 0px 0 73px !important;
+}
+
+}
+
+
+/* .carousel-item[_ngcontent-otq-c25] {
+  */
 
 
