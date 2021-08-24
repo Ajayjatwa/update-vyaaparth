@@ -10,6 +10,7 @@ export class HomeComponent implements OnInit {
   constructor() {
 
   }
+
 //   isReadMore = true
 
 //   showText() {

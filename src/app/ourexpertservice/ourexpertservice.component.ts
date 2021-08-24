@@ -12,4 +12,11 @@ export class OurexpertserviceComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
+  // myimage:boolean = true;
+  // changeimg(){
+  //   this.myimage = !this.myimage;
+  // }
+
+
 }

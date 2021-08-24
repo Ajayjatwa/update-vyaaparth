@@ -1,0 +1,23 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.content:hover {
+  color: aqua;
+  text-decoration-color: blue;
+}
+.centered {
+  background:light;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+

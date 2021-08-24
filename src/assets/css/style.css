@@ -1580,7 +1580,7 @@ header {}
 /*Case Study*/
 
 .case-study-area {
-  padding: 95px 0 100px;
+  padding: 0px 0 100px;
 }
 
 .case-study-box {}
@@ -1590,7 +1590,7 @@ header {}
 .case-study-box .img img {}
 
 .case-study-box .content {
-  padding: 65px 0 0;
+  padding: 0px 0 0;
 }
 
 .case-study-box .content .title {
@@ -2320,7 +2320,7 @@ header {}
 /*Join Team*/
 
 .join-team-area {
-  padding: 95px 0 100px;
+  padding: 0px 0 100px;
 }
 
 .join-team-content {
@@ -2378,6 +2378,8 @@ header {}
 
 .join-team-banner img {
   border-radius: 100%;
+  position: relative;
+  top: 96px;
 }
 
 /*Testimonial*/
