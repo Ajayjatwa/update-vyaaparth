@@ -21,6 +21,7 @@ import { TransformationComponent } from './contant/transformation/transformation
 import { DigitalTransformationComponent } from './contant/digital-transformation/digital-transformation.component';
 import { DigitalStrategyComponent } from './ourexpertservice/Service part/digital-strategy/digital-strategy.component';
 import { LeadershipManagementComponent } from './ourexpertservice/Service part/leadership-management/leadership-management.component';
+import { OrgTranfComponent } from './ourexpertservice/Service part/org-tranf/org-tranf.component';
 
 
 @NgModule({
@@ -43,7 +44,8 @@ import { LeadershipManagementComponent } from './ourexpertservice/Service part/l
     TransformationComponent,
     DigitalTransformationComponent,
     DigitalStrategyComponent,
-    LeadershipManagementComponent
+    LeadershipManagementComponent,
+    OrgTranfComponent
 
    ],
   imports: [
