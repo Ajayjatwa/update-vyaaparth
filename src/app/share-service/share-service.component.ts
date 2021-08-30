@@ -11,5 +11,9 @@ export class ShareServiceComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  mytext:boolean =false;
+  shotext(){
+    this.mytext = !this.mytext;
+  }
 
 }
