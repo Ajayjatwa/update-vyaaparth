@@ -11,5 +11,11 @@ export class IndustriesComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  cards =[
+    {
+      title:"The automotive industry",
+    imageUrl:"../../assets/changing1.jpg"
+    },
+  ];
 
 }

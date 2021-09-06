@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-digital-strategy',
-  templateUrl: './digital-strategy.component.html',
-  styleUrls: ['./digital-strategy.component.css']
+  selector: 'app-app-core-tech',
+  templateUrl: './app-core-tech.component.html',
+  styleUrls: ['./app-core-tech.component.css']
 })
-export class DigitalStrategyComponent implements OnInit {
+export class AppCoreTechComponent implements OnInit {
 
   constructor() { }
 
@@ -18,6 +18,7 @@ export class DigitalStrategyComponent implements OnInit {
     this.sidesrop2 = false;
     this.sidesrop3 = false;
     this.sidesrop4 = false;
+    this.sidesrop5 = false;
   }
   sidesrop1 : boolean =false;
   navsidedrop1(){
@@ -26,7 +27,7 @@ export class DigitalStrategyComponent implements OnInit {
     this.sidesrop2 = false;
     this.sidesrop3 = false;
     this.sidesrop4 = false;
-    // this.sidesrop5 = false;
+    this.sidesrop5 = false;
   }
   sidesrop2 : boolean =false;
   navsidedrop2(){
@@ -35,7 +36,7 @@ export class DigitalStrategyComponent implements OnInit {
     this.sidesrop1 =false;
     this.sidesrop3 = false;
     this.sidesrop4 = false;
-    // this.sidesrop5 = false;
+    this.sidesrop5 = false;
 
   }
   sidesrop3: boolean = false;
@@ -45,7 +46,7 @@ export class DigitalStrategyComponent implements OnInit {
     this.sidesrop1 =false;
     this.sidesrop2 = false;
     this.sidesrop4 = false;
-    // this.sidesrop5 = false;
+    this.sidesrop5 = false;
   }
   sidesrop4:boolean =false;
   navsidedrop4(){
@@ -54,8 +55,18 @@ export class DigitalStrategyComponent implements OnInit {
     this.sidesrop1 =false;
     this.sidesrop2 = false;
     this.sidesrop3 = false;
-  //   this.sidesrop5 = false;
+    this.sidesrop5 = false;
   }
+  sidesrop5:boolean =false;
+  navsidedrop5(){
+    this.sidesrop5 = true;
+    this.textetem = false;
+    this.sidesrop1 =false;
+    this.sidesrop2 = false;
+    this.sidesrop3 = false;
+
+  }
+
 
 
 }

@@ -1,0 +1,15 @@
+.bussn {
+  position: relative;
+  font-size: 40px;
+  margin-bottom: 20px;
+
+}
+.centered {
+  position: absolute;
+  bottom: 46px;
+  left: 50px;
+}
+.title1:hover{
+  background-color: cadetblue;
+}
+

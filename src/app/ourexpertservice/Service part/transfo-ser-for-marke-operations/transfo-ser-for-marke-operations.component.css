@@ -40,3 +40,13 @@ samp{
   position: relative;
   left: 185px;
 }
+.card1:hover{
+  margin: 7px;
+}
+.cardname{
+  padding: 10px;
+}
+.cardname:hover{
+  background-color: darkslategray;
+  color: wheat;
+}

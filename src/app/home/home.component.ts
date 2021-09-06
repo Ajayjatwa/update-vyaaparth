@@ -10,6 +10,10 @@ export class HomeComponent implements OnInit {
   constructor() {
 
   }
+  mouseseenter1:boolean =false;
+  myhome(){
+    this.mouseseenter1 = true;
+  }
 //   isReadMore = true
 
 //   showText() {

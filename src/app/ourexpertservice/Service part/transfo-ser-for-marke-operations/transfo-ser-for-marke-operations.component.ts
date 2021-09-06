@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-transformation',
-  templateUrl: './transformation.component.html',
-  styleUrls: ['./transformation.component.css']
+  selector: 'app-transfo-ser-for-marke-operations',
+  templateUrl: './transfo-ser-for-marke-operations.component.html',
+  styleUrls: ['./transfo-ser-for-marke-operations.component.css']
 })
-export class TransformationComponent implements OnInit {
+export class TransfoSerForMarkeOperationsComponent implements OnInit {
 
   constructor() { }
 
@@ -17,6 +17,8 @@ export class TransformationComponent implements OnInit {
     this.sidesrop1 =false;
     this.sidesrop2 = false;
     this.sidesrop3 = false;
+    this.sidesrop6 = false;
+    this.sidesrop7 = false;
   }
   sidesrop1 : boolean =false;
   navsidedrop1(){
@@ -26,6 +28,8 @@ export class TransformationComponent implements OnInit {
     this.sidesrop3 = false;
     this.sidesrop4 = false;
     this.sidesrop5 = false;
+    this.sidesrop6 = false;
+    this.sidesrop7 = false;
   }
   sidesrop2 : boolean =false;
   navsidedrop2(){
@@ -35,6 +39,8 @@ export class TransformationComponent implements OnInit {
     this.sidesrop3 = false;
     this.sidesrop4 = false;
     this.sidesrop5 = false;
+    this.sidesrop6 = false;
+    this.sidesrop7 = false;
 
   }
   sidesrop3: boolean = false;
@@ -45,6 +51,8 @@ export class TransformationComponent implements OnInit {
     this.sidesrop2 = false;
     this.sidesrop4 = false;
     this.sidesrop5 = false;
+    this.sidesrop6 = false;
+    this.sidesrop7 = false;
   }
   sidesrop4:boolean =false;
   navsidedrop4(){
@@ -54,6 +62,8 @@ export class TransformationComponent implements OnInit {
     this.sidesrop2 = false;
     this.sidesrop3 = false;
     this.sidesrop5 = false;
+    this.sidesrop6 = false;
+    this.sidesrop7 = false;
   }
   sidesrop5:boolean =false;
   navsidedrop5(){
@@ -64,6 +74,32 @@ export class TransformationComponent implements OnInit {
     this.sidesrop2 = false;
     this.sidesrop3 = false;
     this.sidesrop4 = false;
+    this.sidesrop6 = false;
+    this.sidesrop7 = false;
+  }
+  sidesrop6:boolean =false;
+  navsidedrop6(){
+    this.sidesrop6 = true;
+    this.sidesrop4 =false;
+    this.textetem = false;
+    this.sidesrop1 =false;
+    this.sidesrop2 = false;
+    this.sidesrop3 = false;
+    this.sidesrop4 = false;
+    this.sidesrop5 = false;
+    this.sidesrop7 = false;
+  }
+  sidesrop7:boolean =false;
+  navsidedrop7(){
+    this.sidesrop7 = true;
+    this.sidesrop4 =false;
+    this.textetem = false;
+    this.sidesrop1 =false;
+    this.sidesrop2 = false;
+    this.sidesrop3 = false;
+    this.sidesrop4 = false;
+    this.sidesrop5 = false;
+    this.sidesrop6 = false;
   }
 
 

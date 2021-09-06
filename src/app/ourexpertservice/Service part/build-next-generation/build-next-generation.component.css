@@ -1,21 +1,28 @@
 .bussn {
   position: relative;
-  font-size: 40px;
-  margin-bottom: 20px;
+  text-align: center;
+  color: white;
 }
 .centered {
   position: absolute;
-  bottom: 46px;
-  left: 50px;
+  bottom: 65px;
+  left: 16px;
+  /* transform: translate(-50%, -50%);  */
+  /* text-align: initial; */
+  font-size: 32px;
+  color: black;
+}
+/* .centered p{
+  font-size: 20px;
 }
 .Services{
   margin: revert;
   color: darkslategrey;
-}
+} */
 /* .Services:hover{
   background-color: aqua;
 } */
-.Ensure{
+/* .Ensure{
   color: darkslategrey;
   font-size: 25px;
   padding: 10px;
@@ -39,4 +46,4 @@
 samp{
   position: relative;
   left: 185px;
-}
+} */

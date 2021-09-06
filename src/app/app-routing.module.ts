@@ -6,12 +6,17 @@ import { BusinessTransformationComponent } from './contant/business-transformati
 import { DigitalTransformationComponent } from './contant/digital-transformation/digital-transformation.component';
 import { MarketingOperationsComponent } from './contant/marketing-operations/marketing-operations.component';
 import { MarketingStrategyComponent } from './contant/marketing-strategy/marketing-strategy.component';
+import { SeamlessComponent } from './contant/seamless/seamless.component';
 import { TransformationComponent } from './contant/transformation/transformation.component';
 import { FunctionsComponent } from './functions/functions.component';
 import { HeaderComponent } from './header/header/header.component';
 import { HomeComponent } from './home/home.component';
 import { IndustriesComponent } from './industries/industries.component';
 import { OurexpertserviceComponent } from './ourexpertservice/ourexpertservice.component';
+import { AppCoreTechComponent } from './ourexpertservice/Service part/app-core-tech/app-core-tech.component';
+import { BuildNextGenerationComponent } from './ourexpertservice/Service part/build-next-generation/build-next-generation.component';
+import { DigitalStrategyComponent } from './ourexpertservice/Service part/digital-strategy/digital-strategy.component';
+import { TransfoSerForMarkeOperationsComponent } from './ourexpertservice/Service part/transfo-ser-for-marke-operations/transfo-ser-for-marke-operations.component';
 import { Service1Component } from './ourexpertservice/service1/service1.component';
 
 const routes: Routes = [
@@ -24,12 +29,35 @@ const routes: Routes = [
     {path:'tranformation', component:TransformationComponent},
     {path:'digital', component:DigitalTransformationComponent},
     {path:'marketing', component:MarketingOperationsComponent},
-    {path:'marketingStrategy', component:MarketingStrategyComponent},
+    // {path:'marketingStrategy', component:MarketingStrategyComponent},
   ]},
+  // changes
+
+
+  { path:'marketing', component: MarketingOperationsComponent},
+  // changes
   {path:'industries', component:IndustriesComponent },
   {path:'functions', component:FunctionsComponent},
-  {path:'ourexpertservice',component:OurexpertserviceComponent},
-  {path:'about', component:AboutComponent}
+  {path:'ourexpertservice', children:[
+    {path:'', component:OurexpertserviceComponent},
+    {path:'buld-next-generation', component:BuildNextGenerationComponent},
+    {path:'application core technology', component:AppCoreTechComponent},
+    {path:'digital-strategy', component:DigitalStrategyComponent},
+  ]},
+  {path:'business-transformation',children:[
+    {path:'', component: BusinessTransformationComponent},
+    {path:'marketingStrategy', component: MarketingStrategyComponent},
+    { path:'seamless', component:SeamlessComponent},
+    {path:'marketing', component:MarketingOperationsComponent},
+  ]},
+  {path:'tranformation-service-for-marketing', children:[
+    {path:'', component:TransfoSerForMarkeOperationsComponent},
+    {path:'marketing', component: MarketingOperationsComponent},
+    {path:'tranformation', component:TransformationComponent},
+    {path:'digital', component:DigitalTransformationComponent},
+  ]},
+  {path:'about', component:AboutComponent},
+  { path:'digital-strategy',component:DigitalStrategyComponent}
 
 ];
 
