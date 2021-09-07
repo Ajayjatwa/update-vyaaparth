@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app-core-tech.component.css']
 })
 export class AppCoreTechComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit(): void {
