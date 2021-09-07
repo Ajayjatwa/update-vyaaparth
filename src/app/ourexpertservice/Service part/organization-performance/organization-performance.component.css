@@ -71,16 +71,6 @@
   color: white;
 }
 /* vbnv */
-/* .bussn {
-  position: relative;
-  font-size: 40px;
-  margin-bottom: 20px;
-}
-.centered {
-  position: absolute;
-  bottom: 46px;
-  left: 50px;
-} */
 .Services{
   margin: revert;
   color: darkslategrey;
@@ -113,6 +103,19 @@ samp{
   position: relative;
   left: 185px;
 }
-.img11{
+
+
+.img-top{
   height: 300px;
+  width: 545px;
 }
+
+.card:hover{
+  border: 2px;
+}
+.myimage{
+  height: 400px;
+  width: 100%;
+}
+
+
