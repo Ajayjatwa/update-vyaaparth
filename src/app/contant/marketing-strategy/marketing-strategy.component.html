@@ -66,18 +66,20 @@
   <div class="row">
     <div class="col-6">
       <h1 class="Services">Innovation In Business</h1>
-      <div class="Ensure" (mouseenter)="showtext()">Activating the marketing strategy<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click)="showtext()">Activating the marketing strategy<samp class="fa fa-angle-right"></samp>
       </div> <hr>
-      <div class="Ensure" (mouseenter) ="navsidedrop1()">Integrated Multi-channel marketing<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop1()">Integrated Multi-channel marketing<samp class="fa fa-angle-right"></samp>
       </div><hr>
-      <div class="Ensure" (mouseenter) ="navsidedrop2()">Creating Engaging Content and Sites<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop2()">Creating Engaging Content and Sites<samp class="fa fa-angle-right"></samp>
       </div><hr>
-      <div class="Ensure" (mouseenter) ="navsidedrop3()">Seamless business processes<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop3()">Seamless business processes<samp class="fa fa-angle-right"></samp>
       </div><hr>
-      <div class="Ensure" (mouseenter) ="navsidedrop4()">Research and analysis<samp class="fa fa-angle-right"></samp>
+      <br><br><br>
+      <br>
+      <!-- <div class="Ensure" (click) ="navsidedrop4()">Research and analysis<samp class="fa fa-angle-right"></samp>
       </div><hr>
-      <div class="Ensure" (mouseenter) ="navsidedrop5()">Customer-centricity and value-engineering<samp class="fa fa-angle-right"></samp>
-      </div><hr>
+      <div class="Ensure" (click) ="navsidedrop5()">Customer-centricity and value-engineering<samp class="fa fa-angle-right"></samp>
+      </div><hr> -->
     </div>
     <div class="col-6 bg-secondary text-white">
       <div *ngIf ="textetem">
@@ -87,34 +89,39 @@
       </div>
       <div *ngIf= "sidesrop1">
         <div class="textbody">Integrated Multi-channel marketing</div>
-      <div class="textnext">Infrastructure is the backbone of your web presence. Your website's high-quality traffic is derived from integrating your back-end engine, catalog, pricing, and campaign engine and presenting a consistent, unified, dynamic, and coherent marketing message.
-        <!-- <a routerLinkActive ="active" routerLink ="buld-next-generation">Read More</a></div> -->
+        <div class="textnext">Infrastructure is the backbone of your web presence. Your website's high-quality traffic is derived from integrating your back-end engine, catalog, pricing, and campaign engine and presenting a consistent, unified, dynamic, and coherent marketing message.
+          <!-- <a routerLinkActive ="active" routerLink ="buld-next-generation">Read More</a></div> -->
+        </div>
       </div>
+
       <div *ngIf= "sidesrop2">
         <div class="textbody">Creating Engaging Content and Sites</div>
       <div class="textnext">This is not about building a website that looks cool to you but looks cool to your customers and influencers. From a user experience perspective, sites need to be clear, concise, and easy to read. The content you publish should express your value and resonate with customers instantly.
-        <a routerLinkActive ="active" routerLink ="application core technology">Read More</a></div>
+        <!-- <a routerLinkActive ="active" routerLink ="application core technology">Read More</a> -->
+      </div>
       </div>
       <div *ngIf= "sidesrop3">
         <div class="textbody">Seamless business processes <br>Sales, Marketing, and Customer Service</div>
       <div class="textnext">Even though the company may have separate service functions, the online store is one for customers. It is crucial to ensure the pricing, discounts, and catalogs are current and correctly presented. Providing ease of navigation and quick commerce transactions converts customers, and the follow-up messaging make the experience exceptional.
+        <a routerLinkActive ="active" [routerLink] ="['/seamless']">Read More</a>
       </div>
       </div>
 
-      <div *ngIf= "sidesrop4">
+      <!-- <div *ngIf= "sidesrop4">
         <div class="textbody">Research and analysis</div>
           <div class="textnext">Data-driven marketing functions are the most successful. Although it is crucial to track the effectiveness of marketing spends, it is not the only factor. The goal is to get into virtuous cycles of significance by looking at every aspect of customers, channels, partnerships, products, services, campaigns, and related technologies. Continuous data analysis improves capabilities, ultimately resulting in a greater outcome.
           </div>
-      </div>
-      </div>
-
-
-      <div *ngIf= "sidesrop5">
+      </div> -->
+      <!-- <div *ngIf= "sidesrop5">
         <div class="textbody">Customer-centricity and value-engineering</div>
         <div class="textnext">Companies and their products or services have to reinvent their value propositions to survive the effects of digital disruptions, given the fatality rate they face. There are still a considerable number of companies that lack a formal R&D/Product Innovation department
           Providing real value to customers is the responsibility of Marketing in conjunction with Sales, R&D, and Service.
         </div>
+      </div> -->
       </div>
+
+
+
        </div>
   </div>
 </div>
@@ -207,7 +214,7 @@
           <!-- seamless-end -->
       </div>
   </div>
-</div>
+
 <!-- h2-steps-area-end -->
 
 

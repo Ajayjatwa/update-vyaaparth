@@ -63,6 +63,7 @@ export class AppCoreTechComponent implements OnInit {
     this.sidesrop1 =false;
     this.sidesrop2 = false;
     this.sidesrop3 = false;
+    this.sidesrop4 = false;
 
   }
 

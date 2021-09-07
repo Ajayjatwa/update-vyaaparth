@@ -27,6 +27,8 @@ import { SeamlessComponent } from './contant/seamless/seamless.component';
 import { BuildNextGenerationComponent } from './ourexpertservice/Service part/build-next-generation/build-next-generation.component';
 import { AppCoreTechComponent } from './ourexpertservice/Service part/app-core-tech/app-core-tech.component';
 import { TransfoSerForMarkeOperationsComponent } from './ourexpertservice/Service part/transfo-ser-for-marke-operations/transfo-ser-for-marke-operations.component';
+import { OrganizationPerformanceComponent } from './ourexpertservice/Service part/organization-performance/organization-performance.component';
+import { CustomerRelationshipComponent } from './ourexpertservice/Service part/customer-relationship/customer-relationship.component';
 
 
 @NgModule({
@@ -54,7 +56,9 @@ import { TransfoSerForMarkeOperationsComponent } from './ourexpertservice/Servic
     SeamlessComponent,
     BuildNextGenerationComponent,
     AppCoreTechComponent,
-    TransfoSerForMarkeOperationsComponent
+    TransfoSerForMarkeOperationsComponent,
+    OrganizationPerformanceComponent,
+    CustomerRelationshipComponent
 
    ],
   imports: [

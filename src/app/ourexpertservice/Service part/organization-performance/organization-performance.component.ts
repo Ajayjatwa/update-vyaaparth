@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-marketing-strategy',
-  templateUrl: './marketing-strategy.component.html',
-  styleUrls: ['./marketing-strategy.component.css']
+  selector: 'app-organization-performance',
+  templateUrl: './organization-performance.component.html',
+  styleUrls: ['./organization-performance.component.css']
 })
-export class MarketingStrategyComponent implements OnInit {
+export class OrganizationPerformanceComponent implements OnInit {
 
   constructor() { }
 
@@ -17,6 +17,7 @@ export class MarketingStrategyComponent implements OnInit {
     this.sidesrop1 =false;
     this.sidesrop2 = false;
     this.sidesrop3 = false;
+    this.sidesrop4 = false;
   }
   sidesrop1 : boolean =false;
   navsidedrop1(){
@@ -24,17 +25,17 @@ export class MarketingStrategyComponent implements OnInit {
     this.textetem = false;
     this.sidesrop2 = false;
     this.sidesrop3 = false;
-    // this.sidesrop4 = false;
+    this.sidesrop4 = false;
     // this.sidesrop5 = false;
   }
   sidesrop2 : boolean =false;
   navsidedrop2(){
-    this.sidesrop2 = true
+    this.sidesrop2 = true;
     this.textetem = false;
     this.sidesrop1 =false;
     this.sidesrop3 = false;
-    // this.sidesrop4 = false;
-    // this.sidesrop5 = false;
+    this.sidesrop4 = false;
+    //  this.sidesrop5 = false;
 
   }
   sidesrop3: boolean = false;
@@ -43,28 +44,26 @@ export class MarketingStrategyComponent implements OnInit {
     this.textetem = false;
     this.sidesrop1 =false;
     this.sidesrop2 = false;
-    // this.sidesrop4 = false;
-    // this.sidesrop5 = false;
+    this.sidesrop4 = false;
+    //  this.sidesrop5 = false;
   }
-  // sidesrop4:boolean =false;
-  // navsidedrop4(){
-  //   this.sidesrop4 = true;
+  sidesrop4:boolean =false;
+  navsidedrop4(){
+    this.sidesrop4 = true;
+    this.textetem = false;
+    this.sidesrop1 =false;
+    this.sidesrop2 = false;
+    this.sidesrop3 = false;
+    //  this.sidesrop5 = false;
+  }
+  // sidesrop5:boolean =false;
+  // navsidedrop5(){
+  //   this.sidesrop5 = true;
   //   this.textetem = false;
   //   this.sidesrop1 =false;
   //   this.sidesrop2 = false;
   //   this.sidesrop3 = false;
   //   this.sidesrop5 = false;
   // }
-  // sidesrop5:boolean =false;
-  // navsidedrop5(){
-  //   this.sidesrop5 = true;
-  //   this.sidesrop4 =false;
-  //   this.textetem = false;
-  //   this.sidesrop1 =false;
-  //   this.sidesrop2 = false;
-  //   this.sidesrop3 = false;
-  //   this.sidesrop4 = false;
-  // }
-
 
 }

@@ -26,7 +26,7 @@ export class DigitalStrategyComponent implements OnInit {
     this.sidesrop2 = false;
     this.sidesrop3 = false;
     this.sidesrop4 = false;
-    this.sidesrop5 = false;
+    // this.sidesrop5 = false;
   }
   sidesrop2 : boolean =false;
   navsidedrop2(){
@@ -35,7 +35,7 @@ export class DigitalStrategyComponent implements OnInit {
     this.sidesrop1 =false;
     this.sidesrop3 = false;
     this.sidesrop4 = false;
-     this.sidesrop5 = false;
+    //  this.sidesrop5 = false;
 
   }
   sidesrop3: boolean = false;
@@ -45,7 +45,7 @@ export class DigitalStrategyComponent implements OnInit {
     this.sidesrop1 =false;
     this.sidesrop2 = false;
     this.sidesrop4 = false;
-     this.sidesrop5 = false;
+    //  this.sidesrop5 = false;
   }
   sidesrop4:boolean =false;
   navsidedrop4(){
@@ -54,17 +54,17 @@ export class DigitalStrategyComponent implements OnInit {
     this.sidesrop1 =false;
     this.sidesrop2 = false;
     this.sidesrop3 = false;
-     this.sidesrop5 = false;
+    //  this.sidesrop5 = false;
   }
-  sidesrop5:boolean =false;
-  navsidedrop5(){
-    this.sidesrop5 = true;
-    this.textetem = false;
-    this.sidesrop1 =false;
-    this.sidesrop2 = false;
-    this.sidesrop3 = false;
+  // sidesrop5:boolean =false;
+  // navsidedrop5(){
+  //   this.sidesrop5 = true;
+  //   this.textetem = false;
+  //   this.sidesrop1 =false;
+  //   this.sidesrop2 = false;
+  //   this.sidesrop3 = false;
   //   this.sidesrop5 = false;
-  }
+  // }
 
 
 }
