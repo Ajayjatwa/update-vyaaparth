@@ -38,7 +38,8 @@ const routes: Routes = [
   // changes
   {path:'industries', component:IndustriesComponent },
   {path:'functions', component:FunctionsComponent},
-  {path:'ourexpertservice', children:[
+  {path:'ourexpertservice',
+  children:[
     {path:'', component:OurexpertserviceComponent},
     {path:'buld-next-generation', component:BuildNextGenerationComponent},
     {path:'application core technology', component:AppCoreTechComponent},
@@ -51,6 +52,7 @@ const routes: Routes = [
     {path:'marketing', component:MarketingOperationsComponent},
   ]},
   {path:'tranformation-service-for-marketing', children:[
+
     {path:'', component:TransfoSerForMarkeOperationsComponent},
     {path:'marketing', component: MarketingOperationsComponent},
     {path:'tranformation', component:TransformationComponent},
