@@ -1,14 +1,29 @@
     <!-- pricing-area-start -->
     <div class="page-about-pricing pricing-area">
       <div class="container">
+        <div class="hvrbox">
+          <img src="../../../../assets/img/home2/slider-3.jpg" alt="Mountains" class="hvrbox-layer_bottom">
+          <div class="hvrbox-layer_top">
+            <div class="hvrbox-text"><div class="title1">Services-Transformation</div> <br>
+            An understanding of the life cycle of a customer can influence its retention, satisfaction, and renewal.
+            The past has seen companies pay more attention to sales transactions while seeing services as an 'after-sales support' function or as a 'necessary headache.' Now, the pendulum has swung in the other direction.
+            </div>
+          </div>
+        </div>
+        <!-- <div class="bussn">
+          <img src="../../../../assets/img/home2/slider-3.jpg" alt="Snow" style="width:100%;">
+
+          <div class="centered"> <div class="section-title">
+
+            <h2>Operation of Services- Transformation</h2>
+            <p>An understanding of the life cycle of a customer can influence its retention, satisfaction, and renewal.</p>
+            <p>The past has seen companies pay more attention to sales transactions while seeing services as an 'after-sales support' function or as a 'necessary headache.' Now, the pendulum has swung in the other direction.</p>
+          </div>  </div>
+        </div> -->
+        <br>
           <div class="row">
               <div class="col-lg-12  col-sm-12 col-12">
-                  <div class="section-title">
 
-                      <h2>Operation of Services- Transformation</h2>
-                      <p>An understanding of the life cycle of a customer can influence its retention, satisfaction, and renewal.</p>
-                      <p>The past has seen companies pay more attention to sales transactions while seeing services as an 'after-sales support' function or as a 'necessary headache.' Now, the pendulum has swung in the other direction.</p>
-                    </div>
               </div>
           </div>
           <div class="col-lg-12  col-sm-12 col-12">
@@ -16,88 +31,95 @@
           <p>According to a study of responses from the most successful service organizations based on results achieved, 71% of this group had a better grasp of the definition of digital transformation services.</p>
           <p>Customers' attitude plays a vital role in brand image and referral sales in this age of digital media and social media. Therefore, highly successful organizations take services very seriously to ensure their customers are satisfied throughout the relationship. This results in customers returning to the company again and again, as well as recommending or endorsing its products and services.</p>
         </div>
-          <div class="row">
-              <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 col-sm-8 offset-sm-2 col-12 ">
-                  <div class="single-pricing">
+  <!-- pricing-area-end -->
+  <!-- learn more -->
 
+<div class="container">
+  <!-- <div class="bussn">
+    <img src="../../assets/img/home1/slider-4.jpg" alt="Snow" style="width:100%;">
 
-                      <div class="top">
-                        <h3>Integration of processes through digitalization</h3>
-                        <p>To provide a unified view of customer value, the proper service programs must be created and integrated with Marketing and Sales. Seamless integration at all 'points of customer interaction' enables Services to anticipate what to expect before or right after a sale.</p>
+    <div class="centered"><h1>Business Operation</h1>
+      <p>Creating nimble, transformative, and resilient business operations is crucial in today's fast-paced environment.</p>
+    </div>
+  </div> -->
+  <div class="row">
+    <div class="col-6">
+      <h1 class="Services">A service-oriented approach</h1>
+      <div class="Ensure" (click)="showtext()">Integration of processes through digitalization<samp class="fa fa-angle-right"></samp>
+      </div> <hr>
+      <div class="Ensure" (click) ="navsidedrop1()">Develop a fully integrated logistical and delivery value chain<samp class="fa fa-angle-right"></samp>
+      </div><hr>
+      <div class="Ensure" (click) ="navsidedrop2()">Utilize Service Analytics to reduce customer interactions<samp class="fa fa-angle-right"></samp>
+      </div><hr>
+      <div class="Ensure" (click) ="navsidedrop3()">Ensure a data-driven, predictive culture<samp class="fa fa-angle-right"></samp>
+      </div><hr>
+      <div class="Ensure" (click) ="navsidedrop4()">Our Services for Service Ops Transformation<samp class="fa fa-angle-right"></samp>
+      </div><hr>
+      <!-- <div class="Ensure" (click) ="navsidedrop5()">Optimize Your Procurement and Supply Chain<samp class="fa fa-angle-right"></samp>
+      </div><hr> -->
+    </div>
+    <div class="col-6 bg-secondary text-white">
+      <div *ngIf ="textetem">
+        <div class="textbody">Integration of processes through digitalization</div>
+      <div class="textnext">To provide a unified view of customer value, the proper service programs must be created and integrated with Marketing and Sales. Seamless integration at all 'points of customer interaction' enables Services to anticipate what to expect before or right after a sale.</div>
+      </div>
+      <div *ngIf= "sidesrop1">
+        <div class="textbody">Develop a fully integrated logistical and delivery value chain</div>
+      <div class="textnext">Digital acceleration requires a minimum number of control points in processes necessary for a highly automated world. Suppose your business requires third-party providers, spare parts, and logistics. In that case, you must integrate your operations with those departments as highly as possible so that service operations play little or no role in service delivery. Furthermore, integrating marketing and sales automatically keeps everyone updated on the overall customer status, improving customer engagements.
+        </div>
+      </div>
+      <div *ngIf= "sidesrop2">
+        <div class="textbody">Utilize Service Analytics to reduce customer interactions</div>
+      <div class="textnext">While it may seem counterintuitive, great service organizations want to be 'all is well' organizations. Their commitment to analytics implies that they invest heavily in understanding their customers personally and meeting their needs without being asked, promoting the concept of quiet reliability yet available when needed.
+        </div>
+      </div>
+      <div *ngIf= "sidesrop3">
+        <div class="textbody">Ensure a data-driven, predictive culture</div>
+      <div class="textnext">Cost-cutting services are sometimes necessary to achieve profitability or improve on-time delivery. Through comprehensive service analytics across each aspect of the value chain, such as customers, delivery partners, parts suppliers, and third-party logistics providers, you will begin to understand the root causes of all issues across the board and drive incremental improvements.
+        Using predictive analytics will also assist in a 'what-if' analysis. It will set the priority and agenda for iterative transformations that will deliver results in the near term while improving the overall operations.
+      </div>
+      </div>
 
-                     </div>
-                      <!-- <div class="price">
-                          <h2 class="tag"><span>$</span>59</h2>
-                      </div> -->
-                      <!-- <div class="bottom">
-                          <ul class="feature">
-                              <li>Business Analyzing</li>
-                              <li>Operational Excellence</li>
-                              <li>Knowledge Management</li>
-                              <li>Business Idea Ready</li>
-                          </ul>
-                          <div class="buy">
-                              <a class="button" href="#">Buy this Plan</a>
-                          </div>
-                      </div> -->
-                  </div>
-              </div>
-              <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 col-sm-8 offset-sm-2 col-12">
-                  <div class="single-pricing active">
-                     <h3>Develop a fully integrated logistical and delivery value chain</h3>
-                     <p>Digital acceleration requires a minimum number of control points in processes necessary for a highly automated world. Suppose your business requires third-party providers, spare parts, and logistics. In that case, you must integrate your operations with those departments as highly as possible so that service operations play little or no role in service delivery. Furthermore, integrating marketing and sales automatically keeps everyone updated on the overall customer status, improving customer engagements.</p>
-                      <!-- <div class="price">
-                          <h2 class="tag"><span>$</span>89</h2>
-                      </div> -->
-                      <!-- <div class="bottom">
-                          <ul class="feature">
-                              <li>Full Business Analyzing</li>
-                              <li>Next Generation Accounting</li>
-                              <li>Online staff training sessions</li>
-                              <li>Business Idea Ready</li>
-                          </ul>
-                          <div class="buy">
-                              <a class="button" href="#">Buy this Plan</a>
-                          </div>
-                      </div> -->
-                  </div>
-              </div>
-              <div class="col-lg-4 offset-lg-0 col-md-6 offset-md-0 col-sm-8 offset-sm-2 col-12">
-                  <div class="single-pricing">
-                      <div class="top">
-                        <h3>Utilize Service Analytics to reduce customer interactions</h3>
-                        <p>While it may seem counterintuitive, great service organizations want to be 'all is well' organizations. Their commitment to analytics implies that they invest heavily in understanding their customers personally and meeting their needs without being asked, promoting the concept of quiet reliability yet available when needed.</p>
-                          <!-- <h2 class="name">Complete</h2>
-                          <h5 class="type">Consulting Pack</h5> -->
-                      </div>
-                      <!-- <div class="price">
-                          <h2 class="tag"><span>$</span>99</h2>
-                      </div> -->
-                      <!-- <div class="bottom">
-                          <ul class="feature">
-                              <li>Digital Transformation</li>
-                              <li>Supply Chain Optimization</li>
-                              <li>Management + People Strategy</li>
-                              <li>Business Idea Ready</li>
-                          </ul>
-                          <div class="buy">
-                              <a class="button" href="#">Buy this Plan</a>
-                          </div>
-                      </div> -->
-                  </div>
-              </div>
-              <p>The past has seen companies pay more attention to sales transactions while seeing services as an 'after-sales support' function or as a 'necessary headache.' Now, the pendulum has swung in the other direction.</p>
-              <p>The number of touchpoints a company has with its customers is a critical factor in determining its success in the digital economy. Customers of the most successful companies are contacted at least 10 times a year. Consistent, undisrupted, and the ability to 'serve without being asked' have become the watchwords for digitalized enterprises. Process digitalization is expected to take place in Sales & Marketing and partners, suppliers, and logistics.</p>
-              <p>High-performing Services organization that focuses on providing customers with the services they expect quietly, retaining their business, and reaping new sales.</p>
-              <p>Vyaaparth's Services department partners with clients on these key transformation themes</p>
-              <br><br>
-              <h3>Ensure a data-driven, predictive culture</h3>
-              <p>Cost-cutting services are sometimes necessary to achieve profitability or improve on-time delivery. Through comprehensive service analytics across each aspect of the value chain, such as customers, delivery partners, parts suppliers, and third-party logistics providers, you will begin to understand the root causes of all issues across the board and drive incremental improvements.</p>
-              <p>Using predictive analytics will also assist in a 'what-if' analysis. It will set the priority and agenda for iterative transformations that will deliver results in the near term while improving the overall operations.</p>
+      <div *ngIf= "sidesrop4">
+        <div class="textbody">Our Services for Service Ops Transformation</div>
+          <div class="textnext">Our Service operations digitalization practice focuses on select areas to help drive transformations.
+            <a routerLinkActive ="active" routerLink ="buld-next-generation">Read More</a>
           </div>
       </div>
+      </div>
+
+
+      <!-- <div *ngIf= "sidesrop5">
+        <div class="textbody">Optimize Your Procurement and Supply Chain</div>
+        <div class="textnext">Providing the right products at the right place at the right time is essential in today's consumer-centric landscape. We work with experts across all industries to help leaders transform their supply chain and procurement functions into strategic assets. We support your efforts to formulate strategy, establish governance, eliminate redundant processes, and implement technologies to increase supply chain and procurement efficiency and reduce costs. Developing agile, data-driven supply chain operations is key to enabling growth and ensuring stability.
+        </div>
+      </div> -->
+
+      <!-- <div *ngIf= "sidesrop1">
+        <div class="textbody">Build a Next-Generation Financial System</div>
+      <div class="textnext">The sustainability of revenues, the management of cash flow, and the allocation of resources effectively are essentials for any organization, but they are just table stakes.
+        Ensure that your finance department is a strategic partner within your organization. Enhance your business strategy and identify new opportunities by updating your organizational design and modernizing your financial processes and systems.
+        This will help you improve financial performance, act on strategic initiatives quickly, and take better faster business decisions.
+        <a routerLinkActive ="active" routerLink ="ourexpertservice">Read More</a></div>
+      </div> -->
+      <!-- <div *ngIf= "sidesrop1">
+        <div class="textbody">Build a Next-Generation Financial System</div>
+      <div class="textnext">The sustainability of revenues, the management of cash flow, and the allocation of resources effectively are essentials for any organization, but they are just table stakes.
+        Ensure that your finance department is a strategic partner within your organization. Enhance your business strategy and identify new opportunities by updating your organizational design and modernizing your financial processes and systems.
+        This will help you improve financial performance, act on strategic initiatives quickly, and take better faster business decisions.
+        <a routerLinkActive ="active" routerLink ="ourexpertservice">Read More</a></div>
+      </div> -->
+      <!-- <div *ngIf= "sidesrop1">
+        <div class="textbody">Build a Next-Generation Financial System</div>
+      <div class="textnext">The sustainability of revenues, the management of cash flow, and the allocation of resources effectively are essentials for any organization, but they are just table stakes.
+        Ensure that your finance department is a strategic partner within your organization. Enhance your business strategy and identify new opportunities by updating your organizational design and modernizing your financial processes and systems.
+        This will help you improve financial performance, act on strategic initiatives quickly, and take better faster business decisions.
+        <a routerLinkActive ="active" routerLink ="ourexpertservice">Read More</a></div>
+      </div> -->
+       </div>
   </div>
-  <!-- pricing-area-end -->
+<!-- </div> -->
+<!-- learn more -->
   <!-- contact-details-area-start -->
   <div class="page-cda contact-details-area">
       <div class="container">

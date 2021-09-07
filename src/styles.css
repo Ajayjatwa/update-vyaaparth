@@ -41,3 +41,6 @@ header .menu-area .container .row .col-12 .menu nav ul li a {
   */
 
 
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

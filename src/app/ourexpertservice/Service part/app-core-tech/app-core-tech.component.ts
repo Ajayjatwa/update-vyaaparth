@@ -1,12 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-ourexpertservice',
-  templateUrl: './ourexpertservice.component.html',
-  styleUrls: ['./ourexpertservice.component.css']
+  selector: 'app-app-core-tech',
+  templateUrl: './app-core-tech.component.html',
+  styleUrls: ['./app-core-tech.component.css']
 })
-export class OurexpertserviceComponent implements OnInit {
-
+export class AppCoreTechComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
@@ -17,6 +16,8 @@ export class OurexpertserviceComponent implements OnInit {
     this.sidesrop1 =false;
     this.sidesrop2 = false;
     this.sidesrop3 = false;
+    this.sidesrop4 = false;
+    this.sidesrop5 = false;
   }
   sidesrop1 : boolean =false;
   navsidedrop1(){
@@ -29,7 +30,7 @@ export class OurexpertserviceComponent implements OnInit {
   }
   sidesrop2 : boolean =false;
   navsidedrop2(){
-    this.sidesrop2 = true
+    this.sidesrop2 = true;
     this.textetem = false;
     this.sidesrop1 =false;
     this.sidesrop3 = false;
@@ -58,19 +59,13 @@ export class OurexpertserviceComponent implements OnInit {
   sidesrop5:boolean =false;
   navsidedrop5(){
     this.sidesrop5 = true;
-    this.sidesrop4 =false;
     this.textetem = false;
     this.sidesrop1 =false;
     this.sidesrop2 = false;
     this.sidesrop3 = false;
-    this.sidesrop4 = false;
+
   }
 
-
-  // myimage:boolean = true;
-  // changeimg(){
-  //   this.myimage = !this.myimage;
-  // }
 
 
 }

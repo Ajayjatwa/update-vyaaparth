@@ -21,7 +21,12 @@ import { TransformationComponent } from './contant/transformation/transformation
 import { DigitalTransformationComponent } from './contant/digital-transformation/digital-transformation.component';
 import { DigitalStrategyComponent } from './ourexpertservice/Service part/digital-strategy/digital-strategy.component';
 import { LeadershipManagementComponent } from './ourexpertservice/Service part/leadership-management/leadership-management.component';
-import { OrgTranfComponent } from './ourexpertservice/Service part/org-tranf/org-tranf.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FooterComponent } from './header/footer/footer.component';
+import { SeamlessComponent } from './contant/seamless/seamless.component';
+import { BuildNextGenerationComponent } from './ourexpertservice/Service part/build-next-generation/build-next-generation.component';
+import { AppCoreTechComponent } from './ourexpertservice/Service part/app-core-tech/app-core-tech.component';
+import { TransfoSerForMarkeOperationsComponent } from './ourexpertservice/Service part/transfo-ser-for-marke-operations/transfo-ser-for-marke-operations.component';
 
 
 @NgModule({
@@ -45,12 +50,17 @@ import { OrgTranfComponent } from './ourexpertservice/Service part/org-tranf/org
     DigitalTransformationComponent,
     DigitalStrategyComponent,
     LeadershipManagementComponent,
-    OrgTranfComponent
+    FooterComponent,
+    SeamlessComponent,
+    BuildNextGenerationComponent,
+    AppCoreTechComponent,
+    TransfoSerForMarkeOperationsComponent
 
    ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

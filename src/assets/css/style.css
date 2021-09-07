@@ -997,12 +997,12 @@ header {}
   opacity: 0;
   padding: 8px 0;
   position: absolute;
-  right: 100%;
+  left: 100%;
   top: 0;
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
   visibility: hidden;
-  width: 220px;
+  width: 320px;
 }
 
 .menu ul li .drop li:hover .third {
@@ -1024,7 +1024,7 @@ header {}
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  left: -26%;
+  left: 0%;
   margin: auto;
   min-width: 1110px;
   opacity: 0;
@@ -1456,7 +1456,7 @@ header {}
 
 .welcome-area {
   background: #f2f2f2 none repeat scroll 0 0;
-  padding: 95px 0 100px;
+  padding: 0px 0 100px;
   position: relative;
 }
 
@@ -2198,7 +2198,7 @@ header {}
 
 .pricing-area {
   background: #f2f2f2 none repeat scroll 0 0;
-  padding: 95px 0 70px;
+  padding: 0px 0 70px;
 }
 
 .single-pricing {
@@ -4973,7 +4973,7 @@ footer {}
 /*----------------------------------------*/
 
 .page-case-study-area {
-  padding: 95px 0 70px;
+  padding: 0px 0 70px;
 }
 
 .case-menu {

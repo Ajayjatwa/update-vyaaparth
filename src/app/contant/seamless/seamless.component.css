@@ -59,20 +59,7 @@
 .hvrbox.active .hvrbox-text_mobile {
 	display: block;
 }
-/* jhfh */
-.carousel-item {
-  height: 100vh;
-  min-height: 238px;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.limitTextHeight {
-  height: 20px;
-  overflow: hidden;
-}
+
 .title1 {
   position: relative;
   font-size: 40px;
@@ -83,17 +70,46 @@
 .title1 h2{
   color: white;
 }
-
-
-@media only screen and (max-width: 1024px){
-  .carousel-item{
-    height: 36vh;
-  }
-  }
-@media only screen and ( max-width:715px) {
-  .carousel-item{
-    height: 12vh;
+/* vbnv */
+.Services{
+  margin: revert;
+  color: darkslategrey;
+}
+/* .Services:hover{
+  background-color: aqua;
+} */
+.Ensure{
+  color: darkslategrey;
+  font-size: 25px;
+  padding: 10px;
+}
+.Ensure:hover{
+  background-color: darkslategrey;
+  color: wheat;
 
 }
-
+.textbody{
+  font-size: 25px;
+  margin-top: 43px;
+  margin-left: 60px;
+}
+.textnext{
+  margin-top: 28px;
+  margin-left: 37px;
+  margin-right: 37px;
+  font-size: 17px;
+}
+samp{
+  position: relative;
+  left: 185px;
+}
+.card1:hover{
+  margin: 7px;
+}
+.cardname{
+  padding: 10px;
+}
+.cardname:hover{
+  background-color: darkslategray;
+  color: wheat;
 }
