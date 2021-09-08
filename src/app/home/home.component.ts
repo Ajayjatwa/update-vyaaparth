@@ -10,6 +10,10 @@ export class HomeComponent implements OnInit {
   constructor() {
 
   }
+  hometitle:boolean = true;
+  // homeimage(){
+  //   this.hometitle = !this.hometitle;
+  // }
 
 //   isReadMore = true
 

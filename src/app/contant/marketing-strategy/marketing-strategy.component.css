@@ -41,3 +41,9 @@ samp{
   position: relative;
   left: 185px;
 }
+.img-fluid{
+  height: 247px;
+}
+.img-fluid:hover{
+  padding: 2px;
+}

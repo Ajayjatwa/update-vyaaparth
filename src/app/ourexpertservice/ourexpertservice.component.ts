@@ -71,6 +71,13 @@ export class OurexpertserviceComponent implements OnInit {
   // changeimg(){
   //   this.myimage = !this.myimage;
   // }
+//   toggle = true;
+// status = 'Enable';
+
+// enableDisableRule() {
+//     this.toggle = !this.toggle;
+//     this.status = this.toggle ? 'Enable' : 'Disable';
+// }
 
 
 }

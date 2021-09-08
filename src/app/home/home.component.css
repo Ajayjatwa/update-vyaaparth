@@ -1,3 +1,4 @@
+
 .hvrbox,
 .hvrbox * {
 	box-sizing: border-box;
@@ -39,6 +40,7 @@
 .hvrbox .hvrbox-text {
 	text-align: center;
 	font-size: 18px;
+  font-family: "IBM Plex Sans";
 	display: inline-block;
 	position: absolute;
 	top: 50%;
@@ -49,7 +51,20 @@
 	transform: translate(-50%, -50%);
 }
 .hvrbox .hvrbox-text_mobile {
-	font-size: 15px;
+	/* font-size: 4.5em; */
+  /* font: normal 500 3.5em/1 'IBM Plex Sans';
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-size: 4.5em;
+  line-height: 1;
+  font-family: "IBM Plex Sans";
+  width: 75%; */
+  /* mnv */
 	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
 	border-top: 1px solid rgba(179, 179, 179, 0.7);
 	margin-top: 5px;
@@ -75,15 +90,38 @@
 }
 .title1 {
   position: relative;
-  font-size: 40px;
-  margin-bottom: 20px;
+  /* font-size: 40px;
+  margin-bottom: 20px; */
   text-align: center;
+  font: normal 500 3.5em/1 'IBM Plex Sans';
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-size: 4.5em;
+  line-height: 1;
+  font-family: "IBM Plex Sans";
+  width: 100%;
+
+  /* mnv */
 
 }
 .title1 h2{
   color: white;
 }
 
+.orgniz{
+  position: relative;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 3.5em;
+  line-height: 1;
+  font-family: "IBM Plex Sans";
+
+}
 
 @media only screen and (max-width: 1024px){
   .carousel-item{

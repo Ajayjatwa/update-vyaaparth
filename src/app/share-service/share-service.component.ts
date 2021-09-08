@@ -11,9 +11,9 @@ export class ShareServiceComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  mytext:boolean =false;
+  isReadMore:boolean =false;
   shotext(){
-    this.mytext = !this.mytext;
+    this.isReadMore = !this.isReadMore;
   }
 
 }

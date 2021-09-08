@@ -1,4 +1,4 @@
-.hvrbox,
+/* .hvrbox,
 .hvrbox * {
 	box-sizing: border-box;
 }
@@ -49,9 +49,9 @@
 	transform: translate(-50%, -50%);
 }
 .hvrbox .hvrbox-text_mobile {
-	font-size: 15px;
-	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
-	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	font-size: 15px; */
+	/* border-top: 1px solid rgb(179, 179, 179); for old browsers */
+	/* border-top: 1px solid rgba(179, 179, 179, 0.7);
 	margin-top: 5px;
 	padding-top: 2px;
 	display: none;
@@ -69,7 +69,7 @@
 }
 .title1 h2{
   color: white;
-}
+} */
 /* vbnv */
 .Services{
   margin: revert;

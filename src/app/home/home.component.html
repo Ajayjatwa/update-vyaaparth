@@ -1,7 +1,7 @@
 
-<!-- slider-area-start -->
+<!-- home-area-start -->
 <div class="container">
-  <div class="hvrbox">
+  <div class="hvrbox" (mouseover)="hometitle = false" (mouseout) ="hometitle = true">
     <img src="../../assets/img/home1/slider-2.jpg" alt="Mountains" class="hvrbox-layer_bottom">
     <div class="hvrbox-layer_top">
       <div class="hvrbox-text"><div class="title1">Vyaaparth Consultants Pvt Ltd</div> <br>
@@ -21,19 +21,19 @@
   </div>
   </div> -->
 </div>
+<br><br>
 <!-- slider-area-end -->
 <!-- top-agency-area-start -->
 <div class="top-agency-area" id="_top_agency">
   <div class="container">
       <div class="row">
           <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-12">
-              <div class="section-title">
-                  <h1 class="title">Vyaaparth Consultants Pvt Ltd </h1>
+              <div class="section-title" *ngIf ="hometitle">
+                  <h1 class="title1">Vyaaparth Consultants Pvt Ltd </h1>
                   <p>Building a culture of change-ready organization must involve a transparent process, motivated people, failproof processes, and realistic goals.
                     If an organization has all these, it will accelerate and drive sustainable growth. </p>
               </div>
           </div>
-          <div class="container mt-2 ">
             <!-- join-team-area-start -->
  <div class="join-team-area">
   <div class="container">
@@ -69,15 +69,11 @@
                           <p class="text">Using this framework creates the foundation that provides the means for transformation to occur within an environment of constant change.</p>
                         </div>
                   </div>
-                  <div class="jtc-box">
+                  <!-- <div class="jtc-box">
                       <div class="icon">
                           <span class="flaticon-money-bag"></span>
                       </div>
-                      <div class="content">
-                          <h4 class="title">Fuse Goals, Actions, and Processes for Action:</h4>
-                          <p class="text">The culture of an organization must promote accountability, fosters innovation, and provides consistently excellent customer service. In our partnership with organizations, we help them align goals, actions, and processes that support quick execution.</p>
-                      </div>
-                  </div>
+                  </div> -->
               </div>
           </div>
           <div class="col-lg-6 col-md-12 col-sm-12 col-12">
@@ -86,121 +82,150 @@
               </div>
           </div>
       </div>
-  </div>
-</div>
-<!-- join-team-area-end -->
-
-<!-- case-study-area-start -->
-<div class="case-study-area">
-  <div class="container">
-          <div class="case-study-box">
-              <div class="row">
-                  <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                      <div class="img">
-                          <img src="../../assets/img/home1/case-study-banner-3.jpg" alt="img">
-                      </div>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                          <h4 class="title">Ensure outcome by rounding</h4>
-                          <p class="text">Develop relationships with customers and employees consistently in a structured manner to boost engagement, loyalty, and satisfaction.</p>
-                              <h4 class="title">Create an adequate compensation and incentive program</h4>
-                              <p class="text">Stay competitive with a total rewards program that promotes behaviors aligned with your organization's goals and ensures that you meet short- and long-term objectives.</p>
-                          <div class="csb-single">
-                              <p class="text">Goals, actions, and processes must be aligned for organizational success. Organizations must foster a culture of accountability, promote innovation, and consistently provide a great customer experience. In our partnership with organizations, we help them align goals, actions, and processes that support quick execution. Frameworks enable transformation in environments of continuous change.</p>
-                              <p class="info">There are many variations of passages of Lorem Ipsum available but a the tha majority have suffered.</p>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-</div>
-<!-- case-study-area-end -->
-            <!-- end goal -->
-
-          <!-- Organizational Transformation -->
-          <div class="row grid_container" id="container">
-            <div class=" col-12 grid strategy strategy technology" data-category="post-transition">
-                <div class="single-page-case-study signle-bdcs">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="join-team-content">
+                <div class="jtc-box">
+                    <div class="icon">
+                        <span class="flaticon-language"></span>
+                    </div>
                     <div class="content">
-                        <h4 class="bdcss-title">Organizational Transformation</h4>
+                        <h4 class="title">Fuse Goals, Actions, and Processes for Action:</h4>
+                        <p class="text">The culture of an organization must promote accountability, fosters innovation, and provides consistently excellent customer service. In our partnership with organizations, we help them align goals, actions, and processes that support quick execution.</p><br>
+
                     </div>
                 </div>
+                <div class="jtc-box">
+                    <div class="icon">
+                        <span class="flaticon-edit"></span>
+                    </div>
+                    <div class="content">
+                        <h4 class="title">Ensure outcome by rounding</h4>
+                        <p class="text">Develop relationships with customers and employees consistently in a structured manner to boost engagement, loyalty, and satisfaction.</p>
+                    </div>
+                    <br>
+                </div>
+                <div class="jtc-box">
+                    <div class="icon">
+                        <span class="flaticon-dollar-analysis-bars-chart"></span>
+                    </div>
+                    <div class="content">
+                        <h4 class="title">Create an adequate compensation and incentive program</h4>
+                        <p class="text">Stay competitive with a total rewards program that promotes behaviors aligned with your organization's goals and ensures that you meet short- and long-term objectives.</p>
+                        <p class="text">Goals, actions, and processes must be aligned for organizational success. Organizations must foster a culture of accountability, promote innovation, and consistently provide a great customer experience. </p>
+                      </div>
+                </div>
 
-<div class="row">
-  <div class="col-lg-4 col-sm-6 col-md-6 col-12">
-    <div class="single-service">
-      <div class="img">
-          <a href="06_service-details.html"><img src="../../assets/img/home1/service-1.jpg" alt=""></a>
-      </div>
-      <div class="content">
-          <h2 class="title">Influence cultural change</h2>
-          <p class="text">Create a culture of excellence by establishing, accelerating, and applying the necessary changes to transform your organizational mindset."</p>
-          <!-- <button class="btn btn-primery" type="button" (click)="showText()">
-            {{ isReadMore ? 'Read More': 'Read Less' }}
-          </button> -->
-      </div>
-  </div>
-  </div>
-  <div class="col-lg-4 col-sm-6 col-md-6 col-12">
-    <div class="single-service">
-      <div class="img">
-          <a href="06_service-details.html"><img src="../../assets/img/home1/service-2.jpg" alt=""></a>
-      </div>
-      <div class="content">
-          <h2 class="title">Recruiting, Retaining, and Promoting Talent</h2>
-          <p class="text">Bring high-performing talent to your organization and retain,
-            promote and reward them.Adopt effective strategies to attract top talent who possess the technical skills and soft skills necessary for creating a positive working environment committed to exceptional customer service."</p>
-          <!-- <button class="btn btn-primery" type="button" (click)="showText()">
-            {{ isReadMore ? 'Read More': 'Read Less' }}
-          </button> -->
-      </div>
-  </div>
-  </div>
-  <div class="col-lg-4 col-sm-6 col-md-6 col-12">
-      <div class="single-service">
-        <div class="single-service">
-          <div class="img">
-              <a href="06_service-details.html"><img src="../../assets/img/home1/service-3.jpg" alt=""></a>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12">
+            <div class="join-team-banner">
+                <img src="../../assets/img/home1/case-study-banner-3.jpg" alt="">
+            </div>
+        </div>
+        <div class="jtc-box">
+          <div class="icon">
+              <span class="flaticon-money-bag"></span>
           </div>
           <div class="content">
-              <h2 class="title">Ensure learning and development takes place</h2>
-              <p class="text">Changing roles, evolving skills, and remodeled policies and processes will be prerequisites for your future success. 
-                Help leaders and staff continuously develop skills that ensure organizational success amid constant change by training them on their skills to achieve high performance and excellence."</p>
-              <!-- <button class="btn btn-primery" type="button" (click)="showText()">
-                {{ isReadMore ? 'Read More': 'Read Less' }}
-              </button> -->
+              <p class="text">Goals, actions, and processes must be aligned for organizational success. Organizations must foster a culture of accountability, promote innovation, and consistently provide a great customer experience. In our partnership with organizations, we help them align goals, actions, and processes that support quick execution. Frameworks enable transformation in environments of continuous change.
+                There are many variations of passages of Lorem Ipsum available but a the tha majority have suffered.</p>
           </div>
-      </div>
-      </div>
-  </div>
-
-
-  <div class="card mb-3">
-    <div class="row g-0">
-      <div class="col-md-4">
-        <img src="../../assets/img/home1/service-4.jpg" class="img-fluid rounded-start" alt="...">
-      </div>
-      <div class="col-md-8">
-        <div class="card-body">
-          <h2 class="card-title">Change Management - How to Do It</h2>
-          <p class="card-text">A critical factor in long-term viability for any industry is the disruption it is experiencing. For your organization to respond effectively, change management must be viewed as an ongoing process, not an episodic process.
-            Leading organizations can leverage Vyaaparth's expertise to foster a culture of change and support stakeholders along the way while strengthening their culture while thriving on change.
-            We allocate efforts and resources to ensure enterprise-wide adoption and sustainability of our strategies and tactics. Back to Business Operations"</p>
-       </div>
       </div>
     </div>
   </div>
+</div>
+</div>
+</div>
+          <!-- Organizational Transformation -->
+<div class="container">
+  <div class="page-case-study-area"></div>
+  <div class="row grid_container" id="container">
+    <div class=" col-12 grid strategy strategy technology" data-category="post-transition">
+      <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-12">
+        <div class="section-title">
+            <div class="orgniz">Organizational Transformation </div>
+        </div>
+    </div>
+        <!-- <h1 class="title1">Organizational Transformation</h1> -->
+<div class="row">
+<div class="col-lg-4 col-sm-6 col-md-6 col-12">
+<div class="single-service">
+<div class="img">
+  <a href="06_service-details.html"><img src="../../assets/img/home1/service-1.jpg" alt=""></a>
+</div>
+<div class="content">
+  <h2 class="title">Influence cultural change</h2>
+  <p class="text">Create a culture of excellence by establishing, accelerating, and applying the necessary changes to transform your organizational mindset."</p>
+  <!-- <button class="btn btn-primery" type="button" (click)="showText()">
+    {{ isReadMore ? 'Read More': 'Read Less' }}
+  </button> -->
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-sm-6 col-md-6 col-12">
+<div class="single-service">
+<div class="img">
+  <a href="06_service-details.html"><img src="../../assets/img/home1/service-2.jpg" alt=""></a>
+</div>
+<div class="content">
+  <h2 class="title">Recruiting, Retaining, and Promoting Talent</h2>
+  <p class="text">Bring high-performing talent to your organization and retain,
+    promote and reward them.Adopt effective strategies to attract top talent who possess the technical skills and soft skills necessary for creating a positive working environment committed to exceptional customer service."</p>
+  <!-- <button class="btn btn-primery" type="button" (click)="showText()">
+    {{ isReadMore ? 'Read More': 'Read Less' }}
+  </button> -->
+</div>
+</div>
+</div>
+<div class="col-lg-4 col-sm-6 col-md-6 col-12">
+<div class="single-service">
+  <div class="img">
+      <a href="06_service-details.html"><img src="../../assets/img/home1/service-3.jpg" alt=""></a>
+  </div>
+  <div class="content">
+      <h2 class="title">Ensure learning and development takes place</h2>
+      <p class="text">Changing roles, evolving skills, and remodeled policies and processes will be prerequisites for your future success. 
+        Help leaders and staff continuously develop skills that ensure organizational success amid constant change by training them on their skills to achieve high performance and excellence."</p>
+      <!-- <button class="btn btn-primery" type="button" (click)="showText()">
+        {{ isReadMore ? 'Read More': 'Read Less' }}
+      </button> -->
+  </div>
+</div>
+</div>
+</div>
 
-            </div>
-<!-- col-12 -->
-<app-supply-chain></app-supply-chain>
-
-  <!-- col-12 -->
+<div class="row">
+  <div class="col-4">
+    <div class="single-service">
+      <div class="img">
+        <a href="06_service-details.html"><img src="../../assets/img/home1/service-4.jpg" alt=""></a>
       </div>
+    </div>
   </div>
+  <div class="col-8">
+    <div class="card-body">
+      <h2 class="card-title">Change Management - How to Do It</h2>
+      <p class="card-text">A critical factor in long-term viability for any industry is the disruption it is experiencing. For your organization to respond effectively, change management must be viewed as an ongoing process, not an episodic process.
+        Leading organizations can leverage Vyaaparth's expertise to foster a culture of change and support stakeholders along the way while strengthening their culture while thriving on change.
+        We allocate efforts and resources to ensure enterprise-wide adoption and sustainability of our strategies and tactics. Back to Business Operations"</p>
+    </div>
   </div>
+</div>
+</div>
+</div>
+<br><br>
+<app-supply-chain></app-supply-chain>
+    </div>
+<!-- col-12 -->
+
+
+<!-- col-12 -->
+</div>
+<br><br>
+
+
+
 
 
 
