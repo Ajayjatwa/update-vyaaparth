@@ -161,6 +161,12 @@ samp{
   color: black;
 }
 /* learn more */
+img:hover{
+  border: 1px solid black;
+  -ms-transform: translate(50px,100px); /* IE 9 */
+  transform: translate(10px,20px);
+
+}
 /* for responsive web */
 @media only screen and (min-width: 1368px) and (max-width: 1610px){
   .jtc-box .content .text {
@@ -199,14 +205,18 @@ samp{
     font-size: 12px !important;
     font-family: "IBM Plex Sans";
   }
+  .menu ul li .mega-menu {
+    min-width: 310px !important;
+    flex-wrap: wrap;
+    left: 0%;
+    margin: auto;
+  }
   .join-team-banner img {
     border-radius: 100%;
     position: relative;
     top: -35px;
 }
-.menu ul li .mega-menu {
-  min-width: 415px;
-}
+
 
 
 }

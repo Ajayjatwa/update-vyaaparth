@@ -52,3 +52,20 @@
   background-color: white;
   color: black;
 } */
+.card2{
+  position: relative;
+
+    text-align: center;
+    font-size: 3.5em;
+    line-height: 1;
+    font-family: "IBM Plex Sans";
+
+}
+.card2:hover{
+  background-color: darkslategray;
+  padding: 15px;
+  color: white;
+}
+.myclass{
+  font-size: 20px;
+}
