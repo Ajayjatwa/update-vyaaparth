@@ -71,14 +71,16 @@
   color: white;
 } */
 /* vbnv */
-.Services{
+/* .Services{
   margin: revert;
   color: darkslategrey;
-}
+  font-size: 35px;
+
+} */
 /* .Services:hover{
   background-color: aqua;
 } */
-.Ensure{
+/* .Ensure{
   color: darkslategrey;
   font-size: 25px;
   padding: 10px;
@@ -98,12 +100,13 @@
   margin-left: 37px;
   margin-right: 37px;
   font-size: 17px;
-}
-samp{
+  font-family: inherit;
+} */
+/* samp{
   position: relative;
   left: 185px;
-}
-.card1:hover{
+} */
+/* .card1:hover{
   margin: 7px;
 }
 .cardname{
@@ -112,4 +115,14 @@ samp{
 .cardname:hover{
   background-color: darkslategray;
   color: wheat;
+} */
+.cardname{
+  font-size: 2.5em;
+  font-family: "IBM Plex Sans";
+  padding: 20px;
+}
+.cardname:hover{
+
+  background-color: darkslategray;
+  color: aliceblue;
 }

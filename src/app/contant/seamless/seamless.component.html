@@ -10,11 +10,11 @@
     <div class="row">
       <div class="col-6">
         <h1 class="Services">Seamless business processes</h1>
-        <div class="Ensure" (click)="showtext()">Sales, Marketing, and Customer Service<samp class="fa fa-angle-right"></samp>
+        <div class="Ensure" (click)="showtext()"[ngClass]="{'green' : textetem, 'red': !textetem}">Sales, Marketing, and Customer Service<samp class="fa fa-angle-right"></samp>
         </div> <hr>
-        <div class="Ensure" (click) ="navsidedrop1()">Research and analysis<samp class="fa fa-angle-right"></samp>
+        <div class="Ensure" (click) ="navsidedrop1()"[ngClass]="{'green' : sidesrop1, 'red': !sidesrop1}">Research and analysis<samp class="fa fa-angle-right"></samp>
         </div><hr>
-        <div class="Ensure" (click) ="navsidedrop2()">Customer-centricity and value-engineering<samp class="fa fa-angle-right"></samp>
+        <div class="Ensure" (click) ="navsidedrop2()"[ngClass]="{'green' : sidesrop2, 'red': !sidesrop2}">Customer-centricity and value-engineering<samp class="fa fa-angle-right"></samp>
         </div><hr>
         <!-- <div class="Ensure" (click) ="navsidedrop3()">Sales Analytics & Post-digital KPI Frameworks<samp class="fa fa-angle-right"></samp>
         </div><hr>

@@ -22,17 +22,17 @@
   </div> -->
   <div class="row">
     <div class="col-6">
-      <h1 class="Services">Innovation In Business</h1>
-      <div class="Ensure" (click)="showtext()">Activating the marketing strategy<samp class="fa fa-angle-right"></samp>
+      <div class="Services">Innovation In Business</div>
+      <div class="Ensure" (click)="showtext()"[ngClass]="{'green' : textetem, 'red': !textetem}">Activating the marketing strategy<samp class="fa fa-angle-right"></samp>
       </div> <hr>
-      <div class="Ensure" (click) ="navsidedrop1()">Integrated Multi-channel marketing<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop1()"[ngClass]="{'green' : sidesrop1, 'red': !sidesrop1}">Integrated Multi-channel marketing<samp class="fa fa-angle-right"></samp>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop2()">Creating Engaging Content and Sites<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop2()"[ngClass]="{'green' : sidesrop2, 'red': !sidesrop2}">Creating Engaging Content and Sites<samp class="fa fa-angle-right"></samp>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop3()">Seamless business processes<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop3()"[ngClass]="{'green' : sidesrop3, 'red': !sidesrop3}">Seamless business processes<samp class="fa fa-angle-right"></samp>
       </div><hr>
 
-      <div class="Ensure" (click) ="navsidedrop4()">Transformation Services for Marketing Operations<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop4()"[ngClass]="{'green' : sidesrop4, 'red': !sidesrop4}">Transformation Services for Marketing Operations<samp class="fa fa-angle-right"></samp>
       </div><hr>
       <br><br><br><br>
       <!-- <div class="Ensure" (click) ="navsidedrop5()">Customer-centricity and value-engineering<samp class="fa fa-angle-right"></samp>
@@ -136,6 +136,49 @@
               </div>
           </div>
          </div>
+
+
+
+
+         </div>
   </div>
 </div>
 <!-- home component -->
+<!-- <div class="container">
+  <div class="row">
+    <div class="col-3">
+     <div class="one">
+       <img src="../../../assets/img/case-study/case-1.jpg" alt="">
+     </div>
+     <div class="content">
+       <h3 class="title">Activating the marketing strategy</h3>
+     </div>
+    </div>
+    <div class="col-3">
+     <div class="one">
+       <img src="../../../assets/img/case-study/case-2.jpg" alt="">
+     </div>
+     <div class="content">
+       <h3 class="title">Transformation Services for Marketing Operations</h3>
+     </div>
+    </div>
+    <div class="col-3">
+     <div class="one">
+       <img src="../../../assets/img/case-study/case-3.jpg" alt="">
+     </div>
+     <div class="content">
+       <h3 class="title">Operation of Services- Transformation</h3>
+     </div>
+    </div>
+    <div class="col-3">
+     <div class="one">
+       <img src="../../../assets/img/case-study/case-4.jpg" alt="">
+     </div>
+     <div class="content">
+       <h3 class="title">Consultancy Services for Digital Transformation</h3>
+     </div>
+    </div>
+
+  </div>
+</div>
+</div> -->

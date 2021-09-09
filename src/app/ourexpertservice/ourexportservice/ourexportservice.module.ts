@@ -22,13 +22,13 @@ import { Router, RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
-    DigitalStrategyComponent,
-    LeadershipManagementComponent,
-    BuildNextGenerationComponent,
-    AppCoreTechComponent,
-    TransfoSerForMarkeOperationsComponent,
-    OrganizationPerformanceComponent,
-    CustomerRelationshipComponent
+    // DigitalStrategyComponent,
+    // LeadershipManagementComponent,
+    // BuildNextGenerationComponent,
+    // AppCoreTechComponent,
+    // TransfoSerForMarkeOperationsComponent,
+    // OrganizationPerformanceComponent,
+    // CustomerRelationshipComponent
   ],
   imports: [
     CommonModule,

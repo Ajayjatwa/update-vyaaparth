@@ -10,22 +10,22 @@
 
   <div class="row">
     <div class="col-6">
-      <h1 class="Services">Operation of Sales- Transformation</h1>
-      <div class="Ensure" (click)="showtext()">Modernizing sales operations<samp class="fa fa-angle-right"></samp>
+      <div class="Services">Operation of Sales- Transformation</div>
+      <div class="Ensure" (click)="showtext()" [ngClass]="{'green' : textetem, 'red': !textetem}">Modernizing sales operations<samp class="fa fa-angle-right"></samp>
       </div> <hr>
-      <div class="Ensure" (click) ="navsidedrop1()">Digital Benchmarking & Strategy for Sales<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop1()" [ngClass]="{'green' : sidesrop1, 'red': !sidesrop1}">Digital Benchmarking & Strategy for Sales<samp class="fa fa-angle-right"></samp>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop2()">Digitalizing the sales process<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop2()" [ngClass]="{'green' : sidesrop2, 'red': !sidesrop2}">Digitalizing the sales process<samp class="fa fa-angle-right"></samp>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop3()">Sales Analytics & Post-digital KPI Frameworks<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop3()" [ngClass]="{'green' : sidesrop3, 'red': !sidesrop3}">Sales Analytics & Post-digital KPI Frameworks<samp class="fa fa-angle-right"></samp>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop4()">Technology Services for Sales Ops<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop4()" [ngClass]="{'green' : sidesrop4, 'red': !sidesrop4}">Technology Services for Sales Ops<samp class="fa fa-angle-right"></samp>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop5()">Modernizing sales applications<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop5()" [ngClass]="{'green' : sidesrop5, 'red': !sidesrop5}">Modernizing sales applications<samp class="fa fa-angle-right"></samp>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop6()">Application Integration, Automation & Artificial Intelligence<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop6()" [ngClass]="{'green' : sidesrop6, 'red': !sidesrop6}">Application Integration, Automation & Artificial Intelligence<samp class="fa fa-angle-right"></samp>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop7()">Implementing Sales Analytics<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop7()" [ngClass]="{'green' : sidesrop7, 'red': !sidesrop7}">Implementing Sales Analytics<samp class="fa fa-angle-right"></samp>
       </div><hr>
     </div>
     <div class="col-6 bg-secondary text-white">
@@ -122,7 +122,7 @@ The role of Sales Operations is to serve as a lynchpin between Marketing, Sales,
     <div class="col-lg-12  col-sm-12 col-12">
         <div class="section-title">
 
-            <h1 class="h1">Operation of Services- Transformation</h1>
+            <div class="cardname">Operation of Services- Transformation</div><br>
             <p>An understanding of the life cycle of a customer can influence its retention, satisfaction, and renewal.</p>
             <p>The past has seen companies pay more attention to sales transactions while seeing services as an 'after-sales support' function or as a 'necessary headache.' Now, the pendulum has swung in the other direction.</p>
           </div>
@@ -163,7 +163,7 @@ The role of Sales Operations is to serve as a lynchpin between Marketing, Sales,
   </div><br>
 
   <div class="container">
-    <h1 class="cardname"> Consultancy Services for Digital Transformation </h1><br>
+    <div class="cardname"> Consultancy Services for Digital Transformation </div><br>
        <div class="row">
         <div class="col-3 border-2">
           <div class="card">

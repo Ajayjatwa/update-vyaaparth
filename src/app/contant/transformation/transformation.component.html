@@ -44,16 +44,16 @@
   </div> -->
   <div class="row">
     <div class="col-6">
-      <h1 class="Services">A service-oriented approach</h1>
-      <div class="Ensure" (click)="showtext()">Integration of processes through digitalization<samp class="fa fa-angle-right"></samp>
+      <div class="Services">A service-oriented approach</div>
+      <div class="Ensure" (click)="showtext()" [ngClass]="{'green' : textetem, 'red': !textetem}">Integration of processes through digitalization<samp class="fa fa-angle-right"></samp>
       </div> <hr>
-      <div class="Ensure" (click) ="navsidedrop1()">Develop a fully integrated logistical and delivery value chain<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop1()" [ngClass]="{'green' : sidesrop1, 'red': !sidesrop1}">Develop a fully integrated logistical and delivery value chain<samp class="fa fa-angle-right"></samp>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop2()">Utilize Service Analytics to reduce customer interactions<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop2()" [ngClass]="{'green' : sidesrop2, 'red': !sidesrop2}">Utilize Service Analytics to reduce customer interactions<samp class="fa fa-angle-right"></samp>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop3()">Ensure a data-driven, predictive culture<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop3()" [ngClass]="{'green' : sidesrop3, 'red': !sidesrop3}">Ensure a data-driven, predictive culture<samp class="fa fa-angle-right"></samp>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop4()">Our Services for Service Ops Transformation<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop4()" [ngClass]="{'green' : sidesrop4, 'red': !sidesrop4}">Our Services for Service Ops Transformation<samp class="fa fa-angle-right"></samp>
       </div><hr>
       <!-- <div class="Ensure" (click) ="navsidedrop5()">Optimize Your Procurement and Supply Chain<samp class="fa fa-angle-right"></samp>
       </div><hr> -->

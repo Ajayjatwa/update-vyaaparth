@@ -11,12 +11,15 @@ export class TransformationComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  toggle = true;
+  status = 'Enable';
   textetem:boolean = true;
   showtext(){
     this.textetem = true;
     this.sidesrop1 =false;
     this.sidesrop2 = false;
     this.sidesrop3 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop1 : boolean =false;
   navsidedrop1(){
@@ -26,6 +29,7 @@ export class TransformationComponent implements OnInit {
     this.sidesrop3 = false;
     this.sidesrop4 = false;
     this.sidesrop5 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop2 : boolean =false;
   navsidedrop2(){
@@ -35,6 +39,7 @@ export class TransformationComponent implements OnInit {
     this.sidesrop3 = false;
     this.sidesrop4 = false;
     this.sidesrop5 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
 
   }
   sidesrop3: boolean = false;
@@ -45,6 +50,7 @@ export class TransformationComponent implements OnInit {
     this.sidesrop2 = false;
     this.sidesrop4 = false;
     this.sidesrop5 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop4:boolean =false;
   navsidedrop4(){
@@ -54,6 +60,7 @@ export class TransformationComponent implements OnInit {
     this.sidesrop2 = false;
     this.sidesrop3 = false;
     this.sidesrop5 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop5:boolean =false;
   navsidedrop5(){
@@ -64,6 +71,7 @@ export class TransformationComponent implements OnInit {
     this.sidesrop2 = false;
     this.sidesrop3 = false;
     this.sidesrop4 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
   }
 
 

@@ -11,14 +11,19 @@ export class TransfoSerForMarkeOperationsComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  toggle = true;
+  status = 'Enable';
   textetem:boolean = true;
   showtext(){
     this.textetem = true;
     this.sidesrop1 =false;
     this.sidesrop2 = false;
     this.sidesrop3 = false;
+    this.sidesrop4 = false;
+    this.sidesrop5 = false;
     this.sidesrop6 = false;
     this.sidesrop7 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop1 : boolean =false;
   navsidedrop1(){
@@ -30,6 +35,7 @@ export class TransfoSerForMarkeOperationsComponent implements OnInit {
     this.sidesrop5 = false;
     this.sidesrop6 = false;
     this.sidesrop7 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop2 : boolean =false;
   navsidedrop2(){
@@ -41,6 +47,7 @@ export class TransfoSerForMarkeOperationsComponent implements OnInit {
     this.sidesrop5 = false;
     this.sidesrop6 = false;
     this.sidesrop7 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
 
   }
   sidesrop3: boolean = false;
@@ -53,6 +60,7 @@ export class TransfoSerForMarkeOperationsComponent implements OnInit {
     this.sidesrop5 = false;
     this.sidesrop6 = false;
     this.sidesrop7 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop4:boolean =false;
   navsidedrop4(){
@@ -64,6 +72,7 @@ export class TransfoSerForMarkeOperationsComponent implements OnInit {
     this.sidesrop5 = false;
     this.sidesrop6 = false;
     this.sidesrop7 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop5:boolean =false;
   navsidedrop5(){
@@ -76,6 +85,7 @@ export class TransfoSerForMarkeOperationsComponent implements OnInit {
     this.sidesrop4 = false;
     this.sidesrop6 = false;
     this.sidesrop7 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop6:boolean =false;
   navsidedrop6(){
@@ -88,6 +98,7 @@ export class TransfoSerForMarkeOperationsComponent implements OnInit {
     this.sidesrop4 = false;
     this.sidesrop5 = false;
     this.sidesrop7 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop7:boolean =false;
   navsidedrop7(){
@@ -100,6 +111,7 @@ export class TransfoSerForMarkeOperationsComponent implements OnInit {
     this.sidesrop4 = false;
     this.sidesrop5 = false;
     this.sidesrop6 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
   }
 
 

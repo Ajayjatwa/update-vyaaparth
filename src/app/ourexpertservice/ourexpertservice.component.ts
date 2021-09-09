@@ -11,12 +11,16 @@ export class OurexpertserviceComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
   textetem:boolean = true;
   showtext(){
     this.textetem = true;
     this.sidesrop1 =false;
     this.sidesrop2 = false;
     this.sidesrop3 = false;
+     this.sidesrop4 = false;
+    this.sidesrop5 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop1 : boolean =false;
   navsidedrop1(){
@@ -26,6 +30,7 @@ export class OurexpertserviceComponent implements OnInit {
     this.sidesrop3 = false;
     this.sidesrop4 = false;
     this.sidesrop5 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop2 : boolean =false;
   navsidedrop2(){
@@ -35,6 +40,7 @@ export class OurexpertserviceComponent implements OnInit {
     this.sidesrop3 = false;
     this.sidesrop4 = false;
     this.sidesrop5 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
 
   }
   sidesrop3: boolean = false;
@@ -45,6 +51,7 @@ export class OurexpertserviceComponent implements OnInit {
     this.sidesrop2 = false;
     this.sidesrop4 = false;
     this.sidesrop5 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop4:boolean =false;
   navsidedrop4(){
@@ -54,10 +61,13 @@ export class OurexpertserviceComponent implements OnInit {
     this.sidesrop2 = false;
     this.sidesrop3 = false;
     this.sidesrop5 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop5:boolean =false;
   navsidedrop5(){
     this.sidesrop5 = true;
+    this.sidesrop5? 'Enable' : 'Disable';
+    // this.sidesrop5 = true;
     this.sidesrop4 =false;
     this.textetem = false;
     this.sidesrop1 =false;
@@ -71,13 +81,12 @@ export class OurexpertserviceComponent implements OnInit {
   // changeimg(){
   //   this.myimage = !this.myimage;
   // }
-//   toggle = true;
-// status = 'Enable';
+  toggle = true;
+status = 'Enable';
 
 // enableDisableRule() {
 //     this.toggle = !this.toggle;
 //     this.status = this.toggle ? 'Enable' : 'Disable';
 // }
-
 
 }

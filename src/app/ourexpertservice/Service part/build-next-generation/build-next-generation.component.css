@@ -71,14 +71,14 @@
   color: white;
 } */
 /* vbnv */
-.Services{
+/* .Services{
   margin: revert;
   color: darkslategrey;
-}
+} */
 /* .Services:hover{
   background-color: aqua;
 } */
-.Ensure{
+/* .Ensure{
   color: darkslategrey;
   font-size: 25px;
   padding: 10px;
@@ -101,5 +101,5 @@
 }
 samp{
   position: relative;
-  left: 185px;
-}
+  left: 185px; */
+/* } */

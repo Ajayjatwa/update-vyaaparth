@@ -65,14 +65,14 @@
   </div> -->
   <div class="row">
     <div class="col-6">
-      <h1 class="Services">Innovation In Business</h1>
-      <div class="Ensure" (click)="showtext()">Activating the marketing strategy<samp class="fa fa-angle-right"></samp>
+      <div class="Services">Innovation In Business</div>
+      <div class="Ensure" (click)="showtext()"[ngClass]="{'green' : textetem, 'red': !textetem}">Activating the marketing strategy<samp class="fa fa-angle-right"></samp>
       </div> <hr>
-      <div class="Ensure" (click) ="navsidedrop1()">Integrated Multi-channel marketing<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop1()"[ngClass]="{'green' : sidesrop1, 'red': !sidesrop1}">Integrated Multi-channel marketing<samp class="fa fa-angle-right"></samp>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop2()">Creating Engaging Content and Sites<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop2()"[ngClass]="{'green' : sidesrop2, 'red': !sidesrop2}">Creating Engaging Content and Sites<samp class="fa fa-angle-right"></samp>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop3()">Seamless business processes<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop3()"[ngClass]="{'green' : sidesrop3, 'red': !sidesrop3}">Seamless business processes<samp class="fa fa-angle-right"></samp>
       </div><hr>
       <br><br><br>
       <br>

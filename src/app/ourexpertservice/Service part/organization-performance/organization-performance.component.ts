@@ -11,6 +11,8 @@ export class OrganizationPerformanceComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  toggle = true;
+  status = 'Enable';
   textetem:boolean = true;
   showtext(){
     this.textetem = true;
@@ -18,6 +20,7 @@ export class OrganizationPerformanceComponent implements OnInit {
     this.sidesrop2 = false;
     this.sidesrop3 = false;
     this.sidesrop4 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop1 : boolean =false;
   navsidedrop1(){
@@ -26,6 +29,7 @@ export class OrganizationPerformanceComponent implements OnInit {
     this.sidesrop2 = false;
     this.sidesrop3 = false;
     this.sidesrop4 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
     // this.sidesrop5 = false;
   }
   sidesrop2 : boolean =false;
@@ -35,6 +39,7 @@ export class OrganizationPerformanceComponent implements OnInit {
     this.sidesrop1 =false;
     this.sidesrop3 = false;
     this.sidesrop4 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
     //  this.sidesrop5 = false;
 
   }
@@ -45,6 +50,7 @@ export class OrganizationPerformanceComponent implements OnInit {
     this.sidesrop1 =false;
     this.sidesrop2 = false;
     this.sidesrop4 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
     //  this.sidesrop5 = false;
   }
   sidesrop4:boolean =false;
@@ -54,6 +60,7 @@ export class OrganizationPerformanceComponent implements OnInit {
     this.sidesrop1 =false;
     this.sidesrop2 = false;
     this.sidesrop3 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
     //  this.sidesrop5 = false;
   }
   // sidesrop5:boolean =false;

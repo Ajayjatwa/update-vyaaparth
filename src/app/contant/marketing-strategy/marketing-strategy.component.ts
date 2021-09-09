@@ -11,12 +11,15 @@ export class MarketingStrategyComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  toggle = true;
+  status = 'Enable';
   textetem:boolean = true;
   showtext(){
     this.textetem = true;
     this.sidesrop1 =false;
     this.sidesrop2 = false;
     this.sidesrop3 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop1 : boolean =false;
   navsidedrop1(){
@@ -24,6 +27,7 @@ export class MarketingStrategyComponent implements OnInit {
     this.textetem = false;
     this.sidesrop2 = false;
     this.sidesrop3 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
     // this.sidesrop4 = false;
     // this.sidesrop5 = false;
   }
@@ -33,6 +37,7 @@ export class MarketingStrategyComponent implements OnInit {
     this.textetem = false;
     this.sidesrop1 =false;
     this.sidesrop3 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
     // this.sidesrop4 = false;
     // this.sidesrop5 = false;
 
@@ -43,6 +48,7 @@ export class MarketingStrategyComponent implements OnInit {
     this.textetem = false;
     this.sidesrop1 =false;
     this.sidesrop2 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
     // this.sidesrop4 = false;
     // this.sidesrop5 = false;
   }

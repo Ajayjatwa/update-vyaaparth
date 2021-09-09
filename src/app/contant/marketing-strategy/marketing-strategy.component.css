@@ -9,14 +9,14 @@
   left: 50%;
   transform: translate(-50%, -50%);
 } */
-.Services{
+/* .Services{
   margin: revert;
   color: darkslategrey;
-}
+} */
 /* .Services:hover{
   background-color: aqua;
 } */
-.Ensure{
+/* .Ensure{
   color: darkslategrey;
   font-size: 25px;
   padding: 10px;
@@ -40,7 +40,7 @@
 samp{
   position: relative;
   left: 185px;
-}
+} */
 .img-fluid{
   height: 247px;
 }

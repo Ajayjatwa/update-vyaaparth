@@ -11,11 +11,14 @@ export class SeamlessComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  toggle = true;
+  status = 'Enable';
   textetem:boolean = true;
   showtext(){
     this.textetem = true;
     this.sidesrop1 =false;
     this.sidesrop2 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
 
   }
   sidesrop1 : boolean =false;
@@ -23,6 +26,7 @@ export class SeamlessComponent implements OnInit {
     this.sidesrop1 = true;
     this.textetem = false;
     this.sidesrop2 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
 
 
   }
@@ -31,6 +35,7 @@ export class SeamlessComponent implements OnInit {
     this.sidesrop2 = true
     this.textetem = false;
     this.sidesrop1 =false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
 
 
   }

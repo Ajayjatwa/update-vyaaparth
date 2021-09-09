@@ -1,4 +1,4 @@
-.hvrbox,
+/* .hvrbox,
 .hvrbox * {
 	box-sizing: border-box;
 }
@@ -51,7 +51,7 @@
 .hvrbox .hvrbox-text_mobile {
 	font-size: 15px;
 	border-top: 1px solid rgb(179, 179, 179); /* for old browsers */
-	border-top: 1px solid rgba(179, 179, 179, 0.7);
+	/* border-top: 1px solid rgba(179, 179, 179, 0.7);
 	margin-top: 5px;
 	padding-top: 2px;
 	display: none;
@@ -69,16 +69,16 @@
 }
 .title1 h2{
   color: white;
-}
+} */
 /* vbnv */
-.Services{
+/* .Services{
   margin: revert;
   color: darkslategrey;
-}
+} */
 /* .Services:hover{
   background-color: aqua;
 } */
-.Ensure{
+/* .Ensure{
   color: darkslategrey;
   font-size: 25px;
   padding: 10px;
@@ -102,7 +102,7 @@
 samp{
   position: relative;
   left: 185px;
-}
+} */
 
 
 .img-top{
