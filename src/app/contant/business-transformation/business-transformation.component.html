@@ -23,17 +23,17 @@
   <div class="row">
     <div class="col-6">
       <div class="Services">Innovation In Business</div>
-      <div class="Ensure" (click)="showtext()"[ngClass]="{'green' : textetem, 'red': !textetem}">Activating the marketing strategy<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click)="showtext()"[ngClass]="{'green' : textetem, 'red': !textetem}">Activating the marketing strategy<i class="fa fa-angle-right"></i>
       </div> <hr>
-      <div class="Ensure" (click) ="navsidedrop1()"[ngClass]="{'green' : sidesrop1, 'red': !sidesrop1}">Integrated Multi-channel marketing<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop1()"[ngClass]="{'green' : sidesrop1, 'red': !sidesrop1}">Integrated Multi-channel marketing<i class="fa fa-angle-right"></i>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop2()"[ngClass]="{'green' : sidesrop2, 'red': !sidesrop2}">Creating Engaging Content and Sites<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop2()"[ngClass]="{'green' : sidesrop2, 'red': !sidesrop2}">Creating Engaging Content and Sites<i class="fa fa-angle-right"></i>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop3()"[ngClass]="{'green' : sidesrop3, 'red': !sidesrop3}">Seamless business processes<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop3()"[ngClass]="{'green' : sidesrop3, 'red': !sidesrop3}">Seamless business processes<i class="fa fa-angle-right"></i>
       </div><hr>
 
-      <div class="Ensure" (click) ="navsidedrop4()"[ngClass]="{'green' : sidesrop4, 'red': !sidesrop4}">Transformation Services for Marketing Operations<samp class="fa fa-angle-right"></samp>
-      </div><hr>
+      <!-- <div class="Ensure" (click) ="navsidedrop4()"[ngClass]="{'green' : sidesrop4, 'red': !sidesrop4}">Transformation Services for Marketing Operations<i class="fa fa-angle-right"></i>
+      </div><hr> -->
       <br><br><br><br>
       <!-- <div class="Ensure" (click) ="navsidedrop5()">Customer-centricity and value-engineering<samp class="fa fa-angle-right"></samp>
       </div><hr> -->
@@ -43,6 +43,7 @@
         <div class="textbody">Activating the marketing strategy</div>
       <div class="textnext">Using data-driven approaches to understand customers and redefine value influence the evolution of product portfolios.
         Marketing was one of the original pioneers of digital transformation, beginning in the early 2000s with the first modern websites, then with apps, delivering better experiences, and delivering digital marketing to customers.
+       <br><br>
         <a routerLinkActive ="active" routerLink ="marketingStrategy">Read More</a></div>
       </div>
       <div *ngIf= "sidesrop1">
@@ -62,16 +63,18 @@
       <div *ngIf = "sidesrop3">
         <div class="textbody">Sales, Marketing, and Customer Service</div>
       <div class="textnext">Even though the company may have separate service functions, the online store is one for customers. It is crucial to ensure the pricing, discounts, and catalogs are current and correctly presented. Providing ease of navigation and quick commerce transactions converts customers, and the follow-up messaging make the experience exceptional.
+       <br><br>
         <a routerLinkActive ="active" routerLink ="seamless">Read More</a>
       </div>
       </div>
 
-      <div *ngIf= "sidesrop4">
+      <!-- <div *ngIf= "sidesrop4">
         <div class="textbody">Transformation Services for Marketing Operations</div>
           <div class="textnext">Our Marketing practice is highly specialized, and we help Finance leaders transform their operations. The following is a list of our services.
+           <br><br>
             <a routerLinkActive ="active" routerLink ="marketing">Read More</a>
           </div>
-      </div>
+      </div> -->
       <!-- </div> -->
 
 

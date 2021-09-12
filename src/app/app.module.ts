@@ -29,6 +29,8 @@ import { AppCoreTechComponent } from './ourexpertservice/Service part/app-core-t
 import { TransfoSerForMarkeOperationsComponent } from './ourexpertservice/Service part/transfo-ser-for-marke-operations/transfo-ser-for-marke-operations.component';
 import { OrganizationPerformanceComponent } from './ourexpertservice/Service part/organization-performance/organization-performance.component';
 import { CustomerRelationshipComponent } from './ourexpertservice/Service part/customer-relationship/customer-relationship.component';
+import { MatSliderModule } from '@angular/material/slider';
+import {MatCardModule} from '@angular/material/card';
 
 
 @NgModule({
@@ -64,7 +66,9 @@ import { CustomerRelationshipComponent } from './ourexpertservice/Service part/c
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatSliderModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

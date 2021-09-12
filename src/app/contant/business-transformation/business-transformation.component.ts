@@ -19,7 +19,7 @@ export class BusinessTransformationComponent implements OnInit {
     this.sidesrop1 =false;
     this.sidesrop2 = false;
     this.sidesrop3 = false;
-    this.sidesrop4 = false;
+    // this.sidesrop4 = false;
     this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop1 : boolean =false;
@@ -28,7 +28,7 @@ export class BusinessTransformationComponent implements OnInit {
     this.textetem = false;
     this.sidesrop2 = false;
     this.sidesrop3 = false;
-    this.sidesrop4 = false;
+    // this.sidesrop4 = false;
     this.status = this.toggle ? 'Enable' : 'Disable';
     // this.sidesrop5 = false;
   }
@@ -38,7 +38,7 @@ export class BusinessTransformationComponent implements OnInit {
     this.textetem = false;
     this.sidesrop1 =false;
     this.sidesrop3 = false;
-    this.sidesrop4 = false;
+    // this.sidesrop4 = false;
     this.status = this.toggle ? 'Enable' : 'Disable';
     // this.sidesrop5 = false;
 
@@ -49,20 +49,20 @@ export class BusinessTransformationComponent implements OnInit {
     this.textetem = false;
     this.sidesrop1 =false;
     this.sidesrop2 = false;
-    this.sidesrop4 = false;
+    // this.sidesrop4 = false;
     this.status = this.toggle ? 'Enable' : 'Disable';
     // this.sidesrop5 = false;
   }
-  sidesrop4:boolean =false;
-  navsidedrop4(){
-    this.sidesrop4 = true;
-    this.textetem = false;
-    this.sidesrop1 =false;
-    this.sidesrop2 = false;
-    this.sidesrop3 = false;
-    this.status = this.toggle ? 'Enable' : 'Disable';
+  // sidesrop4:boolean =false;
+  // navsidedrop4(){
+  //   this.sidesrop4 = true;
+  //   this.textetem = false;
+  //   this.sidesrop1 =false;
+  //   this.sidesrop2 = false;
+  //   this.sidesrop3 = false;
+  //   this.status = this.toggle ? 'Enable' : 'Disable';
   //   this.sidesrop5 = false;
-  }
+  // }
   // sidesrop5:boolean =false;
   // navsidedrop5(){
   //   this.sidesrop5 = true;

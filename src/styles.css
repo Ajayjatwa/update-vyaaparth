@@ -111,14 +111,14 @@
 /* lrarn more */
 .Services{
 
-  color: #2f4f4f;
-  font-size: 35px;
+  color: #595959;
+  font-size: 30px;
   font-family: "IBM Plex Sans";
   margin: 13px;
 }
 .Ensure{
-  color: darkslategrey;
-  font-size: 25px;
+  color: #595959;
+  font-size: inherit;
   padding: 15px;
   font-family: "IBM Plex Sans";
 }
@@ -135,25 +135,49 @@
   font-size: 25px;
   font-family: "IBM Plex Sans";
   margin-top: 43px;
-  margin-left: 60px;
+  margin-left: 37px;
 }
 .textnext{
   margin-top: 28px;
   margin-left: 37px;
   margin-right: 37px;
-  font-size: 17px;
+  font-size: inherit;
   font-family: "IBM Plex Sans";
 }
-samp{
-  color: blue;
+.textnext div a{
+    margin: 8px 0;
+    /* color: #71C5E8;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none; */
+}
+.col-6 bg-secondary text-white{
+  margin: 8px 0;
+    color: #71C5E8;
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.Ensure i {
+  float: right;
+}
+hr {
+  margin-top: 0rem !important;
+}
+
+samp:active{
+  color: white !important;
   position: absolute;
   left: 95%;
 }
+
 .green {
   /* background-color: white;
   color: black; */
-  background-color: darkslategrey;
+  background-color: #595959;
   color: aliceblue;
+
 }
 
 .red {
@@ -162,9 +186,14 @@ samp{
 }
 /* learn more */
 img:hover{
-  border: 1px solid black;
-  -ms-transform: translate(50px,100px); /* IE 9 */
-  transform: translate(10px,20px);
+  /* border: 1px solid black; */
+  /* -ms-transform: translate(50px,100px); */
+  transform: scale(1.1) !important;
+  transition: all 0.3s ease-in-out !important;
+  border-radius: 20px;
+  overflow: hidden;
+  /* z-index:1; */
+/* opacity: 0.5; */
 
 }
 /* for responsive web */
@@ -211,10 +240,45 @@ img:hover{
     left: 0%;
     margin: auto;
   }
+  .menu ul li:hover .mega-menu {
+    opacity: 1;
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    visibility: hidden;
+}
+  .menu ul li>a {
+    color: #333333;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    padding: 5px 5px;
+  }
+  .menu ul li:hover .drop {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    visibility: hidden;
+}
   .join-team-banner img {
     border-radius: 100%;
     position: relative;
     top: -35px;
+}
+.h3-single-cosultancy .content {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 5px 5px 0 0;
+  bottom: 110px;
+  box-shadow: 0 0 14px 0 rgb(1 1 1 / 20%);
+  margin-bottom: 0;
+  padding: 35px 0px 0px;
+  position: relative;
+  left: 0px;
+  text-align: center;
+  width: 102%;
+  z-index: 2;
 }
 
 
@@ -234,6 +298,90 @@ img:hover{
     position: relative;
     top: -26px;
 }
+.menu ul li:hover .mega-menu {
+  opacity: 1;
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  visibility: hidden;
+}
+.menu ul li:hover .drop {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  visibility: hidden;
+}
+.menu ul li .mega-menu {
+  visibility: hidden;
+  /* background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  left: 0%;
+  margin: auto;
+  min-width: 310px;
+  opacity: 0;
+  padding: 8px;
+  position: absolute;
+  top: 100%; */
+}
+.menu ul li:hover .mega-menu {
+  opacity: 1;
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  visibility: hidden;
+}
+.menu ul li>a {
+  color: #333333;
+  display: block;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 20px;
+  padding: 5px 5px;
+}
+.hvrbox .hvrbox-text {
+  text-align: center;
+  font-size: 11px;
+  font-family: "IBM Plex Sans";
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card2{
+  position: relative;
+  text-align: center;
+  font-size: 2.5em !important;
+}
+.col-12 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.col-6 {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.h3-single-cosultancy .content {
+  background: #fff none repeat scroll 0 0;
+  border-radius: 5px 5px 0 0;
+  bottom: 110px;
+  box-shadow: 0 0 14px 0 rgb(1 1 1 / 20%);
+  margin-bottom: 0;
+  padding: 35px 0px 0px;
+  position: relative;
+  left: 0px;
+  text-align: center;
+  width: 102%;
+  z-index: 2;
+}
+
 }
 
 /* rakesh */
@@ -272,3 +420,6 @@ header .menu-area .container .row .col-12 .menu nav ul li a {
 /*
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -103,3 +103,28 @@
   position: relative;
   left: 185px;
 } */
+.opstrans{
+  margin: 38px;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.opstrans:hover{
+  /* background-color: aqua;
+  border-radius: 2px;
+  padding: 20px; */
+  font-family: "IBM Plex Sans";
+}
+.cardtra{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: -87px;
+    margin-top: 162px;
+}

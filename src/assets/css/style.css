@@ -450,8 +450,8 @@ a:visited {
   text-decoration: none;
   font-family: 'Lato', sans-serif;
   font-weight: normal;
-  font-size: 12px;
-  color: #111;
+  font-size: inherit;
+  color: rgb(50, 219, 241);
   transition: all 0.3s ease-in-out;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -2721,7 +2721,7 @@ header {}
 
 .contact-details-area {
   bottom: -170px;
-  margin: -170px 0 0;
+  margin: -170px 10px 0;
   position: relative;
   z-index: 99;
 }
@@ -2772,6 +2772,8 @@ header {}
   letter-spacing: 0;
   line-height: 24px;
   margin: 0;
+  /* margin-left: 10px;
+  margin-right: 10px; */
 }
 
 .single-contact-details .link {
@@ -3872,7 +3874,7 @@ footer {}
 }
 
 .h3-single-cosultancy .content {
-  background: #fff none repeat scroll 0 0;
+  background: rgb(193 212 211) none repeat scroll 0 0;
   border-radius: 5px 5px 0 0;
   bottom: 110px;
   -webkit-box-shadow: 0 0 14px 0 rgba(1, 1, 1, 0.2);
@@ -3884,6 +3886,14 @@ footer {}
   text-align: center;
   width: 89%;
   z-index: 2;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  /* clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); */
+  transition: all 3s;
+}
+.h3-single-cosultancy .content:hover{
+  background: #fff none repeat scroll 0 0;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 100%, 75% 100%, 0 100%, 0% 75%);
+  /* clip-path: polygon(30% 0%, 100% 0, 100% 30%, 100% 100%, 70% 100%, 0 100%, 0% 70%, 0 0); */
 }
 
 .h3-single-cosultancy .content .icon {
@@ -3899,8 +3909,8 @@ footer {}
   color: #fff;
   display: inline-block;
   font-size: 24px;
-  height: 50px;
-  line-height: 48px;
+  height: 70px;
+  line-height: 85px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   width: 50px;
@@ -5469,7 +5479,15 @@ footer {}
   -webkit-box-shadow: 0 0 10px -3px rgb(117, 116, 117);
   box-shadow: 0 0 10px -3px rgb(117, 116, 117);
   margin: 0 0 30px;
+  /* background-color: blue; */
+  /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+  transition: all 0.5s; */
 }
+/* .single-page-blog:hover{
+  background-color: wheat;
+  clip-path: polygon(100% 0, 100% 100%, 0 99%, 0 0);
+
+} */
 
 .single-page-blog .bimg {
   position: relative;

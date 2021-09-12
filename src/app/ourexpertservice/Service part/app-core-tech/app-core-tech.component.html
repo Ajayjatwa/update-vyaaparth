@@ -26,26 +26,28 @@
   <div class="row">
     <div class="col-6">
       <h1 class="Services">Applicable core technologies</h1>
-      <div class="Ensure" (click)="showtext()" [ngClass]="{'green' : textetem, 'red': !textetem}">Aligning Technology with Strategy<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click)="showtext()" [ngClass]="{'green' : textetem, 'red': !textetem}">Aligning Technology with Strategy<i class="fa fa-angle-right"></i>
       </div> <hr>
-      <div class="Ensure" (click) ="navsidedrop1()" [ngClass]="{'green' : sidesrop1, 'red': !sidesrop1}">A solid data foundation is essential<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop1()" [ngClass]="{'green' : sidesrop1, 'red': !sidesrop1}">A solid data foundation is essential<i class="fa fa-angle-right"></i>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop2()" [ngClass]="{'green' : sidesrop2, 'red': !sidesrop2}">Organization Performance Management <samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop2()" [ngClass]="{'green' : sidesrop2, 'red': !sidesrop2}">Organization Performance Management <i class="fa fa-angle-right"></i>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop3()" [ngClass]="{'green' : sidesrop3, 'red': !sidesrop3}">Planned Resource Management<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop3()" [ngClass]="{'green' : sidesrop3, 'red': !sidesrop3}">Planned Resource Management<i class="fa fa-angle-right"></i>
       </div><hr>
 
-      <div class="Ensure" (click) ="navsidedrop4()" [ngClass]="{'green' : sidesrop4, 'red': !sidesrop4}">Logistics and Procurement<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop4()" [ngClass]="{'green' : sidesrop4, 'red': !sidesrop4}">Logistics and Procurement<i class="fa fa-angle-right"></i>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop5()" [ngClass]="{'green' : sidesrop5, 'red': !sidesrop5}">Customer Relationship Management<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop5()" [ngClass]="{'green' : sidesrop5, 'red': !sidesrop5}">Customer Relationship Management<i class="fa fa-angle-right"></i>
       </div><hr>
       <br><br>
     </div>
     <div class="col-6 bg-secondary text-white">
       <div *ngIf ="textetem">
         <div class="textbody">Aligning Technology with Strategy</div>
-      <div class="textnext">Your strategy will advance faster if you use technology. Make sure your digital strategies align with the work you do and the mission that drives it - starting with the right information technology (IT) strategy and technology road map. To ensure long-term success for organizations and technologies, Vyaaparth professionals work with leaders to understand business, strategy, and culture. In collaboration with you, we create a road map and ensure adoption of the cloud by setting a vision and aligning stakeholders.
-        <a routerLinkActive ="active" [routerLink] ="['/digital-strategy']">Read More</a>
+     <br><br>
+        <div class="textnext">Your strategy will advance faster if you use technology. Make sure your digital strategies align with the work you do and the mission that drives it - starting with the right information technology (IT) strategy and technology road map. To ensure long-term success for organizations and technologies, Vyaaparth professionals work with leaders to understand business, strategy, and culture. In collaboration with you, we create a road map and ensure adoption of the cloud by setting a vision and aligning stakeholders.
+       <br><br>
+          <a routerLinkActive ="active" [routerLink] ="['/digital-strategy']">Read More</a>
       </div>
       </div>
       <div *ngIf= "sidesrop1">
@@ -58,6 +60,7 @@
       <div *ngIf = "sidesrop2">
         <div class="textbody">Organization Performance Management</div>
         <div class="textnext">The importance of planning for your future cannot be overstated. Utilize enterprise performance management (EPM) processes with the right technology to quickly model different scenarios, improve forecasting, and understand the implications of changes in your business on your financial or workforce targets. We have one of the largest teams dedicated to advising on and implementing end-to-end EPM solutions, and we are able to support your unique needs in terms of people, process, and technology.
+          <br><br>
           <a routerLinkActive ="active" routerLink ="/organization-performance">Read More</a>
         </div>
       </div>
@@ -72,6 +75,7 @@
       <div *ngIf= "sidesrop4">
         <div class="textbody">Logistics and Procurement</div>
           <div class="textnext">You can achieve sustainable growth by updating your supply chain management and spending technologies. Vyaaparth helps you identify areas for improvement and take action quickly
+            <br><br>
             <a routerLinkActive ="active" routerLink ="/leadership-management">Read More</a>
           </div>
       </div>
@@ -82,6 +86,7 @@
         <div class="textbody">Customer Relationship Management</div>
         <div class="textnext">Every touchpoint of your business must deliver a premium experience to your customers.   Our deep industry, business process, and technology expertise ensure successful customer relationship management (CRM) technology implementations that drive real business value.
            Adapt your customer relationships and interactions to respond to changing consumer preferences with customer relationship management (CRM). Vyaaparth keeps you connected every step of the way.
+          <br><br>
           <a routerLinkActive ="active" routerLink ="/Customer-Relationship">Read More</a>
         </div>
       </div>
@@ -126,3 +131,4 @@
 </div>
 
 <br><br>
+

@@ -109,6 +109,7 @@
   /* mnv */
 
 }
+
 .title1 h2{
   color: white;
 }
@@ -124,9 +125,7 @@
 
 }
 .orgniz:hover{
-  background-color: #0dcaf0;
-  padding: 20px;
-  color: black;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* img:hover{
   border: 1px solid black;

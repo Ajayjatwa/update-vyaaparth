@@ -1,1 +1,68 @@
 
+.hvrbox-layer_bottom{
+  height: 450px;
+  width: 1200px;
+}
+.cardname{
+  font-size: 30px;
+  padding: 50px;
+}
+.cardname:hover{
+  font-family: "IBM Plex Sans";
+}
+/* .leveraging{
+  clip-path: inset(0 0 82% 0);
+  transition: all 3s;
+} */
+/* .leveraging:hover{
+  background-color: beige;
+  clip-path: inset(0 0 0 0);
+  transform: scale(1);
+} */
+/* .leveraging .card {
+  background-color: aqua;
+  clip-path: circle(16.4% at 50% 50%);
+  transition: all 3s;
+}
+.leveraging .card:hover{
+  background-color: #fff;
+  clip-path: circle(70.7% at 50% 50%);
+  transform: scale(1)
+} */
+/* .img-hover-zoom{
+  transition: transform .5s ease;
+  overflow: hidden;
+}
+.img-hover-zoom:hover{
+  overflow: hidden;
+  transform: scale(1.5);
+} */
+.card mb-3{
+  overflow: hidden;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: 245px;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+  overflow: hidden;
+}
+.img-fluid:hover{
+  transform: scale(1.5);
+}
+.card-title{
+  font-size: 25px;
+  font-family: "IBM Plex Sans";
+}
+.card-text{
+  font-size: inherit;
+  font-family: "IBM Plex Sans";
+}
+/* .img{
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+.img:hover img{
+  transform: scale(1.5);
+} */

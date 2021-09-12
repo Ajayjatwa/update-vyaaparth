@@ -45,16 +45,16 @@
   <div class="row">
     <div class="col-6">
       <div class="Services">A service-oriented approach</div>
-      <div class="Ensure" (click)="showtext()" [ngClass]="{'green' : textetem, 'red': !textetem}">Integration of processes through digitalization<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click)="showtext()" [ngClass]="{'green' : textetem, 'red': !textetem}">Integration of processes through digitalization<i class="fa fa-angle-right"></i>
       </div> <hr>
-      <div class="Ensure" (click) ="navsidedrop1()" [ngClass]="{'green' : sidesrop1, 'red': !sidesrop1}">Develop a fully integrated logistical and delivery value chain<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop1()" [ngClass]="{'green' : sidesrop1, 'red': !sidesrop1}">Develop a fully integrated logistical and delivery value chain<i class="fa fa-angle-right"></i>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop2()" [ngClass]="{'green' : sidesrop2, 'red': !sidesrop2}">Utilize Service Analytics to reduce customer interactions<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop2()" [ngClass]="{'green' : sidesrop2, 'red': !sidesrop2}">Utilize Service Analytics to reduce customer interactions<i class="fa fa-angle-right"></i>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop3()" [ngClass]="{'green' : sidesrop3, 'red': !sidesrop3}">Ensure a data-driven, predictive culture<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop3()" [ngClass]="{'green' : sidesrop3, 'red': !sidesrop3}">Ensure a data-driven, predictive culture<i class="fa fa-angle-right"></i>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop4()" [ngClass]="{'green' : sidesrop4, 'red': !sidesrop4}">Our Services for Service Ops Transformation<samp class="fa fa-angle-right"></samp>
-      </div><hr>
+      <!-- <div class="Ensure" (click) ="navsidedrop4()" [ngClass]="{'green' : sidesrop4, 'red': !sidesrop4}">Our Services for Service Ops Transformation<i class="fa fa-angle-right"></i>
+      </div><hr> -->
       <!-- <div class="Ensure" (click) ="navsidedrop5()">Optimize Your Procurement and Supply Chain<samp class="fa fa-angle-right"></samp>
       </div><hr> -->
     </div>
@@ -80,12 +80,13 @@
       </div>
       </div>
 
-      <div *ngIf= "sidesrop4">
+      <!-- <div *ngIf= "sidesrop4">
         <div class="textbody">Our Services for Service Ops Transformation</div>
           <div class="textnext">Our Service operations digitalization practice focuses on select areas to help drive transformations.
+           <br><br>
             <a routerLinkActive ="active" routerLink ="buld-next-generation">Read More</a>
           </div>
-      </div>
+      </div> -->
       </div>
 
 
@@ -122,6 +123,7 @@
 <!-- learn more -->
   <!-- contact-details-area-start -->
   <div class="page-cda contact-details-area">
+    <div class="opstrans">Our Services for Service Ops Transformation</div>
       <div class="container">
           <div class="row">
               <div class="col-12">
@@ -130,7 +132,7 @@
                           <div class="col-lg-4 col-sm-6 col-12">
                               <div class="single-contact-details">
 
-                                  <h3 >Our Services for Service Ops Transformation</h3>
+                                  <h3 class="title">Our Services for Service Ops Transformation</h3>
                                   <p class="desc">Our Service operations digitalization practice focuses on select areas to help drive transformations. </p>
                             </div>
                           </div>
@@ -145,7 +147,7 @@
                           <div class="col-lg-4 col-sm-12 col-12">
                               <div class="single-contact-details">
 
-                                  <h4 class="title">Digitalizing the sales process t</h4>
+                                  <h4 class="title">Digitalizing the sales process </h4>
                                   <p>Scale Order/Requests, Service Contracts, Service Renewals, Customer/Install Base Management, Logistics </p>
                                   <p>Customized/Specialized Business Processes </p>
                                   </div>
@@ -182,7 +184,7 @@
                         <div class="col-lg-4 col-sm-6 col-12">
                             <div class="single-contact-details">
 
-                                <h3 >KPI Frameworks and Service Analytics</h3>
+                                <h3 class="title">KPI Frameworks and Service Analytics</h3>
                                 <p class="desc">Predictive and real-time service analytics</p>
                                 <p>Creating comprehensive KPI frameworks for the post-digital era</p>
                           </div>
@@ -198,19 +200,28 @@
                             <div class="single-contact-details">
 
                                 <h4 class="title">Modernizing service applications </h4>
-                                <p>Developing User Journey Mapping, UX & UI Design and re-architecture of Legacy Applications</p>
+                                <div class="desc">
+                                  <p>Developing User Journey Mapping, UX & UI Design and re-architecture of Legacy Applications</p>
                                 <p>IOS and Android Apps development</p>
+                                </div>
+
                                 </div>
                         </div>
                     </div>
-                    <h4>Integration of Service Applications, Automation & Artificial Intelligence</h4>
-                    <p>Node Implementation & Integration with Oracle, Peoplesoft, SAP, and Infor</p>
-                    <h4>AI and Robotic Process Automation (RPA) </h4>
-                    <h5>Implementing Service Analytics</h5>
-                    <p>Integrated Data Management, Management, Governance, Data Warehousing and Analytics on Cloud for all Services</p>
-                </div>
+
+                 </div>
             </div>
         </div>
     </div>
+</div>
+<div class="container">
+  <div class="cardtra">
+    <h4>Integration of Service Applications, Automation & Artificial Intelligence</h4>
+    <p>Node Implementation & Integration with Oracle, Peoplesoft, SAP, and Infor</p>
+    <h4>AI and Robotic Process Automation (RPA) </h4>
+    <h4>Implementing Service Analytics</h4>
+    <p>Integrated Data Management, Management, Governance, Data Warehousing and Analytics on Cloud for all Services</p>
+
+  </div>
 </div>
 <br><br><br>

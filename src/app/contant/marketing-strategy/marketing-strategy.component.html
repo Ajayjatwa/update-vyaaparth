@@ -1,7 +1,7 @@
 
 <div class="h2-steps-area">
   <div class="container">
-      <div class="row">
+      <!-- <div class="row">
           <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-12">
               <div class="section-title">
                   <h3>Innovation In Business</h3>
@@ -9,7 +9,7 @@
                   <p>Using data-driven approaches to understand customers and redefine value influence the evolution of product portfolios.</p>
               </div>
           </div>
-      </div>
+      </div> -->
 
 
       <div class="row">
@@ -55,6 +55,51 @@
               </div>
           </div>
           <!-- new content -->
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../../../assets/business-development.jpg" class="img-fluid" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <!-- <h5 class="card-title">Card title</h5> -->
+                  <p class="card-text">Marketing was one of the original pioneers of digital transformation, beginning in the early 2000s with the first modern websites, then with apps, delivering better experiences, and delivering digital marketing to customers.
+                    These days, all these aspects of a company are considered standard, and an excellent website or email marketing campaign no longer separates them from their competitors. An international survey of 550+ Marketing leaders asked them, "What does digital transformation mean to your organization?".'</p>
+                    <p>Over 55% of respondents said that digital transformation in marketing means better websites and portals, which indicates that most companies aren't taking it seriously enough. About 45% of respondents are currently using omnichannel marketing or are implementing brand new digital paradigms.</p>
+                  <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../../../assets/stratge.jpeg" class="img-fluid" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+
+                  <p class="card-text">Over 55% of respondents said that digital transformation in marketing means better websites and portals, which indicates that most companies aren't taking it seriously enough. About 45% of respondents are currently using omnichannel marketing or are implementing brand new digital paradigms.
+                    More than 30% of companies will not survive in this decade, regardless of their industry, location, size, or brand, and COVID will only accelerate that trend. Customers consider their product or service to be less valuable and less useful as time goes on.
+                    Marketing is, therefore, the voice of the customer- resonating with their needs to help reinvent products and then articulating the value of the new products and services. Your products and services will be irrelevant if customers cannot perceive and accept their relevance.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../../../assets/strategy2.jpeg" class="img-fluid" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+
+                  <p class="card-text">Marketing tools such as compelling websites, engaging content, catalogs, and commerce strategies that drive sales and services to your customers are essential in the digital economy.
+                    Innovative marketing functions, however, are bringing things to a whole new level. Customer behavior and expectations are an integral part of the analysis and understanding they perform across all stages of their engagement; they collaborate with Sales, R&D, and Services functions. Here are the key themes to consider.</p>
+                </div>
+              </div>
+            </div>
+          </div>
 <div class="container">
   <!-- <div class="bussn">
     <img src="../../assets/img/home1/slider-4.jpg" alt="Snow" style="width:100%;">
@@ -66,14 +111,14 @@
   <div class="row">
     <div class="col-6">
       <div class="Services">Innovation In Business</div>
-      <div class="Ensure" (click)="showtext()"[ngClass]="{'green' : textetem, 'red': !textetem}">Activating the marketing strategy<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click)="showtext()"[ngClass]="{'green' : textetem, 'red': !textetem}">Activating the marketing strategy<i class="fa fa-angle-right"></i>
       </div> <hr>
-      <div class="Ensure" (click) ="navsidedrop1()"[ngClass]="{'green' : sidesrop1, 'red': !sidesrop1}">Integrated Multi-channel marketing<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop1()"[ngClass]="{'green' : sidesrop1, 'red': !sidesrop1}">Integrated Multi-channel marketing<i class="fa fa-angle-right"></i>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop2()"[ngClass]="{'green' : sidesrop2, 'red': !sidesrop2}">Creating Engaging Content and Sites<samp class="fa fa-angle-right"></samp>
+      <div class="Ensure" (click) ="navsidedrop2()"[ngClass]="{'green' : sidesrop2, 'red': !sidesrop2}">Creating Engaging Content and Sites<i class="fa fa-angle-right"></i>
       </div><hr>
-      <div class="Ensure" (click) ="navsidedrop3()"[ngClass]="{'green' : sidesrop3, 'red': !sidesrop3}">Seamless business processes<samp class="fa fa-angle-right"></samp>
-      </div><hr>
+      <!-- <div class="Ensure" (click) ="navsidedrop3()"[ngClass]="{'green' : sidesrop3, 'red': !sidesrop3}">Seamless business processes<i class="fa fa-angle-right"></i>
+      </div><hr> -->
       <br><br><br>
       <br>
       <!-- <div class="Ensure" (click) ="navsidedrop4()">Research and analysis<samp class="fa fa-angle-right"></samp>
@@ -100,12 +145,13 @@
         <!-- <a routerLinkActive ="active" routerLink ="application core technology">Read More</a> -->
       </div>
       </div>
-      <div *ngIf= "sidesrop3">
+      <!-- <div *ngIf= "sidesrop3">
         <div class="textbody">Seamless business processes <br>Sales, Marketing, and Customer Service</div>
       <div class="textnext">Even though the company may have separate service functions, the online store is one for customers. It is crucial to ensure the pricing, discounts, and catalogs are current and correctly presented. Providing ease of navigation and quick commerce transactions converts customers, and the follow-up messaging make the experience exceptional.
+       <br><br>
         <a routerLinkActive ="active" [routerLink] ="['/seamless']">Read More</a>
       </div>
-      </div>
+      </div> -->
 
       <!-- <div *ngIf= "sidesrop4">
         <div class="textbody">Research and analysis</div>

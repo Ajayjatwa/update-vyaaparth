@@ -18,7 +18,7 @@ export class MarketingStrategyComponent implements OnInit {
     this.textetem = true;
     this.sidesrop1 =false;
     this.sidesrop2 = false;
-    this.sidesrop3 = false;
+    // this.sidesrop3 = false;
     this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop1 : boolean =false;
@@ -26,7 +26,7 @@ export class MarketingStrategyComponent implements OnInit {
     this.sidesrop1 = true;
     this.textetem = false;
     this.sidesrop2 = false;
-    this.sidesrop3 = false;
+    // this.sidesrop3 = false;
     this.status = this.toggle ? 'Enable' : 'Disable';
     // this.sidesrop4 = false;
     // this.sidesrop5 = false;
@@ -36,22 +36,22 @@ export class MarketingStrategyComponent implements OnInit {
     this.sidesrop2 = true
     this.textetem = false;
     this.sidesrop1 =false;
-    this.sidesrop3 = false;
+    // this.sidesrop3 = false;
     this.status = this.toggle ? 'Enable' : 'Disable';
     // this.sidesrop4 = false;
     // this.sidesrop5 = false;
 
   }
-  sidesrop3: boolean = false;
-  navsidedrop3(){
-    this.sidesrop3 = true;
-    this.textetem = false;
-    this.sidesrop1 =false;
-    this.sidesrop2 = false;
-    this.status = this.toggle ? 'Enable' : 'Disable';
+  // sidesrop3: boolean = false;
+  // navsidedrop3(){
+  //   this.sidesrop3 = true;
+  //   this.textetem = false;
+  //   this.sidesrop1 =false;
+  //   this.sidesrop2 = false;
+  //   this.status = this.toggle ? 'Enable' : 'Disable';
     // this.sidesrop4 = false;
     // this.sidesrop5 = false;
-  }
+  // }
   // sidesrop4:boolean =false;
   // navsidedrop4(){
   //   this.sidesrop4 = true;

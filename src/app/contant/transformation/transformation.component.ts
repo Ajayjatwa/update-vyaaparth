@@ -28,7 +28,7 @@ export class TransformationComponent implements OnInit {
     this.sidesrop2 = false;
     this.sidesrop3 = false;
     this.sidesrop4 = false;
-    this.sidesrop5 = false;
+    // this.sidesrop5 = false;
     this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop2 : boolean =false;
@@ -38,7 +38,7 @@ export class TransformationComponent implements OnInit {
     this.sidesrop1 =false;
     this.sidesrop3 = false;
     this.sidesrop4 = false;
-    this.sidesrop5 = false;
+    // this.sidesrop5 = false;
     this.status = this.toggle ? 'Enable' : 'Disable';
 
   }
@@ -49,7 +49,7 @@ export class TransformationComponent implements OnInit {
     this.sidesrop1 =false;
     this.sidesrop2 = false;
     this.sidesrop4 = false;
-    this.sidesrop5 = false;
+    // this.sidesrop5 = false;
     this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop4:boolean =false;
@@ -59,20 +59,20 @@ export class TransformationComponent implements OnInit {
     this.sidesrop1 =false;
     this.sidesrop2 = false;
     this.sidesrop3 = false;
-    this.sidesrop5 = false;
+    // this.sidesrop5 = false;
     this.status = this.toggle ? 'Enable' : 'Disable';
   }
-  sidesrop5:boolean =false;
-  navsidedrop5(){
-    this.sidesrop5 = true;
-    this.sidesrop4 =false;
-    this.textetem = false;
-    this.sidesrop1 =false;
-    this.sidesrop2 = false;
-    this.sidesrop3 = false;
-    this.sidesrop4 = false;
-    this.status = this.toggle ? 'Enable' : 'Disable';
-  }
+  // sidesrop5:boolean =false;
+  // navsidedrop5(){
+  //   this.sidesrop5 = true;
+  //   this.sidesrop4 =false;
+  //   this.textetem = false;
+  //   this.sidesrop1 =false;
+  //   this.sidesrop2 = false;
+  //   this.sidesrop3 = false;
+  //   this.sidesrop4 = false;
+  //   this.status = this.toggle ? 'Enable' : 'Disable';
+  // }
 
 
 }
