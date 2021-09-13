@@ -188,12 +188,12 @@ samp:active{
 img:hover{
   /* border: 1px solid black; */
   /* -ms-transform: translate(50px,100px); */
-  transform: scale(1.1) !important;
+  /* transform: scale(1.1) !important;
   transition: all 0.3s ease-in-out !important;
   border-radius: 20px;
-  overflow: hidden;
+  overflow: hidden; */
   /* z-index:1; */
-/* opacity: 0.5; */
+opacity: 0.5;
 
 }
 /* for responsive web */
