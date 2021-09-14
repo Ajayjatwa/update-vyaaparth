@@ -1,5 +1,13 @@
 /* Ultra Medium Layout: 1367px. */
 
+@media only screen and (min-width: 1609px) and (max-width: 1920px) {
+  .join-team-banner img {
+    border-radius: 100%;
+    position: relative;
+    top: 3px;
+  }
+}
+
 @media only screen and (min-width: 1368px) and (max-width: 1610px) {
   /*home1*/
   .pss-box {

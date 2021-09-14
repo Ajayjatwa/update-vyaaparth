@@ -1,7 +1,7 @@
 <!-- <div class="container"> -->
   <!-- slider-area-start -->
 <div class="container">
-  <div class="hvrbox">
+  <div class="hvrbox"  (mouseover)="hometitle = false" (mouseout) ="hometitle = true">
     <img src="../../../../assets/img/home2/slider-1.jpg" alt="Mountains" class="hvrbox-layer_bottom">
     <div class="hvrbox-layer_top">
       <div class="hvrbox-text"><div class="title1">Build a Next-Generation</div> <br>
@@ -10,24 +10,22 @@
     </div>
   </div>
   <div class="build-next-gen-area my-2">
-    <mat-card> <div class="container">
+    <div class="container">
       <div class="row">
-        <div class="col-12">
-            <div class="orgniz">
-                Adapt Yourself to Changing Finances
-                </div>
-                <div class="enfinance">Ensure your finance function is agile and resilient to remain relevant in the face of disruption while elevating its role as a strategic partner. Increase Organizational Alignment By preparing their organization to proactively respond to change on any given day, leaders will ensure success in any environment. Providing expertise across industries to enable your strategic vision, increase transparency, reduce costs, improve customer satisfaction, and unite employees for sustainable results in your business.
-                  Invest in agility As businesses become more complex and change is constant, planning for the future becomes that much more challenging. Financial and technical experts at Vyaaparth assist with all aspects of strategic planning, from scenario modeling to long-range budgeting and planning for each of the various business units. With our help, you can accelerate budgeting, planning, forecasting, and reporting; achieve predictable performance, and align the enterprise with your business strategy.</div>
-
-        </div>
+        <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-12">
+          <div class="section-title" *ngIf ="hometitle">
+              <h1 class="title1">Build a Next-Generation Financial System</h1>
+              <p>The sustainability of revenues, the management of cash flow, and the allocation of resources effectively are essentials for any organization, but they are just table stakes.</p>
+          </div>
+      </div>
     </div>
-    <div class="case-study-carousel owl-carousel">
+    <!-- <div class="case-study-carousel owl-carousel">
         <div class="case-study-box">
 
 
   </div>
-  </div>
-    </div></mat-card>
+  </div> -->
+    </div>
   </div>
   <!-- <div class="bussn">
     <img src="../../assets/img/home1/slider-2.jpg" alt="Snow" style="width:100%;"(keypress) ="myhome()">
@@ -41,11 +39,11 @@
   </div> -->
   <div class="row">
     <div class="col-6">
-      <div class="Services">Build a Next-Generation Financial Systemn</div>
-      <!-- <div class="Ensure" (click)="showtext()" [ngClass]="{'green' : textetem, 'red': !textetem}">Adapt Yourself to Changing Finances
+      <div class="Services">Build a Next-Generation Financial System</div>
+      <div class="Ensure" (click)="showtext()" [ngClass]="{'green' : textetem, 'red': !textetem}">Adapt Yourself to Changing Finances
         <i class="fa fa-angle-right"></i>
-      </div> <hr> -->
-      <div class="Ensure" (click)="showtext()" [ngClass]="{'green' : textetem, 'red': !textetem}">Optimize profitability through effective management<i class="fa fa-angle-right"></i>
+      </div> <hr>
+      <div class="Ensure" (click)="navsidedrop1()" [ngClass]="{'green' : sidesrop1, 'red': !sidesrop1}">Optimize profitability through effective management<i class="fa fa-angle-right"></i>
       </div><hr>
       <div class="Ensure" (click) ="navsidedrop2()" [ngClass]="{'green' : sidesrop2, 'red': !sidesrop2}">Transform your financial relationship<i class="fa fa-angle-right"></i>
       </div><hr>
@@ -57,13 +55,13 @@
       </div><hr> -->
     </div>
     <div class="col-6 bg-secondary text-white">
-      <!-- <div *ngIf ="textetem">
+      <div *ngIf ="textetem">
         <div class="textbody">Adapt Yourself to Changing Finances</div>
       <div class="textnext">Ensure your finance function is agile and resilient to remain relevant in the face of disruption while elevating its role as a strategic partner. Increase Organizational Alignment By preparing their organization to proactively respond to change on any given day, leaders will ensure success in any environment. Providing expertise across industries to enable your strategic vision, increase transparency, reduce costs, improve customer satisfaction, and unite employees for sustainable results in your business.
         Invest in agility As businesses become more complex and change is constant, planning for the future becomes that much more challenging. Financial and technical experts at Vyaaparth assist with all aspects of strategic planning, from scenario modeling to long-range budgeting and planning for each of the various business units. With our help, you can accelerate budgeting, planning, forecasting, and reporting; achieve predictable performance, and align the enterprise with your business strategy.
       </div>
-      </div> -->
-      <div *ngIf= "textetem">
+      </div>
+      <div *ngIf= "sidesrop1">
         <div class="textbody">Optimize profitability through effective management</div>
       <div class="textnext">To maximize profits, understand the drivers and root causes of revenue and costs. We help break down cost allocations, thus improving transparency to the individuals that can affect change to increase growth for your business. We work with you to understand the key drivers which drive your business, improve financial decision making, and translate insights into action for your business unit leaders. The company works to integrate your customer data so you can better understand the profitability of each relationship with your customers so you can fulfill their buying needs at the right time. C) Transform your fina
         <!-- <a routerLinkActive ="active" routerLink ="buld-next-generation">Read More</a></div> -->

@@ -127,5 +127,26 @@ hr {
   margin-top: 0rem !important;
 } */
 .build-next-gen-area{
-  padding: 45px 0 90px;
+  padding: 45px 0 0px;
+}
+.title1 {
+  position: relative;
+  /* font-size: 40px;
+  margin-bottom: 20px; */
+  text-align: center;
+  font: normal 500 3.5em/1 'IBM Plex Sans';
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-size: 4.5em;
+  line-height: 1;
+  font-family: "IBM Plex Sans";
+  width: 100%;
+
+  /* mnv */
+
 }

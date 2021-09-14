@@ -3118,7 +3118,9 @@ footer {}
   padding: 16px 0;
 }
 
-.fba-left {}
+.fba-left {
+  text-align: center;
+}
 
 .fba-left p {
   color: #fff;
@@ -3874,7 +3876,7 @@ footer {}
 }
 
 .h3-single-cosultancy .content {
-  background: rgb(193 212 211) none repeat scroll 0 0;
+  background: #fff none repeat scroll 0 0;
   border-radius: 5px 5px 0 0;
   bottom: 110px;
   -webkit-box-shadow: 0 0 14px 0 rgba(1, 1, 1, 0.2);
@@ -3886,15 +3888,15 @@ footer {}
   text-align: center;
   width: 89%;
   z-index: 2;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+  /* clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
   /* clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); */
   transition: all 3s;
 }
-.h3-single-cosultancy .content:hover{
+/* .h3-single-cosultancy .content:hover{
   background: #fff none repeat scroll 0 0;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 100%, 75% 100%, 0 100%, 0% 75%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 100% 100%, 75% 100%, 0 100%, 0% 75%); */
   /* clip-path: polygon(30% 0%, 100% 0, 100% 30%, 100% 100%, 70% 100%, 0 100%, 0% 70%, 0 0); */
-}
+/* } */
 
 .h3-single-cosultancy .content .icon {
   position: absolute;
@@ -3909,8 +3911,8 @@ footer {}
   color: #fff;
   display: inline-block;
   font-size: 24px;
-  height: 70px;
-  line-height: 85px;
+  height: 50px;
+  line-height: 50px;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   width: 50px;
