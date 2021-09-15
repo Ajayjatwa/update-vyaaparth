@@ -10,6 +10,7 @@ import { SeamlessComponent } from './contant/seamless/seamless.component';
 import { TransformationComponent } from './contant/transformation/transformation.component';
 import { FunctionsComponent } from './functions/functions.component';
 import { HeaderComponent } from './header/header/header.component';
+import { PageNotFoundComponent } from './header/page-not-found/page-not-found.component';
 import { HomeComponent } from './home/home.component';
 import { IndustriesComponent } from './industries/industries.component';
 import { OurexpertserviceComponent } from './ourexpertservice/ourexpertservice.component';
@@ -18,9 +19,13 @@ import { BuildNextGenerationComponent } from './ourexpertservice/Service part/bu
 import { CustomerRelationshipComponent } from './ourexpertservice/Service part/customer-relationship/customer-relationship.component';
 import { DigitalStrategyComponent } from './ourexpertservice/Service part/digital-strategy/digital-strategy.component';
 import { LeadershipManagementComponent } from './ourexpertservice/Service part/leadership-management/leadership-management.component';
+import { HowOrganizationsComponent } from './ourexpertservice/Service part/org-tranf/How-Organizations/how-organizations/how-organizations.component';
+import { OrgTranfComponent } from './ourexpertservice/Service part/org-tranf/org-tranf.component';
 import { OrganizationPerformanceComponent } from './ourexpertservice/Service part/organization-performance/organization-performance.component';
 import { TransfoSerForMarkeOperationsComponent } from './ourexpertservice/Service part/transfo-ser-for-marke-operations/transfo-ser-for-marke-operations.component';
 import { Service1Component } from './ourexpertservice/service1/service1.component';
+import { ShareServiceComponent } from './share-service/share-service.component';
+import { SupplyChainComponent } from './supply-chain/supply-chain.component';
 
 const routes: Routes = [
   {path:'', redirectTo:'home', pathMatch:'full'},
@@ -41,12 +46,30 @@ const routes: Routes = [
   // changes
   {path:'industries', component:IndustriesComponent },
   {path:'functions', component:FunctionsComponent},
+
   {path:'ourexpertservice',
   children:[
     {path:'', component:OurexpertserviceComponent},
     {path:'buld-next-generation', component:BuildNextGenerationComponent},
-    {path:'application core technology', component:AppCoreTechComponent},
-    {path:'digital-strategy', component:DigitalStrategyComponent},
+    {path:'supply-chain',
+    children:[
+      {path:'',component:SupplyChainComponent},
+      {path:'share-service', component:ShareServiceComponent},
+    ]},
+    {path:'Organizational-Transformation',
+    children:[
+      {path:'', component:OrgTranfComponent},
+      {path:'how-orgnization', component:HowOrganizationsComponent},
+    ]},
+    {path:'application core technology',
+    children:[
+      {path:'', component:AppCoreTechComponent},
+      {path:'digital-strategy',component:DigitalStrategyComponent },
+      {path:'organization-performance', component:OrganizationPerformanceComponent},
+      {path:'leadership-management', component:LeadershipManagementComponent},
+      {path:'Customer-Relationship',component:CustomerRelationshipComponent},
+    ]},
+    // {path:'digital-strategy', component:DigitalStrategyComponent},
     // {path:'leadership-management', component:LeadershipManagementComponent},
 
   ]},
@@ -64,13 +87,14 @@ const routes: Routes = [
     {path:'digital', component:DigitalTransformationComponent},
   ]},
   {path:'about', component:AboutComponent},
-  { path:'digital-strategy',component:DigitalStrategyComponent},
-  {path:'organization-performance', component:OrganizationPerformanceComponent},
-  {path:'leadership-management', component:LeadershipManagementComponent},
-  {path:'Customer-Relationship',component:CustomerRelationshipComponent},
+  // { path:'digital-strategy',component:DigitalStrategyComponent},
+  // {path:'organization-performance', component:OrganizationPerformanceComponent},
+  // {path:'leadership-management', component:LeadershipManagementComponent},
+  // {path:'Customer-Relationship',component:CustomerRelationshipComponent},
   { path:'seamless', component:SeamlessComponent},
+  {path:'career', component:CareersComponent},
+  {path:'**', component:PageNotFoundComponent},
 ];
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]

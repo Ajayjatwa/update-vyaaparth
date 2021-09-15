@@ -11,6 +11,14 @@ header .menu-area .container .row .menu nav ul li img{
   height: 66px;
   width: 101px;
 }
+.mega-menu li ul li .more{
+  color: #3fb698;
+}
+.textind{
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
 
 
 /* jfj  */

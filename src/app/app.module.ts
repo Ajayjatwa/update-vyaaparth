@@ -31,6 +31,9 @@ import { OrganizationPerformanceComponent } from './ourexpertservice/Service par
 import { CustomerRelationshipComponent } from './ourexpertservice/Service part/customer-relationship/customer-relationship.component';
 import { MatSliderModule } from '@angular/material/slider';
 import {MatCardModule} from '@angular/material/card';
+import { HowOrganizationsComponent } from './ourexpertservice/Service part/org-tranf/How-Organizations/how-organizations/how-organizations.component';
+import { OrgTranfComponent } from './ourexpertservice/Service part/org-tranf/org-tranf.component';
+import { PageNotFoundComponent } from './header/page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -60,7 +63,10 @@ import {MatCardModule} from '@angular/material/card';
     AppCoreTechComponent,
     TransfoSerForMarkeOperationsComponent,
     OrganizationPerformanceComponent,
-    CustomerRelationshipComponent
+    CustomerRelationshipComponent,
+    HowOrganizationsComponent,
+    OrgTranfComponent,
+    PageNotFoundComponent
 
    ],
   imports: [

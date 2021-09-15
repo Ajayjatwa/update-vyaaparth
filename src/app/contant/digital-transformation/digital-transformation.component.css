@@ -1,0 +1,12 @@
+
+.hvrbox-layer_bottom{
+  height: 450px;
+  width: 1200px;
+}
+.cardname{
+  font-size: 30px;
+  padding: 50px;
+}
+.cardname:hover{
+  font-family: "IBM Plex Sans";
+}

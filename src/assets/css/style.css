@@ -963,7 +963,9 @@ header {}
   -webkit-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
   visibility: hidden;
-  width: 220px;
+  /* width: 220px; */
+  width: 230px;
+
 }
 
 .menu ul li:hover .drop {
@@ -1028,7 +1030,8 @@ header {}
   flex-wrap: wrap;
   left: 0%;
   margin: auto;
-  min-width: 1110px;
+  min-width: 444px;
+  /* min-width: 1110px; */
   opacity: 0;
   padding: 8px;
   position: absolute;
@@ -1458,7 +1461,7 @@ header {}
 
 .welcome-area {
   background: #f2f2f2 none repeat scroll 0 0;
-  padding: 0px;
+  padding: 115px;
   position: relative;
 }
 
@@ -6275,13 +6278,15 @@ footer {}
 }
 
 .h5-slider-content .cd-headline span {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "IBM Plex Sans";
   text-transform: uppercase;
 }
 
 .h5-slider-content .text {
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "IBM Plex Sans";
   font-size: 18px;
   font-weight: 300;
   line-height: 26px;

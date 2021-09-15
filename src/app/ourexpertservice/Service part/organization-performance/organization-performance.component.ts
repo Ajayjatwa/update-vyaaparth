@@ -72,5 +72,9 @@ export class OrganizationPerformanceComponent implements OnInit {
   //   this.sidesrop3 = false;
   //   this.sidesrop5 = false;
   // }
+  promote:boolean = false;
+  change(){
+    this.promote = true;
+  }
 
 }

@@ -23,6 +23,7 @@ export class BuildNextGenerationComponent implements OnInit {
     this.sidesrop3 = false;
     this.sidesrop4 = false;
     this.sidesrop5 = false;
+    this.sidesrop5 = false;
     this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop1 : boolean =false;
@@ -33,6 +34,7 @@ export class BuildNextGenerationComponent implements OnInit {
     this.sidesrop3 = false;
     this.sidesrop4 = false;
     this.sidesrop5 = false;
+    this.sidesrop5 = false;
     this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop2 : boolean =false;
@@ -42,6 +44,7 @@ export class BuildNextGenerationComponent implements OnInit {
     this.sidesrop1 =false;
     this.sidesrop3 = false;
     this.sidesrop4 = false;
+    this.sidesrop5 = false;
     this.sidesrop5 = false;
     this.status = this.toggle ? 'Enable' : 'Disable';
 
@@ -54,6 +57,7 @@ export class BuildNextGenerationComponent implements OnInit {
     this.sidesrop2 = false;
     this.sidesrop4 = false;
     this.sidesrop5 = false;
+    this.sidesrop5 = false;
     this.status = this.toggle ? 'Enable' : 'Disable';
   }
   sidesrop4:boolean =false;
@@ -63,6 +67,7 @@ export class BuildNextGenerationComponent implements OnInit {
     this.sidesrop1 =false;
     this.sidesrop2 = false;
     this.sidesrop3 = false;
+    this.sidesrop5 = false;
     this.sidesrop5 = false;
     this.status = this.toggle ? 'Enable' : 'Disable';
   }
@@ -75,6 +80,19 @@ export class BuildNextGenerationComponent implements OnInit {
     this.sidesrop2 = false;
     this.sidesrop3 = false;
     this.sidesrop4 = false;
+    this.sidesrop6 = false;
+    this.status = this.toggle ? 'Enable' : 'Disable';
+  }
+  sidesrop6:boolean =false;
+  navsidedrop6(){
+    this.sidesrop6 = true;
+    this.sidesrop4 =false;
+    this.textetem = false;
+    this.sidesrop1 =false;
+    this.sidesrop2 = false;
+    this.sidesrop3 = false;
+    this.sidesrop4 = false;
+    this.sidesrop5 = false;
     this.status = this.toggle ? 'Enable' : 'Disable';
   }
 

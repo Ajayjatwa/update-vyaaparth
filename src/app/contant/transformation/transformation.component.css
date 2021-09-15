@@ -115,6 +115,10 @@
   padding: 20px; */
   font-family: "IBM Plex Sans";
 }
+.opstrans p{
+  font-size: 18px;
+}
+
 .cardtra{
     position: relative;
     display: flex;

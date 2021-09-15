@@ -51,8 +51,10 @@
       </div><hr>
       <div class="Ensure" (click) ="navsidedrop4()" [ngClass]="{'green' : sidesrop4, 'red': !sidesrop4}">Make your core applications technology-driven<i class="fa fa-angle-right"></i>
       </div><hr>
-      <!-- <div class="Ensure" (click) ="navsidedrop5()">Optimize Your Procurement and Supply Chain<samp class="fa fa-angle-right"></samp>
-      </div><hr> -->
+      <div class="Ensure" (click) ="navsidedrop5()" [ngClass]="{'green' : sidesrop5, 'red': !sidesrop5}">Automate and embrace analytics<i class="fa fa-angle-right"></i>
+      </div><hr>
+      <div class="Ensure" (click) ="navsidedrop6()" [ngClass]="{'green' : sidesrop6, 'red': !sidesrop6}">Manage Change Effectively<i class="fa fa-angle-right"></i>
+      </div><hr>
     </div>
     <div class="col-6 bg-secondary text-white">
       <div *ngIf ="textetem">
@@ -85,14 +87,18 @@
           <div class="textnext">Your business's technology sets the pace for its digital transformation. By aligning technology and strategy, Vyaaparth enhances your competitive advantage and agility. Together, our professionals implement analytics and administrative systems that comprise the infrastructure needed to enable future growth and innovation.
           </div>
       </div>
-      </div>
+      <div *ngIf= "sidesrop5">
+        <div class="textbody">Automate and embrace analytics</div>
+        <div class="textnext">Develop and implement programs that enable data-driven financial decision-making using data visualization platforms, predictive analytics, robotic process automation (RPA), artificial intelligence (AI), and machine learning (ML). Organizations around the globe rely on our analytics and automation experts for insight into their financial performance, streamlined operations, and the development of digital workforces to support growth.
 
-
-      <!-- <div *ngIf= "sidesrop5">
-        <div class="textbody">Optimize Your Procurement and Supply Chain</div>
-        <div class="textnext">Providing the right products at the right place at the right time is essential in today's consumer-centric landscape. We work with experts across all industries to help leaders transform their supply chain and procurement functions into strategic assets. We support your efforts to formulate strategy, establish governance, eliminate redundant processes, and implement technologies to increase supply chain and procurement efficiency and reduce costs. Developing agile, data-driven supply chain operations is key to enabling growth and ensuring stability.
         </div>
-      </div> -->
+      </div>
+      <div *ngIf= "sidesrop6">
+        <div class="textbody">Manage Change Effectively</div>
+        <div class="textnext">Disruption is taking place across industries, which calls for change to stay viable. In order to effectively respond, change management must be viewed as a long-term strategy within your organization rather than an episodic solution. Leading organizations can thrive on change while strengthening their culture and maximizing internal connections with the help of Vyaaparth's experts. Our strategies and tactics ensure long-term sustainability and enterprise-wide adoption of change.
+        </div>
+      </div>
+      </div>
        </div>
   </div>
 

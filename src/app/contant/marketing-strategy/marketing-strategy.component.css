@@ -41,6 +41,11 @@ samp{
   position: relative;
   left: 185px;
 } */
+
+.hvrbox-layer_bottom{
+  height: 450px;
+  width: 1200px;
+}
 .img-fluid{
   height: 247px;
 }
