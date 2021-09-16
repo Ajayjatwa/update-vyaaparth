@@ -34,6 +34,7 @@ import {MatCardModule} from '@angular/material/card';
 import { HowOrganizationsComponent } from './ourexpertservice/Service part/org-tranf/How-Organizations/how-organizations/how-organizations.component';
 import { OrgTranfComponent } from './ourexpertservice/Service part/org-tranf/org-tranf.component';
 import { PageNotFoundComponent } from './header/page-not-found/page-not-found.component';
+import { LeadershipAndManagementComponent } from './ourexpertservice/Service part/organization-performance/Leadership-Management/leadership-and-management/leadership-and-management.component';
 
 
 @NgModule({
@@ -66,7 +67,8 @@ import { PageNotFoundComponent } from './header/page-not-found/page-not-found.co
     CustomerRelationshipComponent,
     HowOrganizationsComponent,
     OrgTranfComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    LeadershipAndManagementComponent
 
    ],
   imports: [

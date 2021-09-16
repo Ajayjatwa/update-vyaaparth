@@ -119,3 +119,15 @@ samp{
 .card-deck {
   margin-top: 50px;
 }
+figure{
+  overflow: hidden;
+  /* margin-top: 10 10 10 10px; */
+}
+.card img{
+  width: 100%;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+.card:hover img{
+  transform: scale(1.5);
+}

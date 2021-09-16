@@ -137,5 +137,16 @@ samp{
   height: 400px;
   width: 100%;
 }
+figure{
+  overflow: hidden;
+}
+.bimg{
+  width: 100%;
+  transform: scale(1);
+  transition: 0.5s;
+}
+.bimg:hover{
+  transform: scale(1.5);
+}
 
 

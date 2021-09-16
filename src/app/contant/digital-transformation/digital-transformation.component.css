@@ -5,8 +5,21 @@
 }
 .cardname{
   font-size: 30px;
-  padding: 50px;
+  margin-bottom: 61px;
+  margin-top: 50px;
+
 }
 .cardname:hover{
   font-family: "IBM Plex Sans";
+}
+figure{
+  overflow: hidden;
+}
+.bimg{
+  width: 100%;
+  transform: scale(1);
+  transition: 0.5s;
+}
+.bimg:hover{
+  transform: scale(1.5);
 }

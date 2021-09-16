@@ -116,6 +116,9 @@
   background-color: darkslategray;
   color: wheat;
 } */
+figure{
+  overflow: hidden;
+}
 .cardname{
   font-size: 30px;
   padding: 20px;
@@ -126,4 +129,32 @@
 .card1{
   width: 100%;
   height: auto;
+  transform: scale(1);
+  transition: 0.5s;
+}
+.card1:hover{
+  transform: scale(1.5);
+}
+.card2{
+  margin-top: 60px;
+  position: relative;
+    text-align: center;
+    font-size: 3.5em;
+    line-height: 1;
+    font-family: "IBM Plex Sans";
+    /* transition: all 5s; */
+
+}
+.card2:hover{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* padding: 15px; */
+  /* color: white; */
+  /* transform: scale(1); */
+}
+.card-title{
+  font-size: 21px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.card-title p{
+  font-size: 16px;
 }

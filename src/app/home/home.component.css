@@ -104,10 +104,27 @@
   font-size: 4.5em;
   line-height: 1;
   font-family: "IBM Plex Sans";
-  width: 100%;
+  width: 1013px;
 
   /* mnv */
 
+}
+.titlex{
+  position: relative;
+  /* font-size: 40px;
+  margin-bottom: 20px; */
+  text-align: center;
+  font: normal 500 3.5em/1 'IBM Plex Sans';
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: 500;
+  font-stretch: normal;
+  font-size: 4.5em;
+  line-height: 1;
+  font-family: "IBM Plex Sans";
 }
 
 .title1 h2{
@@ -145,4 +162,19 @@
 
 }
 
+}
+/* image zoom */
+.image{
+  width: 50%;
+}
+figure{
+  overflow: hidden;
+  margin-top:  0 10px;
+}
+.image #zoom-In img{
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+.image #zoom-In:hover img{
+  transform: scale(1.5);
 }

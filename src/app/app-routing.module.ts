@@ -21,6 +21,7 @@ import { DigitalStrategyComponent } from './ourexpertservice/Service part/digita
 import { LeadershipManagementComponent } from './ourexpertservice/Service part/leadership-management/leadership-management.component';
 import { HowOrganizationsComponent } from './ourexpertservice/Service part/org-tranf/How-Organizations/how-organizations/how-organizations.component';
 import { OrgTranfComponent } from './ourexpertservice/Service part/org-tranf/org-tranf.component';
+import { LeadershipAndManagementComponent } from './ourexpertservice/Service part/organization-performance/Leadership-Management/leadership-and-management/leadership-and-management.component';
 import { OrganizationPerformanceComponent } from './ourexpertservice/Service part/organization-performance/organization-performance.component';
 import { TransfoSerForMarkeOperationsComponent } from './ourexpertservice/Service part/transfo-ser-for-marke-operations/transfo-ser-for-marke-operations.component';
 import { Service1Component } from './ourexpertservice/service1/service1.component';
@@ -65,9 +66,13 @@ const routes: Routes = [
     children:[
       {path:'', component:AppCoreTechComponent},
       {path:'digital-strategy',component:DigitalStrategyComponent },
-      {path:'organization-performance', component:OrganizationPerformanceComponent},
       {path:'leadership-management', component:LeadershipManagementComponent},
       {path:'Customer-Relationship',component:CustomerRelationshipComponent},
+      {path:'organization-performance',
+      children:[
+        {path:'', component:OrganizationPerformanceComponent},
+        {path:'leadership-and-management', component:LeadershipAndManagementComponent}
+      ]},
     ]},
     // {path:'digital-strategy', component:DigitalStrategyComponent},
     // {path:'leadership-management', component:LeadershipManagementComponent},

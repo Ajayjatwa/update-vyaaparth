@@ -108,3 +108,43 @@
   height: 159px
   ;
 } */
+
+
+.img11{
+  height: 300px;
+}
+.card-deck {
+  margin-top: 50px;
+}
+figure{
+  overflow: hidden;
+  /* margin-top: 10 10 10 10px; */
+}
+.card img{
+  width: 100%;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+.card:hover img{
+  transform: scale(1.5);
+}
+.card2{
+  position: relative;
+
+    text-align: center;
+    font-size: 3.5em;
+    line-height: 1;
+    font-family: "IBM Plex Sans";
+    /* transition: all 5s; */
+
+}
+.card2:hover{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* padding: 15px; */
+  /* color: white; */
+  /* transform: scale(1); */
+}
+.hvrbox-layer_bottom{
+  width: 1920px;
+  height: 500px;
+}

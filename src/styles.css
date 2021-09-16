@@ -97,7 +97,7 @@
   font-size: 4.5em;
   line-height: 1;
   font-family: "IBM Plex Sans";
-  width: 100%;
+  width: 1013px;
 
   /* mnv */
 
@@ -185,7 +185,7 @@ samp:active{
   color: black;
 }
 /* learn more */
-img:hover{
+/* img:hover{ */
   /* border: 1px solid black; */
   /* -ms-transform: translate(50px,100px); */
   /* transform: scale(1.1) !important;
@@ -193,9 +193,8 @@ img:hover{
   border-radius: 20px;
   overflow: hidden; */
   /* z-index:1; */
-opacity: 0.5;
-
-}
+/* opacity: 0.5;
+} */
 /* .join-team-banner img {
   border-radius: 100%;
   position: relative;
@@ -235,6 +234,10 @@ opacity: 0.5;
   .menu ul li .mega-menu {
     min-width: 674px;
   }
+  .m-g-removed{
+    display: none;
+  }
+
 }
 /* Mobile Layout: 320px. */
 

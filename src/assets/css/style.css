@@ -989,6 +989,7 @@ header {}
   color: #fff;
   display: block;
   padding: 10px 20px;
+  font-size: 14px;
 }
 
 .menu ul li .drop li:hover>a {
@@ -5947,7 +5948,7 @@ footer {}
 /*Blog Details*/
 
 .page-blog-details-area {
-  padding: 100px 0 44px;
+  padding: 0px 0 44px;
 }
 
 .page-blog-details {}

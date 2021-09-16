@@ -37,7 +37,7 @@
   overflow: hidden;
   transform: scale(1.5);
 } */
-.card mb-3{
+figure{
   overflow: hidden;
 }
 
@@ -49,6 +49,13 @@
   overflow: hidden;
 }
 .img-fluid:hover{
+  transform: scale(1.5);
+}
+.card-img-top{
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
+.card-img-top:hover{
   transform: scale(1.5);
 }
 .card-title{
