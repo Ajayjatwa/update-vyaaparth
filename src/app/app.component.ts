@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Vyaaparth Consultants Pvt Ltd';
+  onActivate(){
+    window.scroll(0,0)
+  }
 }
