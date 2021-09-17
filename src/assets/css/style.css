@@ -989,7 +989,7 @@ header {}
   color: #fff;
   display: block;
   padding: 10px 20px;
-  font-size: 14px;
+  font-size: 14px !important;
 }
 
 .menu ul li .drop li:hover>a {
