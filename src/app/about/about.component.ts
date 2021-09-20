@@ -11,7 +11,8 @@ export class AboutComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  filterTerm: string ='';
+  filterTerm: string='';
+
   expert =[
     {
       name:'Emily Alverson',

@@ -1,12 +1,15 @@
+
+
+
 <div class="container">
   <div>
     <div class="title">Our Experts</div>
   </div>
-
+<br>
+<div class="container">
   <div class="form-group">
-    <label for="Srearch" class="form-label">Search Our Experts</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1"
-    placeholder="Srearch Our Experts" [(ngModel] ="filterTerm"></div>
+    <input type="text" class="form-control" placeholder="Search...">
+  </div>
 
   <div class="row"  >
     <div class="col-4" *ngFor = "let search of expert | filter:filterTerm">
@@ -14,7 +17,6 @@
         <div class="imabx">
           <img src="../../assets/img/home1/team-1.jpg" alt="">
         </div>
-
        <div class="heading">
          <h3>{{search.name}}</h3>
          <p class="card-text">{{search.text}}</p>
@@ -24,6 +26,9 @@
       </div>
     </div>
   </div>
+</div>
+
+
 <br><br><br>
 
    <div class="about-tab-area">
