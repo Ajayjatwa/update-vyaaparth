@@ -1,140 +1,29 @@
 <div class="container">
-  <div class="title">Our Experts</div>
+  <div>
+    <div class="title">Our Experts</div>
+  </div>
 
-  <div class="row">
-    <div class="col">
+  <div class="form-group">
+    <label for="Srearch" class="form-label">Search Our Experts</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1"
+    placeholder="Srearch Our Experts" [(ngModel] ="filterTerm"></div>
+
+  <div class="row"  >
+    <div class="col-4" *ngFor = "let search of expert | filter:filterTerm">
       <div class="box">
         <div class="imabx">
           <img src="../../assets/img/home1/team-1.jpg" alt="">
         </div>
 
        <div class="heading">
-         <h3>Jason Ahlberg</h3>
-         <p>Create a culture of excellence by establishing, accelerating, and applying the necessary changes to transform your organizational mindset. </p>
+         <h3>{{search.name}}</h3>
+         <p class="card-text">{{search.text}}</p>
 <br>
-         <a href="">View Bio</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="box">
-        <div class="imabx">
-          <img src="../../assets/img/home1/team-2.jpg" alt="">
-        </div>
-       <div class="heading">
-         <h3>James Alt</h3>
-         <p>Bring high-performing talent to your organization and retain, promote and reward them. Adopt effective strategies to attract top talent who possess the technical skills and soft skills necessary for creating a positive working environment committed to exceptional customer service. </p>
-       <br>
-         <a href="">View Bio</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="box">
-        <div class="imabx">
-          <img src="../../assets/img/home1/team-4.jpg" alt="">
-        </div>
-       <div class="heading">
-         <h3>Emily Alverson</h3>
-         <p>Changing roles, evolving skills, and remodeled policies and processes will be prerequisites for your future success. Help leaders and staff continuously develop skills that ensure organizational success amid constant change by training them on their skills to achieve high performance and excellence.</p>
-         <br><br>
-         <a href="">View Bio</a>
+         <a href="">{{search.bio}}</a>
         </div>
       </div>
     </div>
   </div>
-</div>
-<br>
-<br><br>
-<!-- next -->
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <div class="box">
-        <div class="imabx">
-          <img src="../../assets/img/home1/team-1.jpg" alt="">
-        </div>
-       <div class="heading">
-         <h3>Emily Alverson</h3>
-         <p>Create a culture of excellence by establishing, accelerating, and applying the necessary changes to transform your organizational mindset. </p>
-         <br><br>
-         <a href="">View Bio</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="box">
-        <div class="imabx">
-          <img src="../../assets/img/home1/team-2.jpg" alt="">
-        </div>
-       <div class="heading">
-         <h3>James Alt </h3>
-         <p>Bring high-performing talent to your organization and retain, promote and reward them. Adopt effective strategies to attract top talent who possess the technical skills and soft skills necessary for creating a positive working environment committed to exceptional customer service. </p>
- <br>
-         <a href="">View Bio</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="box">
-        <div class="imabx">
-          <img src="../../assets/img/home1/team-2.jpg" alt="">
-        </div>
-       <div class="heading">
-         <h3>Ensure learning and development takes place</h3>
-         <p>Changing roles, evolving skills, and remodeled policies and processes will be prerequisites for your future success. Help leaders and staff continuously develop skills that ensure organizational success.</p>
-        <br>
-         <a href="">View Bio</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- next -->
-<br><br><br>
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <div class="box">
-        <div class="imabx">
-          <img src="../../assets/img/home1/team-3.jpg" alt="">
-        </div>
-       <div class="heading">
-         <h3>James Alt</h3>
-         <p>Create a culture of excellence by establishing, accelerating, and applying the necessary changes to transform your organizational mindset. </p>
-         <br><br>
-         <a href="">View Bio</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="box">
-        <div class="imabx">
-          <img src="../../assets/img/home1/team-4.jpg" alt="">
-        </div>
-       <div class="heading">
-         <h3>Emily Alverson</h3>
-         <p>Bring high-performing talent to your organization and retain, promote and reward them. Adopt effective strategies to attract top talent who possess the technical skills and soft skills necessary for creating a positive working environment committed to exceptional customer service. </p>
-         <br><br>
-         <a href="">View Bio</a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="box">
-        <div class="imabx">
-          <img src="../../assets/img/home1/team-1.jpg" alt="">
-        </div>
-       <div class="heading">
-         <h3>James Alt</h3>
-         <p>Changing roles, evolving skills, and remodeled policies and processes will be prerequisites for your future success. Help leaders and staff continuously develop skills that ensure organizational success amid constant change by training them on their skills to achieve high performance and excellence.</p>
-         <br><br>
-         <a href="">View Bio</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 <br><br><br>
 
    <div class="about-tab-area">

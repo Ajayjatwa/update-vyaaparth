@@ -653,8 +653,9 @@ button {}
 
 .section-title p {
   color: #333333;
-  font-size: 16px;
+  font-size: 19px;
   line-height: 24px;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 /*section-title*/
@@ -1785,6 +1786,8 @@ header {}
 .how-to-box .content .text {
   color: #fff;
   line-height: 24px;
+  font-size: 1.125em;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 /*Service*/
@@ -1873,6 +1876,8 @@ header {}
   color: #333333;
   line-height: 24px;
   padding: 0 0 8px;
+  font-size: 1.125em;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .single-service .content .order-more {
@@ -2378,6 +2383,8 @@ header {}
 .jtc-box .content .text {
   color: #333333;
   line-height: 24px;
+  font-size: 1.125em;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .join-team-banner {}
@@ -3585,7 +3592,8 @@ footer {}
 
 .need-consultant .text {
   color: #fff;
-  font-size: 18px;
+  font-size: 1.125em;
+  font-family: "IBM Plex Sans", sans-serif;
   font-weight: 300;
   line-height: 24px;
   margin: 0 0 30px;
@@ -3864,7 +3872,7 @@ footer {}
 /*h3 Top Consultancy*/
 
 .h3-top-agency-area {
-  padding: 45px 0 0;
+  padding: 0px 0 0;
 }
 
 .h3-single-cosultancy {
@@ -4746,8 +4754,8 @@ footer {}
 
 .sd-sidebar-widget .title {
   color: #333333;
-  font-size: 18px;
-  font-weight: 600;
+  font-size: 30px;
+  font-family: "IBM Plex Sans", sans-serif;
   letter-spacing: 0;
   line-height: 25px;
   margin: 0 0 25px;
@@ -5595,6 +5603,8 @@ footer {}
   color: #333333;
   line-height: 24px;
   margin: 0 0 18px;
+  font-size: 1.125em;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .single-page-blog .content .meta {
@@ -5653,6 +5663,8 @@ footer {}
   color: #333333;
   font-weight: 300;
   line-height: 30px;
+  font-size: 1.125em;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 .single-page-blog .content .meta .date {

@@ -64,13 +64,10 @@
 
 
 .title{
-  padding-top: 20px;
-  padding-bottom: 175px;
   font-family: "IBM Plex Sans";
-  margin-bottom: 0;
   font-size: 3.25em;
   font-weight: 600;
-    margin-top: 0px;
+    margin-top: 22px;
     margin-bottom: 0px;
 }
 .title:hover{

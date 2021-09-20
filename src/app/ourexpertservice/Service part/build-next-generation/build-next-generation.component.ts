@@ -11,7 +11,7 @@ export class BuildNextGenerationComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  hometitle:boolean = true;
+
   toggle = true;
   status = 'Enable';
 

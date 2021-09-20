@@ -148,3 +148,11 @@ figure{
   width: 1920px;
   height: 500px;
 }
+.card-title{
+  font-size: 25px;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.card-text{
+  font-size: 1.125em;
+  font-family: "IBM Plex Sans", sans-serif;
+}

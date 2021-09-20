@@ -58,14 +58,14 @@ figure{
 .card-img-top:hover{
   transform: scale(1.5);
 }
-.card-title{
+/* .card-title{
   font-size: 25px;
   font-family: "IBM Plex Sans";
 }
 .card-text{
   font-size: inherit;
   font-family: "IBM Plex Sans";
-}
+} */
 /* .img{
   transform: scale(1);
   transition: 0.3s ease-in-out;

@@ -27,6 +27,7 @@ import { TransfoSerForMarkeOperationsComponent } from './ourexpertservice/Servic
 import { Service1Component } from './ourexpertservice/service1/service1.component';
 import { ShareServiceComponent } from './share-service/share-service.component';
 import { SupplyChainComponent } from './supply-chain/supply-chain.component';
+import {MatInputModule} from '@angular/material/input';
 
 const routes: Routes = [
   {path:'', redirectTo:'home', pathMatch:'full'},
@@ -102,6 +103,6 @@ const routes: Routes = [
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule,MatInputModule]
 })
 export class AppRoutingModule { }

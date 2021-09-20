@@ -52,22 +52,7 @@
   background-color: white;
   color: black;
 } */
-.card2{
-  position: relative;
 
-    text-align: center;
-    font-size: 3.5em;
-    line-height: 1;
-    font-family: "IBM Plex Sans";
-    /* transition: all 5s; */
-
-}
-.card2:hover{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  /* padding: 15px; */
-  /* color: white; */
-  /* transform: scale(1); */
-}
 .title{
   font-size: 30px;
   margin-bottom: 19px;

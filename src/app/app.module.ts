@@ -35,6 +35,8 @@ import { HowOrganizationsComponent } from './ourexpertservice/Service part/org-t
 import { OrgTranfComponent } from './ourexpertservice/Service part/org-tranf/org-tranf.component';
 import { PageNotFoundComponent } from './header/page-not-found/page-not-found.component';
 import { LeadershipAndManagementComponent } from './ourexpertservice/Service part/organization-performance/Leadership-Management/leadership-and-management/leadership-and-management.component';
+import { FilterPipe } from './custom pipes/filter pipes/filter.pipe';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
 
 
 @NgModule({
@@ -68,7 +70,8 @@ import { LeadershipAndManagementComponent } from './ourexpertservice/Service par
     HowOrganizationsComponent,
     OrgTranfComponent,
     PageNotFoundComponent,
-    LeadershipAndManagementComponent
+    LeadershipAndManagementComponent,
+    FilterPipe
 
    ],
   imports: [
@@ -77,6 +80,7 @@ import { LeadershipAndManagementComponent } from './ourexpertservice/Service par
     BrowserAnimationsModule,
     MatSliderModule,
     MatCardModule,
+    Ng2SearchPipeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
