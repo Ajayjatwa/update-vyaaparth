@@ -1,5 +1,31 @@
+<div class="container mt-5" style="max-width: 550px;">
 
+  <div class="form-group">
+    <input type="text" class="form-control mb-4" placeholder="Search" [(ngModel)]="query" id="listSearch">
+  </div>
 
+  <div class="card mb-1" *ngFor="let data of Students | searchFilter: query">
+    <div class="box">
+      <div class="imabx">
+        <img src={{data.imageUrl}} alt="">
+      </div>
+     <div class="heading">
+       <h3>{{data.name}}</h3>
+       <p class="card-text">{{data.name}}</p>
+<br>
+       <a href="">{{data.email}}</a>
+      </div>
+    </div>
+    <!-- <div class="card-body">
+      <h5 class="card-title">{{data.name}}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">{{data.name}}</h6>
+      <p class="card-text">{{data.email}}</p>
+    </div> -->
+  </div>
+
+</div>
+
+<!-- searchFilter -->
 
 <div class="container">
   <div>
@@ -10,18 +36,17 @@
   <div class="form-group">
     <input type="text" class="form-control" placeholder="Search...">
   </div>
-
   <div class="row"  >
-    <div class="col-4" *ngFor = "let search of expert">
+    <div class="col-4">
       <div class="box">
         <div class="imabx">
           <img src="../../assets/img/home1/team-1.jpg" alt="">
         </div>
        <div class="heading">
-         <h3>{{search.name}}</h3>
-         <p class="card-text">{{search.text}}</p>
+         <h3>Nathaniel Graham</h3>
+         <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing</p>
 <br>
-         <a href="">{{search.bio}}</a>
+         <a href="">View bio</a>
         </div>
       </div>
     </div>

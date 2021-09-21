@@ -64,12 +64,15 @@
 
 
 .title{
+  padding-top: 46px;
+  padding-bottom: 36px;
   font-family: "IBM Plex Sans";
   font-size: 3.25em;
   font-weight: 600;
-    margin-top: 22px;
-    margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .title:hover{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+

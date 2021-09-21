@@ -17,6 +17,8 @@ import { MatSliderModule } from '@angular/material/slider';
 import {MatCardModule} from '@angular/material/card';
 import { PageNotFoundComponent } from './header/page-not-found/page-not-found.component';
 import { OurexportserviceModule } from './ourexpertservice/ourexportservice/ourexportservice.module';
+import { SearchFilterPipe } from './pipes/search-filter.pipe';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -31,7 +33,8 @@ import { OurexportserviceModule } from './ourexpertservice/ourexportservice/oure
     AboutUsComponent,
     Service1Component,
     FooterComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    SearchFilterPipe
 
 
    ],
@@ -41,7 +44,8 @@ import { OurexportserviceModule } from './ourexpertservice/ourexportservice/oure
     BrowserAnimationsModule,
     MatSliderModule,
     MatCardModule,
-    OurexportserviceModule
+    OurexportserviceModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

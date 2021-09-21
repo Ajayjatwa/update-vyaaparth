@@ -7,55 +7,50 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
+  public searchFilter: any = '';
+  query:string='';
+
   constructor() { }
 
   ngOnInit(): void {
   }
-  filterTerm: string='';
+  Students = [{
+    "imageUrl": "../../assets/img/about/tab-banner.jpg",
+    "name": "Nathaniel Graham",
+    "bio": "nathaniel.graham@example.com"
+  },
+  {
+    "imageUrl": "../../assets/img/home1/team-2.jpg",
+    "name": "Jason Ahlberg",
+    "bio": "nathaniel.graham@example.com"
+  },
+  {
+    "imageUrl": "../../assets/img/home1/team-1.jpg",
+    "name": "James Alt",
+    "bio": "nathaniel.graham@example.com"
+  },
+  {
+    "imageUrl": "../../assets/img/home1/team-2.jpg",
+    "name": "Emily Alverson",
+    "bio": "nathaniel.graham@example.com"
+  },
+  {
+    "imageUrl": "../../assets/img/home1/team-3.jpg",
+    "name": "Emily Alverson",
+    "bio": "nathaniel.graham@example.com"
+  },
+  {
+    "imageUrl": "../../assets/img/home1/team-4.jpg",
+    "name": "James Alt",
+    "bio": "nathaniel.graham@example.com"
+  },
+  {
+    "imageUrl": "../../assets/img/home1/team-1.jpg",
+    "name": "Emily Alverson",
+    "bio": "nathaniel.graham@example.com"
+  },
 
-  expert =[
-    {
-      name:'Emily Alverson',
-      imageUrl:"../../assets/img/home1/team-1.jpg",
-      text:'Create a culture of excellence by establishing, accelerating, and applying the necessary changes to transform your organizational mindset.',
-      bio:'View Bio'
-    },
-    {
-      name:'jhon cena',
-      imageUrl:"../../assets/img/home1/team-2.jpg",
-      text:'Create a culture of excellence by establishing, accelerating, and applying the necessary changes to transform your organizational mindset.',
-      bio:'View Bio'
-    },
-    {
-      name:'Emily Alverson',
-      imageUrl:"../../assets/img/home1/team-3.jpg",
-      text:'Create a culture of excellence by establishing, accelerating, and applying the necessary changes to transform your organizational mindset.',
-      bio:'View Bio'
-    },
-    {
-      name:'Jason Ahlberg',
-      imageUrl:"../../assets/img/home1/team-4.jpg",
-      text:'Create a culture of excellence by establishing, accelerating, and applying the necessary changes to transform your organizational mindset.',
-      bio:'View Bio'
-    },
-    {
-      name:'James Alt',
-      imageUrl:"../../assets/img/home1/team-5.jpg",
-      text:'Create a culture of excellence by establishing, accelerating, and applying the necessary changes to transform your organizational mindset.',
-      bio:'View Bio'
-    },
-    {
-      name:'James Alt',
-      imageUrl:"../../assets/img/home1/team-1.jpg",
-      text:'Create a culture of excellence by establishing, accelerating, and applying the necessary changes to transform your organizational mindset.',
-      bio:'View Bio'
-    },
-    {
-      name:'Jason Ahlberg',
-      imageUrl:"../../assets/img/home1/team-2.jpg",
-      text:'Create a culture of excellence by establishing, accelerating, and applying the necessary changes to transform your organizational mindset.',
-      bio:'View Bio'
-    },
-  ]
+]
+
 
 }
