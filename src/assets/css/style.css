@@ -2921,10 +2921,11 @@ footer {}
 
 .footer-widget .title {
   color: #fff;
-  font-size: 18px;
+  font-size: 1.25em;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 25px;
+  border-bottom: 1px #fff solid;
   margin: 0 0 31px;
 }
 
@@ -2969,6 +2970,9 @@ footer {}
 .fw-info .social {
   list-style: outside none none;
   padding: 0;
+  float: right;
+  position: relative;
+  top: -30px;
 }
 
 .fw-info .social li {
@@ -3005,11 +3009,23 @@ footer {}
 .fw-categories .list li a {
   color: #fff;
   display: block;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  /* font-family: "Poppins", sans-serif; */
+  /* font-size: 1em; */
   letter-spacing: 0;
   line-height: 30px;
-  margin: 0 0 12px;
+  margin: 0 0 20px;
+  /* fjhg */
+  /* font: normal 400 1em/1 'IBM Plex Sans', sans-serif; */
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 400;
+    font-stretch: normal;
+    font-size: 1em;
+    line-height: 1;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 
 .fw-categories .list li a:hover {
