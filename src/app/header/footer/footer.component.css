@@ -1,0 +1,17 @@
+.last{
+  display: block;
+  width: 100%;
+  margin: 0;
+  border-top: 1px #fff solid;
+}
+.footer-bottom-area {
+  background: #ffffff none repeat scroll 0 0;
+  padding: 0px;
+}
+.fba-left p {
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  line-height: 18px;
+  margin-top: 30px;
+  font-size: 2.5em;
+}
