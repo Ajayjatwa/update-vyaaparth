@@ -234,9 +234,7 @@ samp:active{
   .menu ul li .mega-menu {
     min-width: 674px;
   }
-  .m-g-removed{
-    display: none;
-  }
+
 
 }
 /* Mobile Layout: 320px. */
@@ -246,6 +244,9 @@ samp:active{
 /* Wide Mobile Layout: 480px. */
 
 @media only screen and (min-width: 481px) and (max-width: 767px){
+  /* .container, .container-sm {
+    max-width: 700px;
+} */
   .title1{
     font-size: 1.5em !important;
     line-height: 1;
@@ -255,6 +256,7 @@ samp:active{
   .text1{
     font-size: 12px !important;
     font-family: "IBM Plex Sans";
+    box-sizing: inherit;
   }
   .menu ul li .mega-menu {
     min-width: 310px !important;
@@ -282,7 +284,7 @@ samp:active{
     opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
-    visibility: hidden;
+    visibility: visible;
 }
   .join-team-banner img {
     border-radius: 100%;
@@ -302,8 +304,45 @@ samp:active{
   width: 102%;
   z-index: 2;
 }
+.titlex{
+  ont-size: 2.5em;
+}
+.m-g-removed{
+  position: relative;
+}
+ul.menu-drop li {
+  display: block;
+}
+.boxdrop{
+  display: none;
+}
+ul.menu-drop li{
+  display: none;
+}
+.menu ul li:hover ul.menu-drop li {
+  display: block;
+}
+ul.m-d-removed {
+  display: none;
+}
+.menu ul li:hover ul.m-d-removed{
+  display: block;
+}
+.section-title {
+  text-align: center;
+  margin: 0px -140px 54px;
+}
 
-
+element.style {
+}
+.card2{
+    margin-top: 60px;
+    position: relative;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1;
+    font-family: "IBM Plex Sans";
+}
 
 }
 /* Small Mobile Layout: 480px. */
@@ -403,6 +442,27 @@ samp:active{
   width: 102%;
   z-index: 2;
 }
+.m-g-removed{
+  position: relative;
+}
+ul.menu-drop li {
+  display: block;
+}
+.boxdrop{
+  display: none;
+}
+ul.menu-drop li{
+  display: none;
+}
+.menu ul li:hover ul.menu-drop li {
+  display: block;
+}
+ul.m-d-removed {
+  display: none;
+}
+.menu ul li:hover ul.m-d-removed{
+  display: block;
+}
 
 }
 
@@ -445,3 +505,46 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+/* about- component */
+.card{
+  height: 400px;
+  width: 100%;
+  background-color: #fff;
+}
+figure{
+  overflow: hidden;
+}
+.image{
+  height: 350px;
+  width: 350px;
+}
+.name{
+  margin-bottom: .65em;
+  font: normal 500 3.5em/1 'IBM Plex Sans';
+  width: 75%;
+  position: relative;
+  top: 33%;
+  left: 70px;
+}
+.post{
+    font-size: 2.125em;
+    margin-bottom: .75em;
+    position: relative;
+    top: 33%;
+    left: 70px;
+    color: black;
+}
+.btn{
+  color: #005587 !important;
+  background: rgba(0,86,140,0) !important;
+  border: 2px #005587 solid;
+  color: #f4f2f3;
+  text-decoration: none;
+}
+p.desig {
+  padding-right: 175px;
+}
+/* about-component */

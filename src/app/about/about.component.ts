@@ -15,39 +15,59 @@ export class AboutComponent implements OnInit {
   ngOnInit(): void {
   }
   Students = [{
-    "imageUrl": "../../assets/img/about/tab-banner.jpg",
-    "name": "Nathaniel Graham",
-    "bio": "nathaniel.graham@example.com"
+    "imageUrl": "../../assets/img/dummy.png",
+    "name": "Anirudha Kotgire",
+    "designation":"Digital Strategy Consultant",
+    "bio": "View Bio"
   },
   {
-    "imageUrl": "../../assets/img/home1/team-2.jpg",
-    "name": "Jason Ahlberg",
-    "bio": "nathaniel.graham@example.com"
+    "imageUrl": "../../assets/img/dummy.png",
+    "name": "Dr. Amrita Bansal",
+    "designation":"Marketing and Branding Consultant",
+    "url":"www/myname/",
+    "bio": "View Bio"
   },
   {
-    "imageUrl": "../../assets/img/home1/team-1.jpg",
-    "name": "James Alt",
-    "bio": "nathaniel.graham@example.com"
+    "imageUrl": "../../assets/img/dummy.png",
+    "name": "Kunal Choudhury",
+    "designation":"Consultant- Marketing and Strategy",
+    "url":"www/myname/",
+    "bio": "View Bio"
   },
   {
-    "imageUrl": "../../assets/img/home1/team-2.jpg",
-    "name": "Emily Alverson",
-    "bio": "nathaniel.graham@example.com"
+    "imageUrl": "../../assets/img/dummy.png",
+    "name": "Mandar Lande ",
+    "designation":"Business and Technology Consultant",
+    "url":"www/myname/",
+    "bio": "View Bio"
   },
   {
-    "imageUrl": "../../assets/img/home1/team-3.jpg",
-    "name": "Emily Alverson",
-    "bio": "nathaniel.graham@example.com"
+    "imageUrl": "../../assets/img/dummy.png",
+    "name": "Nauman Ghadially",
+    "designation":"Branding and Communication Consultant",
+    "url":"www/myname/",
+    "bio": "routerLink ='Anirudha Kotgire'"
   },
   {
-    "imageUrl": "../../assets/img/home1/team-4.jpg",
-    "name": "James Alt",
-    "bio": "nathaniel.graham@example.com"
+    "imageUrl": "../../assets/img/dummy.png",
+    "name": "Sanjeev Singh",
+    "designation":"Operations and Process Management Consultant",
+    "url":"www/myname/",
+    "bio": "View Bio"
   },
   {
-    "imageUrl": "../../assets/img/home1/team-1.jpg",
-    "name": "Emily Alverson",
-    "bio": "nathaniel.graham@example.com"
+    "imageUrl": "../../assets/img/dummy.png",
+    "name": "Saswat Bohidar ",
+    "designation":"Marketing, Strategy and Business Operation Consultant",
+    "url":"www/myname/",
+    "bio": "View Bio"
+  },
+  {
+    "imageUrl": "../../assets/img/dummy.png",
+    "name": "Vineet Singh",
+    "designation":"Innovation and Technology Consultant",
+    "url":"www/myname/",
+    "bio": "routerLink= 'Vineet Singh'"
   },
 
 ]

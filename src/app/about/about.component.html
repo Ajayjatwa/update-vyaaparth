@@ -1,237 +1,343 @@
-<div class="container mt-5" style="max-width: 550px;">
 
-  <div class="form-group">
-    <input type="text" class="form-control mb-4" placeholder="Search" [(ngModel)]="query" id="listSearch">
-  </div>
-
-  <div class="card mb-1" *ngFor="let data of Students | searchFilter: query">
-    <div class="box">
-      <div class="imabx">
-        <img src={{data.imageUrl}} alt="">
-      </div>
-     <div class="heading">
-       <h3>{{data.name}}</h3>
-       <p class="card-text">{{data.name}}</p>
-<br>
-       <a href="">{{data.email}}</a>
-      </div>
-    </div>
-    <!-- <div class="card-body">
-      <h5 class="card-title">{{data.name}}</h5>
-      <h6 class="card-subtitle mb-2 text-muted">{{data.name}}</h6>
-      <p class="card-text">{{data.email}}</p>
-    </div> -->
-  </div>
-
-</div>
-
-<!-- searchFilter -->
-
-<div class="container">
-  <div>
-    <div class="title">Our Experts</div>
-  </div>
-<br>
-<div class="container">
-  <div class="form-group">
-    <input type="text" class="form-control" placeholder="Search...">
-  </div>
+<!-- jhvhj -->
+<!-- <div class="container">
   <div class="row"  >
     <div class="col-4">
       <div class="box">
         <div class="imabx">
+          <div class="col">
+            <div class="bttn">
+              <h2>Jason Ahlberg
+                <p>SENIOR DIRECTOR</p>
+              </h2>
+              <button class="btn btn-outline-info">View Bio</button>
+              <br>
+              <button class="btn btn-outline-info">View Bio</button>
+             </div>
+          </div>
           <img src="../../assets/img/home1/team-1.jpg" alt="">
         </div>
        <div class="heading">
-         <h3>jhff</h3>
-         <p class="card-text">ghf</p>
-<br>
-         <a href="">ghfh</a>
+         <div class="bttn">
+          <h2>Jason Ahlberg
+            <p>SENIOR DIRECTOR</p>
+          </h2>
+          <button class="btn btn-outline-info">View Bio</button>
+          <br>
+          <button class="btn btn-outline-info">View Bio</button>
+         </div>
         </div>
       </div>
     </div>
+  </div>
+</div> -->
+<!-- searchFilter -->
+<!-- slider-area-start -->
+<div class="h4-slider-area h4-slider-carousel owl-carousel">
+  <div class="h4-slider-full-box">
+      <div class="img">
+          <img src="" alt="img">
+      </div>
+      <div class="h4-slider-box pss-box">
+          <h3 class="title-m animated">We Create</h3>
+          <h2 class="title-b d-none d-md-block animated">Value & Build Confidence</h2>
+          <p class="text d-none d-md-block animated">There are many variations of passages of Lorem Ipsum
+              <br> available but the majority to have to suffered alteration injected humour.</p>
+          <a class="more animated" href="#">Read More
+              <span>
+                  <i class="fas fa-angle-right"></i>
+              </span>
+          </a>
+      </div>
+  </div>
+  <div class="h4-slider-full-box">
+      <div class="img">
+          <img src="" alt="img">
+      </div>
+      <div class="h4-slider-box pss-box">
+          <h3 class="title-m animated">We Create</h3>
+          <h2 class="title-b d-none d-md-block animated">Value & Build Confidence</h2>
+          <p class="text d-none d-md-block animated">There are many variations of passages of Lorem Ipsum
+              <br> available but the majority to have to suffered alteration injected humour.</p>
+          <a class="more animated" href="#">Read More
+              <span>
+                  <i class="fas fa-angle-right"></i>
+              </span>
+          </a>
+      </div>
+  </div>
+  <div class="h4-slider-full-box">
+      <div class="img">
+          <img src="" alt="img">
+      </div>
+      <div class="h4-slider-box pss-box">
+          <h3 class="title-m animated">We Create</h3>
+          <h2 class="title-b d-none d-md-block animated">Value & Build Confidence</h2>
+          <p class="text d-none d-md-block animated">There are many variations of passages of Lorem Ipsum
+              <br> available but the majority to have to suffered alteration injected humour.</p>
+          <a class="more animated" href="#">Read More
+              <span>
+                  <i class="fas fa-angle-right"></i>
+              </span>
+          </a>
+      </div>
+  </div>
+</div>
+  <!-- breadcumb-area-end -->
+
+<div class="container">
+
+    <div class="title" style="background-color: #e6e6e6;" >Our Experts
+      <div class="container mt-5" style="max-width: 550px;">
+<h1>Search By Name or Keyword:</h1>
+        <div class="form-group">
+          <!-- <i class="fa fa-search" aria-hidden="true"></i> -->
+          <input type="text" class="form-control mb-4 fa fa-search" placeholder="Search" [(ngModel)]="query" id="listSearch" >
+        </div>
+      </div></div>
+
+
+<br>
+
+  <!-- jhghs ngfor content sith filter -->
+   <!-- <div class="container">
+    <div class="row">
+       <ng-container *ngFor="let data of Students | searchFilter: query">
+        <div class="col">
+            <div class="box">
+              <div class="imabx">
+                <div class="col">
+                  <div class="bttn">
+                    <h2>{{data.name}}
+                      <p class="desig">{{data.designation}}</p>
+                    </h2>
+                    <a href="">View Bio</a>
+                   </div>
+                </div>
+                <figure>
+                  <img src={{data.imageUrl}} alt="">
+                </figure>
+              </div>
+             <div class="heading">
+              <div class="bttn">
+                <h2>{{data.name}}
+                  <p class="card-text">{{data.designation}}</p>
+                </h2>
+                <br>
+                <a class="btn success">{{data.Url}}</a>
+               </div>
+              </div>
+            </div>
+        </div>
+      </ng-container>
+    </div>
+  </div> -->
+<!-- jhbgjh -->
+<div class="container">
+  <div class="row">
+
+      <div class="col">
+          <div class="box">
+            <div class="imabx">
+              <div class="col">
+                <div class="bttn">
+                  <h2>Anirudha Kotgire</h2>
+                  <p class="desig">Digital Strategy Consultant</p>
+                  <a href="">View Bio</a>
+                 </div>
+              </div>
+              <figure>
+                <img src="../../assets/img/dummy.png" alt="">
+              </figure>
+            </div>
+           <div class="heading">
+            <div class="bttn">
+              <h2>Anirudha Kotgire</h2>
+              <p class="desig">Digital Strategy Consultant</p>
+              <br>
+              <a routerLink ="Anirudha Kotgire">View Bio</a>
+             </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="col">
+        <div class="box">
+          <div class="imabx">
+            <div class="col">
+              <div class="bttn">
+                <h2>Prof. Dr.Amrita Bansal</h2>
+                <p class="desig">Marketing and Branding Consultant</p>
+                <a href="">View Bio</a>
+               </div>
+            </div>
+            <figure>
+              <img src="../../assets/img/dummy.png" alt="">
+            </figure>
+          </div>
+         <div class="heading">
+          <div class="bttn">
+            <h2>Prof. Dr.Amrita Bansal</h2>
+            <p class="desig">Marketing and Branding Consultant</p>
+            <br>
+            <a routerLink ="Amrita Bansal">View Bio</a>
+           </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="col">
+      <div class="box">
+        <div class="imabx">
+          <div class="col">
+            <div class="bttn">
+              <h2>Kunal Choudhury</h2>
+              <p class="desig">Digital Strategy Consultant</p>
+              <a href="">View Bio</a>
+             </div>
+          </div>
+          <figure>
+            <img src="../../assets/img/dummy.png" alt="">
+          </figure>
+        </div>
+       <div class="heading">
+        <div class="bttn">
+          <h2>Kunal Choudhury</h2>
+          <p class="desig">Digital Strategy Consultant</p>
+          <br>
+          <a routerLink ="Kunal Choudhury">View Bio</a>
+         </div>
+        </div>
+      </div>
+  </div>
+
+  <div class="col">
+    <div class="box">
+      <div class="imabx">
+        <div class="col">
+          <div class="bttn">
+            <h2>Mandar Lande</h2>
+            <p class="desig">Serial Entrepreneur- Business - Technology Consultant</p>
+            <a href="">View Bio</a>
+           </div>
+        </div>
+        <figure>
+          <img src="../../assets/img/dummy.png" alt="">
+        </figure>
+      </div>
+     <div class="heading">
+      <div class="bttn">
+        <h2>Mandar Lande</h2>
+        <p class="desig">Serial Entrepreneur- Business - Technology Consultant</p>
+        <br>
+        <a routerLink ="Mandar Lande">View Bio</a>
+       </div>
+      </div>
+    </div>
+</div>
+
+<div class="col">
+  <div class="box">
+    <div class="imabx">
+      <div class="col">
+        <div class="bttn">
+          <h2>Nauman Ghadially</h2>
+          <p class="desig">Branding and Communication Consultant</p>
+          <a href="">View Bio</a>
+         </div>
+      </div>
+      <figure>
+        <img src="../../assets/img/dummy.png" alt="">
+      </figure>
+    </div>
+   <div class="heading">
+    <div class="bttn">
+      <h2>Nauman Ghadially</h2>
+      <p class="desig">Branding and Communication Consultant</p>
+      <br>
+      <a routerLink ="Nauman Ghadially">View Bio</a>
+     </div>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="box">
+    <div class="imabx">
+      <div class="col">
+        <div class="bttn">
+          <h2>Sanjeev Singh</h2>
+          <p class="desig">Operations and Process Management Consultant</p>
+          <a href="">View Bio</a>
+         </div>
+      </div>
+      <figure>
+        <img src="../../assets/img/dummy.png" alt="">
+      </figure>
+    </div>
+   <div class="heading">
+    <div class="bttn">
+      <h2>Sanjeev Singh</h2>
+      <p class="desig">Operations and Process Management Consultant</p>
+      <br>
+      <a routerLink ="Sanjeev Singh">View Bio</a>
+     </div>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="box">
+    <div class="imabx">
+      <div class="col">
+        <div class="bttn">
+          <h2>Saswat Bohidar</h2>
+          <p class="desig">Digital Strategy Consultant</p>
+          <a href="">View Bio</a>
+         </div>
+      </div>
+      <figure>
+        <img src="../../assets/img/dummy.png" alt="">
+      </figure>
+    </div>
+   <div class="heading">
+    <div class="bttn">
+      <h2>Saswat Bohidar</h2>
+      <p class="desig">Digital Strategy Consultant</p>
+      <br>
+      <a routerLink ="Saswat Bohidar">View Bio</a>
+     </div>
+    </div>
+  </div>
+</div>
+
+<div class="col">
+  <div class="box">
+    <div class="imabx">
+      <div class="col">
+        <div class="bttn">
+          <h2>Vineet Singh</h2>
+          <p class="desig">Innovation and Technology Consultant</p>
+          <a href="">View Bio</a>
+         </div>
+      </div>
+      <figure>
+        <img src="../../assets/img/dummy.png" alt="">
+      </figure>
+    </div>
+   <div class="heading">
+    <div class="bttn">
+      <h2>Vineet Singh</h2>
+      <p class="desig">Innovation and Technology Consultant</p>
+      <br>
+      <a routerLink ="Vineet Singh">View Bio</a>
+     </div>
+    </div>
+  </div>
+</div>
   </div>
 </div>
 
 
 <br><br><br>
 
-   <div class="about-tab-area">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                  <div class="about-tab-img">
-                      <img src="../../assets/img/about/tab-banner.jpg" alt="">
-                  </div>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                  <div class="about-tab">
-                      <nav>
-                          <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                              <a class="nav-item nav-link active" id="nav-mission-tab" data-toggle="tab" href="#nav-mission" role="tab" aria-controls="nav-mission" aria-selected="true">Mission</a>
-                              <a class="nav-item nav-link" id="nav-vision-tab" data-toggle="tab" href="#nav-vision" role="tab" aria-controls="nav-vision" aria-selected="false">Vision</a>
-                              <a class="nav-item nav-link" id="nav-values-tab" data-toggle="tab" href="#nav-values" role="tab" aria-controls="nav-values" aria-selected="false">Values</a>
-                          </div>
-                      </nav>
-                      <div class="tab-content" id="nav-tabContent">
-                          <div class="tab-pane fade show active" id="nav-mission" role="tabpanel" aria-labelledby="nav-mission-tab">
-                              <div class="about-tab-box">
-                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since beenLorem Ipsum is simply ithe dummy text of the printing and typesetting industry. Lorem Ipsum is has been the dummy industry's standard dummy.</p>
-                                  <ul>
-                                      <li><span><i class="fas fa-check-circle"></i></span> Deliver a high quality web design.</li>
-                                      <li><span><i class="fas fa-check-circle"></i></span> Support our customers once signing a contract</li>
-                                      <li><span><i class="fas fa-check-circle"></i></span> Streamline an expanded array of web</li>
-                                      <li><span><i class="fas fa-check-circle"></i></span> Pursue web-enabled niche markets with professionals</li>
-                                      <li><span><i class="fas fa-check-circle"></i></span> We love what we do and we do it with passion!</li>
-                                  </ul>
-                              </div>
-                          </div>
-                          <div class="tab-pane fade" id="nav-vision" role="tabpanel" aria-labelledby="nav-vision-tab">
-                              <div class="about-tab-box">
-                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since beenLorem Ipsum is simply ithe dummy text of the printing and typesetting industry. Lorem Ipsum is has been the dummy industry's standard dummy.</p>
-                                  <ul>
-                                      <li><span><i class="fas fa-check-circle"></i></span> Deliver a high quality web design.</li>
-                                      <li><span><i class="fas fa-check-circle"></i></span> Support our customers once signing a contract</li>
-                                      <li><span><i class="fas fa-check-circle"></i></span> Streamline an expanded array of web</li>
-                                  </ul>
-                              </div>
-                          </div>
-                          <div class="tab-pane fade" id="nav-values" role="tabpanel" aria-labelledby="nav-values-tab">
-                              <div class="about-tab-box">
-                                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since beenLorem Ipsum is simply ithe dummy text of the printing and typesetting industry. Lorem Ipsum is has been the dummy industry's standard dummy.</p>
-                                  <ul>
-                                      <li><span><i class="fas fa-check-circle"></i></span> Pursue web-enabled niche markets with professionals</li>
-                                      <li><span><i class="fas fa-check-circle"></i></span> We love what we do and we do it with passion!</li>
-                                  </ul>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  <!-- about-tab-area-end -->
-  <!-- about-video-area-start -->
-  <div class="about-video-area bg-with-black">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-8 offset-lg-2 col-12">
-                  <div class="about-video">
-                      <a class="popup-youtube" href="https://www.youtube.com/watch?v=kNz82r5nyUw"><i class="fas fa-play"></i></a>
-                      <h2 class="title">Take a Video</h2>
-                      <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since beenLorem Ipsum is simply ithe dummy.</p>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div> -->
-  <!-- about-video-area-end -->
-  <!-- team-area-start -->
-   <div class="team-area">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 col-sm-12 col-12">
-                  <div class="section-title">
-                      <h6>Our Team</h6>
-                      <h2>We Are Team Of Professionals</h2>
-                      <p>There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form by injected humour or randomised words which even slightly believable.</p>
-                  </div>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-lg-6 offset-lg-0 col-md-8 offset-md-2 col-sm-12 col-12">
-                  <div class="all-progess">
-                      <div class="skills-progress" data-sr='enter'>
-                          <div class="progress">
-                              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 91%;">
-                                  <span>91%</span>
-                              </div>
-                          </div>
-                          <h5 class="progressbar-title">Business Consulting</h5>
-                      </div>
-                      <div class="skills-progress" data-sr='enter'>
-                          <div class="progress">
-                              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 82%;">
-                                  <span>82%</span>
-                              </div>
-                          </div>
-                          <h5 class="progressbar-title">Financial Advicing</h5>
-                      </div>
-                      <div class="skills-progress" data-sr='enter'>
-                          <div class="progress">
-                              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 97%;">
-                                  <span>97%</span>
-                              </div>
-                          </div>
-                          <h5 class="progressbar-title">Brand Consulting</h5>
-                      </div>
-                      <div class="skills-progress" data-sr='enter'>
-                          <div class="progress">
-                              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 77%;">
-                                  <span>77%</span>
-                              </div>
-                          </div>
-                          <h5 class="progressbar-title">Business Idea</h5>
-                      </div>
-                  </div>
-              </div>
-              <div class="col-lg-6 offset-lg-0 col-md-8 offset-md-2 col-sm-12 col-12">
-                  <div class="all-team">
-                      <div class="single-team">
-                          <div class="img">
-                              <img src="../../assets/img/home1/team-1.jpg" alt="">
-                              <div class="content">
-                                  <span class="default"><i class="flaticon-network"></i></span>
-                                  <ul class="social">
-                                      <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                      <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                      <li><a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
-                                  </ul>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="single-team">
-                          <div class="img">
-                              <img src="../../assets/img/home1/team-2.jpg" alt="">
-                              <div class="content">
-                                  <span class="default"><i class="flaticon-network"></i></span>
-                                  <ul class="social">
-                                      <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                      <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                      <li><a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
-                                  </ul>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="single-team">
-                          <div class="img">
-                              <img src="../../assets/img/home1/team-3.jpg" alt="">
-                              <div class="content">
-                                  <span class="default"><i class="flaticon-network"></i></span>
-                                  <ul class="social">
-                                      <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                      <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                      <li><a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
-                                  </ul>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="single-team">
-                          <div class="img">
-                              <img src="../../assets/img/home1/team-4.jpg" alt="">
-                              <div class="content">
-                                  <span class="default"><i class="flaticon-network"></i></span>
-                                  <ul class="social">
-                                      <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                      <li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                      <li><a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a></li>
-                                  </ul>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>

@@ -1,0 +1,35 @@
+.card{
+  height: 400px;
+  width: 100%;
+  background-color: #fff;
+}
+figure{
+  overflow: hidden;
+}
+.image{
+  height: 350px;
+  width: 350px;
+}
+.name{
+  margin-bottom: .65em;
+  font: normal 500 3.5em/1 'IBM Plex Sans';
+  width: 75%;
+  position: relative;
+  top: 33%;
+  left: 70px;
+}
+.post{
+    font-size: 2.125em;
+    margin-bottom: .75em;
+    position: relative;
+    top: 33%;
+    left: 70px;
+    color: black;
+}
+.btn{
+  color: #005587 !important;
+  background: rgba(0,86,140,0) !important;
+  border: 2px #005587 solid;
+  color: #f4f2f3;
+  text-decoration: none;
+}

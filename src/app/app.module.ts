@@ -19,6 +19,14 @@ import { PageNotFoundComponent } from './header/page-not-found/page-not-found.co
 import { OurexportserviceModule } from './ourexpertservice/ourexportservice/ourexportservice.module';
 import { SearchFilterPipe } from './pipes/search-filter.pipe';
 import { FormsModule } from '@angular/forms';
+import { AnirudhaKotgireComponent } from './about/view bio/anirudha-kotgire/anirudha-kotgire.component';
+import { AmritaBansalComponent } from './about/view bio/amrita-bansal/amrita-bansal.component';
+import { KunalChoudhuryComponent } from './about/view bio/kunal-choudhury/kunal-choudhury.component';
+import { MandarLandeComponent } from './about/view bio/mandar-lande/mandar-lande.component';
+import { NaumanGhadiallyComponent } from './about/view bio/nauman-ghadially/nauman-ghadially.component';
+import { SanjeevSinghComponent } from './about/view bio/sanjeev-singh/sanjeev-singh.component';
+import { SaswatBohidarComponent } from './about/view bio/saswat-bohidar/saswat-bohidar.component';
+import { VineetSinghComponent } from './about/view bio/vineet-singh/vineet-singh.component';
 
 
 @NgModule({
@@ -34,7 +42,15 @@ import { FormsModule } from '@angular/forms';
     Service1Component,
     FooterComponent,
     PageNotFoundComponent,
-    SearchFilterPipe
+    SearchFilterPipe,
+    AnirudhaKotgireComponent,
+    AmritaBansalComponent,
+    KunalChoudhuryComponent,
+    MandarLandeComponent,
+    NaumanGhadiallyComponent,
+    SanjeevSinghComponent,
+    SaswatBohidarComponent,
+    VineetSinghComponent
 
 
    ],

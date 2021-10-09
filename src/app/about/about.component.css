@@ -1,10 +1,12 @@
+
 /* ima card hover */
 .box{
   position: relative;
-  width: 245px;
+  width: 500px;
   height: 262px;
-  background-color: aqua;
+  background-color: rgb(254, 255, 255);
   box-shadow: 0 30px 30px rgba(0, 0, 0, .5);
+  margin-top: 20px;
 }
 .imabx{
   position: relative;
@@ -16,33 +18,32 @@
 .box .imabx img{
   position: absolute;
   top: 0px;
-  left: 0px;
-  width: 100%;
+  left: 59%;
+  width: 41%;
   height: 100%;
   object-fit: cover;
   transition: 0.5s;
 }
-.box:hover .imabx img{
+/* .box:hover .imabx img{
   opacity: 0;
-}
+} */
 .box .heading{
   position: absolute;
-  bottom: 20px;
-  left: 10%;
-  width: 80%;
-  height: 45px;
-  background: #fff;
+  bottom: 0px;
+  left: 0%;
+  width: 59%;
+  height: 0px;
+  background: #00feff;
   transition: 0.5s;
   overflow: hidden;
-
-  padding: 15px;
+  padding: 0px;
   box-sizing: border-box;
 }
 .box:hover .heading{
-  width: 100%;
+  width: 59%;
   height: 100%;
   bottom: 0;
-  left: 0;
+  left: 0%;
 }
 .box .heading h3{
   margin: 0;
@@ -62,7 +63,6 @@
   transition-delay: 0.5s;
 }
 
-
 .title{
   padding-top: 46px;
   padding-bottom: 36px;
@@ -76,4 +76,57 @@
 .title:hover{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.bttn{
+  padding-left: 60px;
+  padding-top: 10px;
+  position: relative;
+  left: -34px;
+}
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Green */
+.success {
+  border-color: #04AA6D;
+  color: #e6e6e6;;
+  margin-top: 10px;
+}
+
+.success:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+/* a.btn.success {
+  margin: 0 auto 15px auto;
+  width: 100%;
+  display: block;
+  font: 500 normal .938em/1 'IBM Plex Sans';
+  color: #fff;
+  border: 2px #fff solid;
+  border-radius: 2px;
+  padding: 1em;
+  font-size: 1.5em;
+} */
+#listSearch{
+  padding: 12px;
+font-size: 20px;
+border-radius: 26px;
+}
+a.btn.success {
+  position: relative;
+  left: 60px;
+}
+a {
+  color: #0d6efd;
+  text-decoration: underline;
+  font-size: 23px;
+}
+
 
